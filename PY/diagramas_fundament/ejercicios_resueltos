@@ -1,0 +1,13 @@
+IR AL CINE
+
+Analisis del problema
+
+*DATOS DE SALIDA: Ver la pelicula
+*DATOS DE ENTRADA: Nombre de la pelicula, costo de la taquilla, datos de la sala e acientos, hora de inicio
+*DATOS AUXILIARES: 
+
+Diseño del Algoritmo
+
+Inicio
+//Seleccionar pelicula 
+    
