@@ -24,7 +24,33 @@ Las sentencias de <span style="color:red"> selección </span>. son: si («if») 
 
 La estructura secuencial es una estructura de control de flujo que se utiliza para ejecutar una secuencia de bloques de código de manera secuencial, es decir, uno después del otro. La estructura secuencial es la estructura de control de flujo más básica y se utiliza para ejecutar un conjunto de instrucciones en el orden en que aparecen en el código.
 
->### **Estructura selectiva**
+>### **Estructura selectiva (condicionales)**
 
 Una estructura selectiva es aquella en que se ejecutan unas acciones u otras según se cumpla o no una
 determinada condición. La selección puede ser simple, doble o múltiple.
+
+>### **Estructura repetitiva (bucle)**
+
+Una estructura repetitiva es un tipo de estructura de control en un programa de computadora que se utiliza para ejecutar un bloque de código varias veces de manera repetida. La idea es que el código se ejecute en un bucle, repitiéndose hasta que se cumpla una cierta condición. Hay varios tipos diferentes de estructuras repetitivas, como el bucle for y el bucle while. En ambos casos, se especifica una condición que se utiliza para determinar cuándo se detiene el bucle y se continúa con la ejecución del código después del bucle.
+
+Un centinela es un valor especial que se utiliza en una estructura repetitiva para determinar cuándo se debe detener el bucle. Por ejemplo, si estamos recorriendo una lista de números y queremos detener el bucle cuando lleguemos a un cierto valor, podemos utilizar un centinela como ese valor especial. Cuando el bucle encuentra el centinela, detiene la ejecución y continúa con el código después del bucle. Esto es útil porque nos permite controlar exactamente cuándo se detiene el bucle y evitar que se ejecute de manera infinita.
+
+```py
+# Esta es una lista de números enteros
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# El centinela es el número 6
+centinela = 6
+
+# Recorremos la lista de números
+for numero in numeros:
+  # Si encontramos el centinela, detenemos el bucle
+  if numero == centinela:
+    break
+  # Si el número no es el centinela, lo imprimimos en pantalla
+  print(numero)
+
+# Este mensaje se imprimirá después del bucle
+print("Fin del bucle")
+```
+
