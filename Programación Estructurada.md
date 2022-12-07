@@ -54,3 +54,13 @@ for numero in numeros:
 print("Fin del bucle")
 ```
 
+### **Estructura de salto**
+
+La estructura de salto, que permite que un programa salte a una línea específica de código. Las estructuras de salto incluyen las sentencias break, continue y goto.
+
+### **Estructura de anidada**
+
+La estructura anidada se refiere a la forma en que se incluyen unas estructuras de control de flujo dentro de otras. Por ejemplo, una sentencia if puede estar anidada dentro de una sentencia for, lo que significa que la sentencia if se ejecutará cada vez que se itere el ciclo for. De esta manera, se pueden crear estructuras de control de flujo más complejas y adaptables a diferentes situaciones.
+
+Tanto las estructuras selectivas como las repetitivas pueden ser anidadas, e introducidas unas en el interior
+de otras.
