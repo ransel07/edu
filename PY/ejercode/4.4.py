@@ -12,8 +12,8 @@ distancia = input("A que diastancia esta = ")
 pb = 2.5
 
 if distancia > 800 and dias > 7:
-    p_descuento = pb * distancia * 0.3
+    p_descuento = pb * 2 * distancia * 0.3
 else:
-    p_sin_descuento = pb * distancia
+    p_sin_descuento = pb * 2 * distancia
 
 
