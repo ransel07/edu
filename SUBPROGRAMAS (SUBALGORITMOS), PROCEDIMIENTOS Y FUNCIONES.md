@@ -6,7 +6,7 @@ La programación modular se refiere a la práctica de dividir un programa inform
 
 La programación modular tiene varios beneficios, como la capacidad de reutilizar código, lo que reduce la cantidad de tiempo y esfuerzo necesarios para desarrollar un programa. También hace que el código sea más fácil de entender y mantener, ya que cada módulo se centra en una tarea específica y es más pequeño y manejable que un programa completo. Además, la programación modular también permite que varios programadores trabajen en diferentes módulos de un mismo programa al mismo tiempo, lo que facilita la colaboración en proyectos grandes y complejos.
 
-## Declaracion de funciones en programacion
+## Declaracion de funciones
 
 n programación, la declaración de funciones es la forma en que se define una función, es decir, un bloque de código que realiza una tarea específica y puede ser reutilizado en diferentes partes de un programa. Al declarar una función, especificas su nombre, qué argumentos o parámetros espera recibir y qué hace el código que contiene.
 
@@ -40,7 +40,6 @@ La declaración de procedimientos en programación se refiere a la forma en que 
 Por ejemplo, supongamos que tienes una lista de números y quieres calcular el promedio de todos los números en la lista. En lugar de escribir el código que realiza el cálculo del promedio dentro del bucle que recorre la lista, puedes declarar un procedimiento llamado calculate_average() que contenga ese código:
 
 ```.py
-
 def calculate_average(numbers):
     # código que calcula el promedio de los números en la lista
 ```
@@ -58,6 +57,7 @@ De esta manera, puedes separar el código que realiza el cálculo del promedio d
 En resumen, la declaración de procedimientos se utiliza a menudo en programas que realizan tareas repetitivas, ya que permite separar el código que realiza la tarea de la lógica que controla la iteración sobre los datos, lo que hace que el programa sea más fácil de entender y mantener.
 
 >>## Cuál es la diferencia entre Procedimientos y Funciones?
+>>
 >>La principal diferencia entre procedimientos y funciones es que las funciones devuelven un valor al código que las llamó, mientras que los procedimientos no lo hacen. En otras palabras, las funciones tienen una salida, mientras que los procedimientos no la tienen.
 >>
 >>La impresión de un mensaje en la pantalla se puede considerar una salida en el sentido de que el mensaje se muestra en la interfaz del programa y puede ser visto por el usuario. Sin embargo, en el contexto de la programación, la salida se refiere a un valor que se devuelve al código que llamó a una función o procedimiento.
@@ -84,3 +84,19 @@ area = area_circle(3)
 ```
 
 En este ejemplo, el valor 3 se está pasando como argumento a la función area_circle(), y este valor se asigna al parámetro radius de la función. Luego, el código dentro de la función utiliza el valor de radius para calcular el área del círculo y devolver el resultado al código que llamó a la función.
+
+>```.md
+> Parametros formales e informales
+>
+>Los parámetros formales son aquellos que se utilizan en la definición de una función o procedimiento y que representan las variables que recibirán los valores que se envíen a la función o procedimiento. Por ejemplo, si una función tiene dos parámetros formales llamados x y y, entonces cuando se llame a esa función se deberán proporcionar dos argumentos que serán asignados a los parámetros formales x y y.
+>
+>Los parámetros actuales, por otro lado, son los argumentos que se envían a una función o procedimiento cuando se llama a esta. Por ejemplo, si se llama a la función mencionada anteriormente con dos argumentos 3 y 5, entonces los parámetros actuales serán 3 y 5 y estos valores serán asignados a los parámetros formales x y y dentro de la función.
+>```
+
+## Variables globales y locales
+
+Las variables globales son aquellas que están disponibles en cualquier parte de un programa de computadora, incluyendo dentro de funciones y procedimientos. Esto significa que se pueden acceder y modificar desde cualquier lugar del programa. Las variables globales son útiles para almacenar y compartir información entre diferentes partes del programa.
+
+Las variables locales, por otro lado, son aquellas que sólo están disponibles dentro de una función o procedimiento en el que han sido declaradas. Esto significa que no se pueden acceder ni modificar desde fuera de esa función o procedimiento. Las variables locales son útiles para almacenar y manipular información que sólo es relevante dentro de una función o procedimiento en particular.
+
+La diferencia entre variables globales y locales es importante porque puede afectar el comportamiento de un programa. Las variables globales pueden ser modificadas desde cualquier lugar del programa, lo que puede causar conflictos si se modifican desde diferentes partes del programa. Las variables locales, por otro lado, sólo pueden ser modificadas dentro de la función o procedimiento en la que han sido declaradas, lo que evita conflictos y asegura que la información sólo sea manipulada de la manera esperada.
