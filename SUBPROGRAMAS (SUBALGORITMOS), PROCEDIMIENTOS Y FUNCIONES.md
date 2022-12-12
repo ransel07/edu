@@ -33,7 +33,7 @@ Esto ejecutará el código de la función y asignará el resultado (en este caso
 
 En resumen, la declaración de funciones es una herramienta importante en programación que te permite definir código que puede ser reutilizado en diferentes partes de un programa. Al declarar una función, especificas su nombre, qué argumentos espera recibir y qué hace el código que contiene, lo que te permite llamar a la función en diferentes partes del programa para ejecutar ese código y obtener el resultado que deseas.
 
-## Declaracion de **Procedimientos**
+## Declaracion de **Procedimientos** (Subrutinasa)
 
 La declaración de procedimientos en programación se refiere a la forma en que se define un procedimiento, que es un bloque de código que realiza una tarea específica, pero que no devuelve un valor al código que lo llamó. En lugar de devolver un valor, un procedimiento puede modificar variables o realizar otras acciones que afectan el estado del programa, pero no devuelve un resultado que pueda ser utilizado en otra parte del código.
 
