@@ -95,16 +95,20 @@ def arreglo():
 
 #arreglo()
 
-a = [[1, 2, 3], 
-    [4, 5, 6],
-    [6,4,4]]
+#Dado un array de números enteros, escriba una función que devuelva el número más grande y el más pequeño en el array.
+def num_mayor_menor():
+    lista = [1,2,3,4,5,6,7,8,9,10]
+    for element in lista:
+        num_mayor = element.append()
+        num_menor = element.sort()
+    print(num_mayor, num_menor)
 
-for fragmentos in a:
-    producto_01 = 0
-    elements_01 = a[0] * a[4] * a[8]
-    elements_02 = [a[1], a[5], a[6]]
-    elements_03 = [a[0], a[4], a[8]]
+num_mayor_menor()
 
+#Dado un array de strings, escriba una función que devuelva un nuevo array que contenga todas las strings en mayúsculas.
 
+#Dado un array de números enteros, escriba una función que devuelva un nuevo array que contenga solo los números pares del array original.
 
-    print (elements_01)
+#Dado un array de números enteros, escriba una función que devuelva la suma de todos los números en el array.
+
+#Dado un array de strings, escriba una función que devuelva un nuevo array que contenga solo las strings que comiencen con la letra "a".
