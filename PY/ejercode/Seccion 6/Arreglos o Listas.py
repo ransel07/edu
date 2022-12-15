@@ -133,7 +133,7 @@ def pares():
 
 #pares()
 
-#Dado un array de números enteros, escriba una función que devuelva la suma de todos los números en el array.
+# Dado un array de números enteros, escriba una función que devuelva la suma de todos los números en el array.
 
 def sum_enteros():
     lista = [1,3,5,7,9,11,13,15,17,19]
@@ -209,11 +209,11 @@ def num_repit(lista_num):
         caja.append(contador)                 # El metodo "append()" introduce un numero especifico en una lista_num
     numero_mayor = max(caja)               
     posicion = caja.index(numero_mayor)       # El método "index()" devuelve la posición del primer elemento que coincide con el valor que se busca.
-    
     if lista_num[posicion] > 1:               # El resultado de "lista_num[posicion] = 1" si no hay numero que se repitan, por lo tanto se realiza esta condicional 
         print(lista_num[posicion])
     else:
         print(0)
 
 #num_repit(lista_num10)
+
 

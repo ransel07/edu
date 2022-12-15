@@ -1,6 +1,12 @@
-# ESTRUCTURAS DE DATOS (ARRAYS Y REGISTROS)
+# **ESTRUCTURAS DE DATOS (ARRAYS Y REGISTROS)**
 
-## Conjuntos
+## Indice
+
+* [Conjuntos](#conjuntos)
+  * [Implementación](#implementación)
+* [Diferencias entre conjuntos y listas en Python](#además-de-lo-mencionado-anteriormente-hay-varias-diferencias-importantes-entre-conjuntos-y-listas-en-python)
+
+## ***Conjuntos***
 
 Un conjunto (set en inglés) es un tipo de dato en Python que se usa para almacenar una colección de elementos sin ningún orden en particular y sin elementos duplicados. Los conjuntos son muy útiles cuando queremos realizar operaciones matemáticas como la unión, intersección y diferencia de conjuntos.
 
@@ -40,15 +46,15 @@ print(mi_lista)  # imprime: [1, 2, 3]
 
 Es importante tener en cuenta que, al convertir un conjunto en una lista, el orden de los elementos en la lista resultante no estará garantizado.
 
->Además de lo mencionado anteriormente, hay varias diferencias importantes entre conjuntos y listas en Python:
+### Además de lo mencionado anteriormente, hay varias **diferencias importantes entre conjuntos y listas en Python**
 >
->+ Los conjuntos no tienen un orden fijo, lo que significa que no se pueden acceder a sus elementos mediante un índice. En cambio, las listas sí tienen un orden fijo, por lo que se pueden acceder a sus elementos mediante un índice.
+>* Los conjuntos no tienen un orden fijo, lo que significa que no se pueden acceder a sus elementos mediante un índice. En cambio, las listas sí tienen un orden fijo, por lo que se pueden acceder a sus elementos mediante un índice.
 >
->+ Los conjuntos no admiten elementos duplicados, mientras que las listas sí pueden contener elementos duplicados.
+>* Los conjuntos no admiten elementos duplicados, mientras que las listas sí pueden contener elementos duplicados.
 >
->+ Los conjuntos son más rápidos que las listas cuando se realizan operaciones de búsqueda y pertenencia. Esto se debe a que los conjuntos utilizan una implementación interna llamada "tabla hash", que permite realizar estas operaciones en tiempo constante en promedio. En cambio, las listas utilizan una implementación basada en arreglos, lo que requiere recorrer la lista completa para realizar operaciones de búsqueda y pertenencia.
+>* Los conjuntos son más rápidos que las listas cuando se realizan operaciones de búsqueda y pertenencia. Esto se debe a que los conjuntos utilizan una implementación interna llamada "tabla hash", que permite realizar estas operaciones en tiempo constante en promedio. En cambio, las listas utilizan una implementación basada en arreglos, lo que requiere recorrer la lista completa para realizar operaciones de búsqueda y pertenencia.
 >
->+ Los conjuntos ofrecen una serie de operaciones matemáticas que no están disponibles para las listas, como la unión, intersección y diferencia de conjuntos. Estas operaciones se pueden realizar utilizando operadores o funciones específicas de conjuntos, como union(), intersection() y difference().
+>* Los conjuntos ofrecen una serie de operaciones matemáticas que no están disponibles para las listas, como la unión, intersección y diferencia de conjuntos. Estas operaciones se pueden realizar utilizando operadores o funciones específicas de conjuntos, como union(), intersection() y difference().
 
 ### Implementación
 
