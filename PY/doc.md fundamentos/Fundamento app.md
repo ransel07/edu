@@ -1,5 +1,4 @@
 
-
 Si quieres comenzar a desarrollar una aplicación para Android, te recomendaría seguir estos pasos:
 
 Primero, asegúrate de tener una idea clara de qué es lo que quieres crear. Toma un papel y un lápiz y haz un esquema de tu app, incluyendo todas las características y funcionalidades que quieres que tenga.

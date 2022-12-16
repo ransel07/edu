@@ -4,7 +4,10 @@
 
 * [Conjuntos](#conjuntos)
   * [Implementación](#implementación)
-* [Diferencias entre conjuntos y listas en Python](#además-de-lo-mencionado-anteriormente-hay-varias-diferencias-importantes-entre-conjuntos-y-listas-en-python)
+  * [Diferencias entre conjuntos y listas en Python](#además-de-lo-mencionado-anteriormente-hay-varias-diferencias-importantes-entre-conjuntos-y-listas-en-python)
+  * [Implementación](#implementación)
+  * [Tablar hash](#tablar-hash)
+* [Registros](#registros)
 
 ## ***Conjuntos***
 
@@ -66,7 +69,7 @@ Las listas en Python se implementan usando arrays dinámicos, lo que significa q
 
 Los conjuntos en Python se implementan usando tablas de hash, lo que les permite realizar operaciones de búsqueda y actualización en tiempo constante en promedio. Esto los hace muy eficientes en términos de tiempo y espacio, pero requieren que los elementos que se almacenan en ellos sean hashables, lo que significa que deben tener una función de hash definida.
 
-## tablar hash
+### Tablar hash
 
 Las tablas de hash son estructuras de datos que se utilizan para almacenar y recuperar información de manera rápida. Estas tablas asocian una "clave" con un "valor" y utilizan una función llamada "función hash" para calcular dónde se debe almacenar cada clave en la tabla. Esto permite que se pueda acceder a cualquier valor de la tabla de manera eficiente, simplemente proporcionando su clave. Las tablas de hash son utilizadas en muchos campos, como la informática, la criptografía y la estadística, para hacer que el acceso y la búsqueda de datos sea más rápido y eficiente.
 
@@ -95,7 +98,49 @@ hash3 = hash_function(key3)
 print(hash1) # imprime 3
 print(hash2) # imprime 4
 print(hash3) # imprime 9
-
 ```
 
 En este ejemplo, la función hash toma una clave como entrada y la convierte en un entero. Luego, aplica una operación matemática simple (el módulo 10) para producir un valor hash. Este valor hash se utiliza para determinar dónde se almacena la clave en la tabla de hash.
+
+## ***Registros***
+
+En programación, un registro es un tipo de datos que permite almacenar varios valores de diferentes tipos de datos en una sola estructura. Los registros son similares a las estructuras en algunos lenguajes de programación, pero a menudo se utilizan de manera diferente. Los registros suelen proporcionar una forma conveniente de empaquetar varios valores en un solo objeto y tratarlos como una unidad. Esto puede ser útil para organizar datos y facilitar su manipulación en un programa. Por ejemplo, un registro podría utilizarse para representar una dirección de correo electrónico, con campos para el nombre del remitente, la dirección de correo electrónico, el asunto y el cuerpo del mensaje. Cada campo del registro almacena un valor específico del tipo de datos apropiado (por ejemplo, una cadena de texto para el nombre del remitente y una cadena de texto para la dirección de correo electrónico). Los registros se pueden utilizar de diversas maneras en un programa, como para crear listas de valores o para organizar datos en una base de datos.
+
+Cuando se habla de estructuras en programación, se refiere a un tipo de datos que permite almacenar varios valores de diferentes tipos de datos en una sola estructura de datos. Las estructuras son similares a los registros en que ambos permiten almacenar varios valores en una sola estructura, pero a menudo se utilizan de manera diferente en diferentes lenguajes de programación. Por ejemplo, en algunos lenguajes de programación, las estructuras se utilizan para definir nuevos tipos de datos que pueden usarse en un programa. En otros lenguajes, las estructuras se utilizan como un tipo de datos predefinido que se puede utilizar directamente en un programa. En general, los registros y las estructuras son conceptos similares que se utilizan para almacenar y manipular conjuntos de datos en un programa.
+
+```.py
+# Creación de un diccionario para representar una dirección
+mi_direccion = {"calle": "Calle Falsa", "numero": 123, "ciudad": "Ciudad Real", "pais": "España"}
+
+# Acceso a los valores de los campos del diccionario
+print(f"Mi dirección es: {mi_direccion['calle']} {mi_direccion['numero']}, {mi_direccion['ciudad']}, {mi_direccion['pais']}")
+```
+
+>En este ejemplo se crea un diccionario en Python que representa una dirección con cuatro campos: calle, numero, ciudad y pais. Luego se asignan valores a cada uno de los campos del diccionario y se accede a ellos para mostrarlos por pantalla. Los diccionarios en Python son un tipo de datos que se utilizan para almacenar colecciones de datos en una estructura de clave-valor, lo que los convierte en una forma básica de implementar registros en un programa en Python.
+
+```.py
+# Crear un registro para almacenar información de un libro
+libro = {
+    'titulo': 'El señor de los anillos',
+    'autor': 'J.R.R. Tolkien',
+    'ano': 1954,
+    'genero': 'Fantasía'
+}
+
+# Imprimir el contenido del registro
+print(libro)
+
+# Imprimir un valor específico del registro
+print(libro['autor'])
+
+# Cambiar un valor en el registro
+libro['ano'] = 1955
+
+# Añadir un nuevo campo al registro
+libro['editorial'] = 'Minotauro'
+
+# Imprimir el registro después de hacer cambios
+print(libro)
+```
+
+>En este ejemplo, creamos un registro llamado libro que tiene cuatro campos: titulo, autor, ano y genero. Después, mostramos el contenido del registro usando print() y accedemos a un valor específico del registro usando el operador de índice ([]). Luego, cambiamos el valor de un campo del registro y añadimos un nuevo campo al registro. Al final, mostramos el contenido del registro después de realizar estos cambios.
