@@ -185,3 +185,14 @@ print(registros[0]["nombre"])  # Imprime "Juan"
 print(registros[1]["email"])   # Imprime "ana@example.com"
 print(registros[2]["telefono"])  # Imprime "12378945"
 ```
+
+Para agregar elementos a una lista de diccionarios en Python, puede usar el método 'append()' de la lista. Por ejemplo:
+
+```.py
+records = [{'name': 'John', 'age': 30}, {'name': 'Jane', 'age': 25}]
+
+new_record = {'name': 'Bob', 'age': 35}
+records.append(new_record)
+
+print(records)
+```

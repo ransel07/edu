@@ -153,25 +153,31 @@ def promedio_promedios(estudiantes):
 #promedio_promedios(lista_estudiantes)
 
 # Crea una estructura de datos para representar una persona, con los siguientes campos: nombre (cadena de caracteres), 
-# edad (entero), dirección (cadena de caracteres), ciudad (cadena de caracteres) y estado (cadena de caracteres). 
+# edad (entero), dirección (cadena de caracteres), ciudad (cadena de caracteres) y pais (cadena de caracteres). 
 # Luego, cree un diccionario de personas, donde la clave sea el nombre de la persona y el valor sea el registro de 
 # la persona. Utiliza un ciclo para imprimir cada una de las personas en el diccionario.
 
 registros = [    
 
-    {"nombre": "Juan", "edad": 30, "dirección": "Calle Falsa 123", "ciudad": "Madrid", "estado": "España"}, 
+    {"nombre": "Juan", "edad": 30, "dirección": "Calle Falsa 123", "ciudad": "Madrid", "pais": "España"}, 
     
-    {"nombre": "Ana", "edad": 25, "dirección": "Calle Falsa 456", "ciudad": "Barcelona", "estado": "España"},
+    {"nombre": "Ana", "edad": 25, "dirección": "Calle Falsa 456", "ciudad": "Barcelona", "pais": "España"},
 
-    {"nombre": "Pedro", "edad": 35, "dirección": "Calle Falsa 789", "ciudad": "Valencia", "estado": "España"},    
+    {"nombre": "Pedro", "edad": 35, "dirección": "Calle Falsa 789", "ciudad": "Valencia", "pais": "España"},    
     
-    {"nombre": "Sara", "edad": 28, "dirección": "Fake Street 123", "ciudad": "New York", "estado": "EE. UU."},
+    {"nombre": "Sara", "edad": 28, "dirección": "Fake Street 123", "ciudad": "New York", "pais": "EE. UU."},
     ]
 
+registro_rs = {"nombre": "Ransel", "edad": 28, "dirección": "Residencial Don Oscar", "ciudad": "SD de Guzman", "pais": "Rep. Dom."}
 
-def imprimir(registro):
-    for indiv in directorio:
-        for indiv2 in indiv:
+def imprimir(the_registro):
+    personas = {
+
+    }
+    for elem in the_registro:
+        if elem = the_registro["nombre"]
+        
+        
             print(indiv2)
 
 

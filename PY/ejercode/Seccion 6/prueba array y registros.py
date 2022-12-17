@@ -20,6 +20,14 @@ registros = [
     {'nombre': 'Marta', 'email': 'marta@example.com', 'telefono': '555-555-1215'}
 ]
 
+nueva_persona = {
+    "nombre" : "ransel",
+    "email" : "ranselysandro@gmail.com",
+    "telefono" : "829-756-9527"
+}
+
+registros.append(nueva_persona)
+
 # Accede a los campos de cada elemento del array
 for registro in registros:
     print(f'Nombre: {registro["nombre"]}, Email: {registro["email"]}, Teléfono: {registro["telefono"]}')
