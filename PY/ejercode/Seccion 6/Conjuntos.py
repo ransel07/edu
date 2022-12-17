@@ -9,8 +9,9 @@ conjunto_1 = {1,2,3,4,5,6,7,8,9,10}
 #Crea un conjunto con los números pares del 1 al 10 y guarda su resultado en una variable llamada conjunto_2. Imprime el resultado en pantalla.
 
 conjunto_2 = {1,2,3,4,5,6,7,8,9,10}
-
-#print(conjunto_2)
+conjunto_22 = list(conjunto_2)
+for num in conjunto_22 :
+    print(conjunto_22)
 
 # Utiliza el método intersection() para encontrar los elementos que están presentes en ambos conjuntos conjunto_1 y conjunto_2. 
 # Imprime el resultado en pantalla.
@@ -163,6 +164,6 @@ def diferencia(x, y):
     lista_nueva.append(list(differ_conj))
     print (lista_nueva)
 
-diferencia(lista, lista2)
+#diferencia(lista, lista2)
 
 

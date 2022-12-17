@@ -126,7 +126,7 @@ def carrito(productos):
         sum = sum + elemento["precio"]
     print(sum)
 
-carrito(regis_ejemp.lista_productos)
+#carrito(regis_ejemp.lista_productos)
 
 # Crea una estructura de datos para representar un estudiante, con los siguientes campos: nombre (cadena de caracteres), 
 # edad (entero), curso (cadena de caracteres) y calificación (flotante). Luego, cree una lista de estudiantes y utilice 
@@ -170,15 +170,16 @@ registros = [
 
 registro_rs = {"nombre": "Ransel", "edad": 28, "dirección": "Residencial Don Oscar", "ciudad": "SD de Guzman", "pais": "Rep. Dom."}
 
-def imprimir(the_registro):
-    personas = {
+registros.append(registro_rs)
 
-    }
-    for elem in the_registro:
-        if elem = the_registro["nombre"]
-        
-        
-            print(indiv2)
+
+def imprimir(the_registro):
+    person = {}
+    for user in the_registro:
+        person[user["nombre"]] = user
+    #print(person)
+    for user2 in person:
+        print
 
 
 # Crea una estructura de datos para representar un producto, con los siguientes campos: nombre (cadena de caracteres), 
