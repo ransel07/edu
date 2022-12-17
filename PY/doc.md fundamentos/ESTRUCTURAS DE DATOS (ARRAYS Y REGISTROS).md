@@ -8,6 +8,7 @@
   * [Implementación](#implementación)
   * [Tablar hash](#tablar-hash)
 * [Registros](#registros)
+  * [Arrays de registros y arrays paralelos](#arrays-de-registros-y-arrays-paralelos)
 
 ## ***Conjuntos***
 
@@ -144,3 +145,43 @@ print(libro)
 ```
 
 >En este ejemplo, creamos un registro llamado libro que tiene cuatro campos: titulo, autor, ano y genero. Después, mostramos el contenido del registro usando print() y accedemos a un valor específico del registro usando el operador de índice ([]). Luego, cambiamos el valor de un campo del registro y añadimos un nuevo campo al registro. Al final, mostramos el contenido del registro después de realizar estos cambios.
+
+### Arrays de registros y arrays paralelos
+
+Un array de registros es una estructura de datos que se utiliza para almacenar un conjunto de elementos con diferentes tipos de datos. Por ejemplo, podría ser útil utilizar un array de registros para almacenar información de contacto, como nombres, direcciones de correo electrónico y números de teléfono. Cada elemento del array de registros tendría un nombre y un tipo de datos asociado, y cada elemento del array podría tener valores diferentes para cada uno de esos campos.
+
+En Python, puedes utilizar una combinación de tuplas y diccionarios para crear arrays de registros. Por ejemplo:
+
+```.py
+# Crea un array de registros con tuplas
+registros = [
+    ('Juan', 'juan@example.com', '555-555-1212'),
+    ('Ana', 'ana@example.com', '555-555-1213'),
+    ('Pedro', 'pedro@example.com', '555-555-1214'),
+]
+
+# Accede a los campos de cada elemento del array
+for nombre, email, telefono in registros:
+    print(f'Nombre: {nombre}, Email: {email}, Teléfono: {telefono}')
+```
+
+Otra forma de crear arrays de registros es utilizando diccionarios anidados:
+
+```.py
+# Crea un array de registros con diccionarios
+registros = [
+    {'nombre': 'Juan', 'email': 'juan@example.com', 'telefono': '555-555-1212'},
+    {'nombre': 'Ana', 'email': 'ana@example.com', 'telefono': '555-555-1213'},
+    {'nombre': 'Pedro', 'email': 'pedro@example.com', 'telefono': '555-555-1214'},
+]
+
+# Accede a los campos de cada elemento del array
+for registro in registros:
+    print(f'Nombre: {registro["nombre"]}, Email: {registro["email"]}, Teléfono: {registro["telefono"]}')
+
+#Para acceder a los valores de cada uno de los registros, podemos utilizar el índice del array y la clave del diccionario. Por ejemplo:
+
+print(registros[0]["nombre"])  # Imprime "Juan"
+print(registros[1]["email"])   # Imprime "ana@example.com"
+print(registros[2]["telefono"])  # Imprime "12378945"
+```
