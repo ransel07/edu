@@ -33,28 +33,36 @@ En Python, los archivos (también conocidos como ficheros) son una forma de alma
 
 Para trabajar con archivos en Python, primero debemos abrirlos utilizando la función open(). Esta función toma dos argumentos: el nombre del archivo y el modo en que se abrirá el archivo. Los modos más comunes son "r" (lectura), "w" (escritura) y "a" (agregar).
 
-Por ejemplo, para abrir un archivo de texto llamado "```mi_archivo.txt```" en modo lectura, podemos utilizar el siguiente código:
+Por ejemplo, para abrir un archivo de texto llamado "mi_archivo.txt" en modo lectura, podemos utilizar el siguiente código:
 
-```.pywith open("mi_archivo.txt", "r") as archivo:
-  # Código para trabajar con el archivo```
+```.py
+with open("mi_archivo.txt", "r") as archivo:
+  # Código para trabajar con el archivo
+  ```
 
 La palabra clave with se utiliza para asegurar que el archivo se cierre correctamente una vez que hayamos terminado de trabajar con él. El archivo se asigna a la variable archivo, que podemos utilizar para leer el contenido del archivo.
 
 Para leer el contenido de un archivo, podemos utilizar el método `read()` de la variable archivo. Este método devuelve todo el contenido del archivo como una cadena de texto.
 
-```.py with open("mi_archivo.txt", "r") as archivo:
+```.py
+with open("mi_archivo.txt", "r") as archivo:
   contenido = archivo.read()
-  print(contenido)```
+  print(contenido)
+  ```
 
 Para escribir en un archivo, podemos utilizar el método `write()` de la variable archivo. Este método toma una cadena de texto como argumento y escribe esa cadena en el archivo.
 
-```.py with open("mi_archivo.txt", "w") as archivo:
-  archivo.write("Hola, mundo!")```
+```.py
+with open("mi_archivo.txt", "w") as archivo:
+  archivo.write("Hola, mundo!")
+  ```
 
 Para agregar texto al final de un archivo existente, podemos utilizar el modo "a" en lugar de "w":
 
-```.py with open("mi_archivo.txt", "a") as archivo:
-  archivo.write("\nAdiós, mundo!")```
+```.py
+with open("mi_archivo.txt", "a") as archivo:
+  archivo.write("\nAdiós, mundo!")
+  ```
 
 Es importante tener en cuenta que el modo "w" sobrescribe el contenido del archivo, mientras que el modo "a" agrega texto al final del archivo sin sobrescribir lo que ya existe.
 
@@ -65,3 +73,50 @@ La jerarquización de los datos es el proceso de organizar y estructurar los dat
 Una forma común de jerarquizar los datos es mediante la utilización de estructuras de datos jerárquicas, que consisten en una serie de elementos que están organizados en una jerarquía de niveles. Por ejemplo, en un sistema de archivos, los archivos y las carpetas se organizan en una jerarquía de niveles en la que cada carpeta puede contener otros archivos y carpetas.
 
 Otra forma de jerarquizar los datos es mediante la utilización de bases de datos relacionales, que consisten en un conjunto de tablas de datos relacionadas entre sí mediante claves foráneas. Las bases de datos relacionales permiten la jerarquización de los datos mediante la creación de relaciones entre tablas de datos y la utilización de consultas para acceder y manipular los datos de manera eficiente.
+
+### Operaciones básicas
+
+En Python, puedes realizar varias operaciones básicas con archivos utilizando la función open() y los métodos de archivo. Algunas de las operaciones básicas que puedes realizar son:
+
+* Abrir un archivo: para abrir un archivo en Python, puedes usar la función open(). Esta función toma dos argumentos: el nombre del archivo y el modo en el que quieres abrirlo. Los modos más comunes son "r" para leer, "w" para escribir y "a" para agregar contenido al final del archivo. Por ejemplo:
+
+```.py
+f = open("myfile.txt", "r")
+```
+
+* Leer un archivo: una vez que has abierto un archivo en modo de lectura, puedes leer su contenido utilizando el método read(). Este método lee todo el contenido del archivo y lo devuelve como una cadena de texto.
+
+```.py
+f = open("myfile.txt", "r")
+contents = f.read()
+print(contents)
+f.close()
+```
+
+* Escribir en un archivo: si quieres escribir en un archivo en Python, puedes abrirlo en modo de escritura utilizando el modo "w". Luego, puedes utilizar el método write() para escribir en el archivo. Por ejemplo:
+
+```.py
+f = open("myfile.txt", "w")
+f.write("Hola mundo!")
+f.close()
+```
+
+* Agregar contenido al final de un archivo: si quieres agregar contenido al final de un archivo en lugar de sobrescribir su contenido, puedes abrirlo en modo de adición utilizando el modo "a". Luego, puedes utilizar el método write() para agregar contenido al final del archivo. Por ejemplo:
+
+```.py
+
+f = open("myfile.txt", "a")
+f.write("\nAñadiendo una nueva línea al final del archivo.")
+f.close()
+
+```
+
+* Cerrar un archivo: es importante cerrar un archivo una vez que hayas terminado de trabajar con él. Puedes cerrar un archivo utilizando el método close(). Por ejemplo:
+
+```.py
+f = open("myfile.txt", "r")
+contents = f.read()
+f.close()
+```
+
+Es importante tener en cuenta que, cuando abres un archivo en modo de lectura o escritura, debes cerrarlo una vez que hayas terminado de trabajar con él para liberar los recursos del sistema.
