@@ -77,7 +77,13 @@ def suma_palabras():
 # lea el archivo y muestre toda la información de cada libro en un formato 
 # legible para el usuario.
 
+import regis_ejemp as re
 
+line = []
+re.libros_titulo
+
+with open("ejercicio6.txt", "w") as e6:
+    e5.writelines()
 
 # Crea un archivo de texto que contenga información sobre diferentes empleados 
 # de una empresa (nombre, cargo, salario, etc.). Luego, escribe un programa en 
