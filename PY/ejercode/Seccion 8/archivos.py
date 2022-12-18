@@ -46,26 +46,38 @@ with open("ejercicio4.txt", "r") as ej04:
         contador += 1
     #print(f"{contador} es el numero de lineas que tiene ejercicio4.txt")
 
-# Crea un archivo de texto llamado "ejercicio5.txt" y escribe algunas líneas de 
-# texto en él. Luego, abre el archivo en modo de lectura y busca una palabra 
-# específica en el archivo utilizando un bucle for. Si encuentras la palabra, 
-# muestra un mensaje en pantalla indicando en qué línea se encontró.
+# Crea un archivo de texto llamado "ejercicio5.txt" y escribe algunas líneas 
+# de texto en él. Luego, abre el archivo en modo de lectura y busca una 
+# palabra específica en el archivo utilizando un bucle for. Si encuentras 
+# la palabra, muestra un mensaje en pantalla indicando en qué línea se 
+# encontró.
 
 with open("ejercicio5.txt", "w") as e5:
     e5.writelines(lines)
 
 with open("ejercicio5.txt", "r") as e5:
-    for palabra in e5:
-        print(palabra)
-        if palabra == "1ra linea":
-            e5.find("linea")
-            repite = e5.count(palabra)
-            print("la palabra {palabra}, se encuentra {repite}")
+    conteo = 0
+    for elemento in e5:
+        conteo = conteo + 1
+        encuentra = elemento.find("linea")
+        if encuentra > 0:
+            print(f"se encuentra en la posicion {encuentra} de la linea {conteo}")
+            break
+
+def suma_palabras():
+    p = ["Esta texo en un ", "ejemplo ", "para resolver ", "un ejercicio"]
+    i = []
+    l = ""
+    for element in p:
+        l = l + element
+    print(l)        
 
 # Crea un archivo de texto con información sobre diferentes libros (título, 
 # autor, año de publicación, etc.). Luego, escribe un programa en Python que 
 # lea el archivo y muestre toda la información de cada libro en un formato 
 # legible para el usuario.
+
+
 
 # Crea un archivo de texto que contenga información sobre diferentes empleados 
 # de una empresa (nombre, cargo, salario, etc.). Luego, escribe un programa en 
