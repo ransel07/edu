@@ -62,3 +62,46 @@ with open("ejercicio5.txt", "r") as e5:
             repite = e5.count(palabra)
             print("la palabra {palabra}, se encuentra {repite}")
 
+# Crea un archivo de texto con información sobre diferentes libros (título, 
+# autor, año de publicación, etc.). Luego, escribe un programa en Python que 
+# lea el archivo y muestre toda la información de cada libro en un formato 
+# legible para el usuario.
+
+# Crea un archivo de texto que contenga información sobre diferentes empleados 
+# de una empresa (nombre, cargo, salario, etc.). Luego, escribe un programa en 
+# Python que lea el archivo y muestre el salario total de todos los empleados.
+
+# Crea un archivo de texto que contenga información sobre diferentes productos 
+# en una tienda (nombre, precio, cantidad disponible, etc.). Luego, escribe un 
+# programa en Python que lea el archivo y permita al usuario comprar un producto 
+# específico, actualizando la cantidad disponible en el archivo después de la 
+# compra.
+
+# Crea un archivo de texto que contenga información sobre diferentes estudiantes 
+# y sus calificaciones en un curso (nombre, notas en cada examen, promedio final, 
+# etc.). Luego, escribe un programa en Python que lea el archivo y muestre la 
+# lista de estudiantes ordenada por promedio final.
+
+# Crea un archivo de texto con información sobre diferentes estudiantes y sus 
+# calificaciones en un curso (nombre, notas en cada examen, promedio final, etc.). 
+# Luego, escribe un programa en Python que lea el archivo y almacene la información 
+# de cada estudiante en un registro. Utiliza un arreglo de estos registros para 
+# luego mostrar la lista de estudiantes ordenada por promedio final.
+
+# Crea un archivo de texto con información sobre diferentes productos en una tienda 
+# (nombre, precio, cantidad disponible, etc.). Luego, escribe un programa en Python 
+# que lea el archivo y almacene la información de cada producto en un registro. 
+# Utiliza un arreglo de estos registros para luego permitir al usuario buscar un 
+# producto específico por nombre y mostrar toda su información.
+
+# Crea un archivo de texto con información sobre diferentes empleados de una empresa 
+# (nombre, cargo, salario, etc.). Luego, escribe un programa en Python que lea el archivo 
+# y almacene la información de cada empleado en un registro. Utiliza un arreglo de estos 
+# registros para luego calcular el salario total de todos los empleados y mostrar el 
+# promedio de salarios por cargo.
+
+# Crea un archivo de texto con información sobre diferentes libros (título, autor, año de 
+# publicación, etc.). Luego, escribe un programa en Python que lea el archivo y almacene 
+# la información de cada libro en un registro. Utiliza un arreglo de estos registros para 
+# luego permitir al usuario buscar libros por año de publicación y mostrar todos los 
+# títulos y autores de los libros publicados en ese año.
