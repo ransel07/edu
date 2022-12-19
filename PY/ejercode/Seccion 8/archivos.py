@@ -156,7 +156,11 @@ def BuyProduct():
 # etc.). Luego, escribe un programa en Python que lea el archivo y muestre la 
 # lista de estudiantes ordenada por promedio final.
 
-
+with open("estudiantes.txt" "w") as claseA1:
+    for elemento in re.lista_promedios:
+        for sub in elemento:
+            
+            claseA1.writelines()
 
 # Crea un archivo de texto con información sobre diferentes estudiantes y sus 
 # calificaciones en un curso (nombre, notas en cada examen, promedio final, etc.). 

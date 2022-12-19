@@ -95,6 +95,9 @@ libro["año"] = 1999
 estudiante = {
     "nombre" : "",
     "edad" : "",
+    "examen 1" : 90,
+    "examen 2" : 30,
+    "examen 3" : 70,
     "promedio" : "",
     "becado" : ""
 }
@@ -102,6 +105,9 @@ estudiante = {
 estudiante1 = {
     "nombre" : "Rodrigo",
     "edad" : 33,
+    "examen 1" : 70,
+    "examen 2" : 60,
+    "examen 3" : 70,
     "promedio" : 2.9,
     "becado" : "si"
 }
@@ -109,6 +115,9 @@ estudiante1 = {
 estudiante2 = {
     "nombre" : "ana",
     "edad" : 17,
+    "examen 1" : 70,
+    "examen 2" : 79,
+    "examen 3" : 85,
     "promedio" : 4.0,
     "becado" : "si"
 }
@@ -116,6 +125,9 @@ estudiante2 = {
 estudiante3 = {
     "nombre" : "Lorine",
     "edad" : 25,
+    "examen 1" : 80,
+    "examen 2" : 89,
+    "examen 3" : 90,
     "promedio" : 2.0,
     "becado" : "no"
 }
@@ -123,7 +135,10 @@ estudiante3 = {
 estudiante4 = {
     "nombre" : "Daneyris",
     "edad" : 30,
-    "promedio" : 3.0,
+    "examen 1" : 90,
+    "examen 2" : 95,
+    "examen 3" : 99,
+    "promedio" : 2.1,
     "becado" : "si"
 }
 
@@ -131,6 +146,7 @@ estudiante["nombre"] = "David"
 estudiante["edad"] = 30 
 estudiante["promedio"] = 4.0 
 estudiante["becado"] = "si"
+
 
 #                           Registros de Productos
 
@@ -195,8 +211,25 @@ libros_titulo = [ libro["titulo"],  libro1["titulo"],  libro2["titulo"],  libro3
 libros_titulo1 = [libro, libro1, libro2, libro3, libro4]
 lbn = [ libro]
 autor =  libro['autor']
-lista_estudiantes = [ estudiante,  estudiante1,  estudiante2,  estudiante3,  estudiante4]
+estudiantes = [ estudiante,  estudiante1,  estudiante2,  estudiante3,  estudiante4]
 lista_productos = [ producto,  producto1,  producto2,  producto3, producto4, producto5, producto6]
 lista_promedios = [ estudiante["promedio"],  estudiante1["promedio"],  estudiante2["promedio"],  estudiante3["promedio"],  estudiante4["promedio"]]
 lista_individuos = [individuo, individuo1, individuo2, individuo3, individuo4]
 empleados = [empleado, empleado1, empleado2, empleado3, empleado4]
+
+
+def promedio():
+    for elemento in estudiantes:
+        examen1 = int(elemento["examen 1"])
+        examen2 = int(elemento["examen 2"])
+        examen3 = int(elemento["examen 3"])
+        sum =  examen1 + examen2 + examen3
+        base4 = sum/25
+        promedio = base4/3
+        estudiante["promedio"] = promedio
+        return str(round(promedio, 1))
+
+promedio()
+
+
+
