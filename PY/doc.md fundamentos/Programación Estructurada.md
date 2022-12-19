@@ -4,7 +4,7 @@ La programación estructurada es un paradigma de programación que se basa en la
 
 ## **TEOREMA DE BÖHM Y JACOPINI**
 
-El teorema de Böhm y Jacopini es un teorema en teoría de la computación que establece que todo algoritmo computable puede ser escrito como una secuencia de bloques de código que utilizan solo tres estructuras de control de flujo: <span style = "color:red">**secuencia, selección y iteración**</span>. 
+El teorema de Böhm y Jacopini es un teorema en teoría de la computación que establece que todo algoritmo computable puede ser escrito como una secuencia de bloques de código que utilizan solo tres estructuras de control de flujo: **secuencia, selección y iteración**.
 
 El teorema fue propuesto por el matemático alemán Corrado Böhm y el informático italiano Giuseppe Jacopini en 1966, y demostró que cualquier algoritmo que pueda ser escrito utilizando estructuras de control de flujo más complejas, como el case o el switch, también puede ser escrito utilizando solo las tres estructuras básicas mencionadas. Esto demuestra que las estructuras de control de flujo más complejas no son necesarias para realizar cualquier tipo de tarea computable, y que la programación estructurada puede ser utilizada para escribir cualquier algoritmo computable de manera clara y eficiente.
 
@@ -18,7 +18,7 @@ El control de flujo es una herramienta utilizada en la programación estructurad
 
 En resumen, la programación estructurada y el control de flujo están relacionados porque el control de flujo es una herramienta utilizada en la programación estructurada para modificar el flujo de ejecución de un programa y adaptarlo a diferentes situaciones.
 
-Las sentencias de <span style="color:red"> selección </span>. son: si («if») y según-sea («switch»); las sentencias de <span style="color:yellow">repetición o iterativas</span> son: desde («for»), mientras («while»), hacer-mientras («do-while») o repetir-hasta que («repeat-until»); las sentencias de <span style="color:green">salto</span> incluyen interrumpir (break), continuar (continue), ir-a (goto), volver (return) y lanzar (trhow).
+Las sentencias de "color:red" selección. son: si («if») y según-sea («switch»); las sentencias de repetición o iterativas son: desde («for»), mientras («while»), hacer-mientras («do-while») o repetir-hasta que («repeat-until»); las sentencias de salto incluyen interrumpir (break), continuar (continue), ir-a (goto), volver (return) y lanzar (trhow).
 
 >### **Estructura Secuencial**
 

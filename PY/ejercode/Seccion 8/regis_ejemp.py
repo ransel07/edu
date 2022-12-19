@@ -142,15 +142,6 @@ producto4 = {"nombre" : "SSD Kingston 250GB", "precio" : 110.30, "cantidad dispo
 producto5 = {"nombre" : "Hard Drive 2T", "precio" : 145.99, "cantidad disponible" : 53,}
 producto6 = {"nombre" : "Disipador Coolermaster", "precio" : 50.5, "cantidad disponible" : 15,}
 
-
-
-cant_buy = int(input())
-p = int(producto["cantidad disponible"]) - cant_buy
-print (p)
-
-
-
-
 #                           Registros de Individuos
 
 individuo = {

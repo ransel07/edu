@@ -115,28 +115,41 @@ def funsion():
 # compra.
 
 
-def fun():
+def CreateTex():
     with open("productos.txt", "w") as productos:
         contar = 0
         for elemento in re.lista_productos:
-            contar = contar + 1
             visual = "---------------- " + elemento["nombre"] + " ----------------\n"
+            code = "codigo del producto " + str(contar)
             productos.writelines(" \n" + visual)
+            productos.writelines(str(code) + " \n")
             for sub in elemento.keys():
                 productos.writelines(str(sub) + " : " + str(elemento[sub]) + "\n")
+
+            contar = contar + 1
     with open ("productos.txt", "r") as productos:
         lineas = productos
         for linea in lineas:
             print(linea)
-#fun()
-def buyProduct():
-    buy = input()
-    cant_buy = input()
-    if buy == 0:
-        p = {re.producto["cantidad disponible"] - cant_buy}
-        print (p)
+CreateTex()
 
-#buyProduct()
+print ("ARTICULOS DE PC")
+print (" ")
+
+def BuyProduct():
+    buy = int(input("Codigo del producto = "))
+    cant_buy = int(input("Cantidad = "))
+
+    if 0 <= buy <=7:
+        prod= re.lista_productos[buy]    # Obtener el producto con índice 0
+        # Acceder a la propiedad "cantidad disponibles" del producto
+        cantidad_disponible = prod["cantidad disponible"]
+        p = int(cantidad_disponible)  - int(cant_buy)
+        print (p)
+    else:
+        print("Este articulo no existe ")
+
+#BuyProduct()
 
 # Crea un archivo de texto que contenga información sobre diferentes estudiantes 
 # y sus calificaciones en un curso (nombre, notas en cada examen, promedio final, 

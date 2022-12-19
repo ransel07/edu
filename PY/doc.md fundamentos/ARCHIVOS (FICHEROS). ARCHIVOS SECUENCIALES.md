@@ -1,5 +1,9 @@
 # **ARCHIVOS (FICHEROS). ARCHIVOS SECUENCIALES**
 
+* [Archivos](#archivos)
+* [Jerarquización](#jerarquización)
+* [Flujos](#flujos)
+
 ## Archivos
 
 Los archivos de programas son archivos que contienen código fuente o código ejecutable de un programa informático. Los archivos de datos, por otro lado, son archivos que contienen información que puede ser utilizada por un programa informático.
@@ -120,3 +124,15 @@ f.close()
 ```
 
 Es importante tener en cuenta que, cuando abres un archivo en modo de lectura o escritura, debes cerrarlo una vez que hayas terminado de trabajar con él para liberar los recursos del sistema.
+
+## flujos
+
+En el tema de archivos en programación, un flujo es una secuencia continua de datos que se pueden leer o escribir. Los flujos se utilizan a menudo para leer y escribir archivos, ya que permiten que un programa procese los datos de un archivo de manera secuencial, en lugar de tener que cargar todo el archivo en la memoria de una sola vez.
+
+En Python, algunos ejemplos de flujos de entrada incluyen open(), que se utiliza para abrir un archivo para lectura, y ´sys.stdin´, que se utiliza para leer datos desde la entrada estándar (por ejemplo, el teclado). Algunos ejemplos de flujos de salida incluyen ´open()´, que también se puede utilizar para abrir un archivo para escritura, y sys.stdout, que se utiliza para escribir datos en la salida estándar (por ejemplo, la pantalla).
+
+Los flujos se utilizan a menudo en conjunción con buffers, que son áreas de memoria que se utilizan para almacenar temporalmente los datos mientras se leen o escriben a través de un flujo. Esto puede mejorar la eficiencia de la lectura y escritura de archivos, ya que permite que el programa lea o escriba varios bytes de datos a la vez en lugar de tener que acceder al archivo un byte a la vez.
+
+## Orientacion secuencial
+
+La orientación secuencial en el tema de archivos en programación se refiere a la forma en que se leen y escriben los datos en un archivo. En la orientación secuencial, los datos se leen y escriben en el archivo de manera secuencial, es decir, uno después de otro en el orden en que aparecen en el archivo.
