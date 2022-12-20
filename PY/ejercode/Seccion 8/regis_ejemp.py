@@ -92,14 +92,16 @@ libro["año"] = 1999
 # Crea un registro llamado "estudiante" que contenga los campos "nombre", "edad", "promedio" y "becado". Luego, 
 # crea una variable de este tipo de registro y asígnale valores a sus campos.
 
+#                           Registros de Estudiantes
+
 estudiante = {
-    "nombre" : "",
-    "edad" : "",
+    "nombre" : "Ransel",
+    "edad" : "27",
     "examen 1" : 90,
     "examen 2" : 30,
     "examen 3" : 70,
-    "promedio" : "",
-    "becado" : ""
+    "promedio" : 2.0,
+    "becado" : "Si"
 }
 
 estudiante1 = {
@@ -141,11 +143,6 @@ estudiante4 = {
     "promedio" : 2.1,
     "becado" : "si"
 }
-
-estudiante["nombre"] = "David" 
-estudiante["edad"] = 30 
-estudiante["promedio"] = 4.0 
-estudiante["becado"] = "si"
 
 
 #                           Registros de Productos
@@ -229,7 +226,8 @@ def promedio():
         estudiante["promedio"] = promedio
         return str(round(promedio, 1))
 
-promedio()
+#promedio()
 
+estudiantes = [ estudiante,  estudiante1,  estudiante2,  estudiante3,  estudiante4]
 
 

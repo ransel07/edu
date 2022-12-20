@@ -1,0 +1,50 @@
+
+ESTUDIANTE 1
+
+nombre : Ransel
+edad : 27
+examen 1 : 90
+examen 2 : 30
+examen 3 : 70
+promedio : 2.533333333333333
+becado : Si
+
+ESTUDIANTE 2
+
+nombre : Rodrigo
+edad : 33
+examen 1 : 70
+examen 2 : 60
+examen 3 : 70
+promedio : 2.9
+becado : si
+
+ESTUDIANTE 3
+
+nombre : ana
+edad : 17
+examen 1 : 70
+examen 2 : 79
+examen 3 : 85
+promedio : 4.0
+becado : si
+
+ESTUDIANTE 4
+
+nombre : Lorine
+edad : 25
+examen 1 : 80
+examen 2 : 89
+examen 3 : 90
+promedio : 2.0
+becado : no
+
+ESTUDIANTE 5
+
+nombre : Daneyris
+edad : 30
+examen 1 : 90
+examen 2 : 95
+examen 3 : 99
+promedio : 2.1
+becado : si

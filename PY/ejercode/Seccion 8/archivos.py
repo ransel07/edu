@@ -131,16 +131,16 @@ def CreateTex():
         lineas = productos
         for linea in lineas:
             print(linea)
-CreateTex()
-
-print ("ARTICULOS DE PC")
-print (" ")
+#CreateTex()
 
 def BuyProduct():
+    print ("ARTICULOS DE PC")
+    print (" ")
+
     buy = int(input("Codigo del producto = "))
     cant_buy = int(input("Cantidad = "))
 
-    if 0 <= buy <=7:
+    if 0 <= buy <= 7:
         prod= re.lista_productos[buy]    # Obtener el producto con índice 0
         # Acceder a la propiedad "cantidad disponibles" del producto
         cantidad_disponible = prod["cantidad disponible"]
@@ -155,12 +155,23 @@ def BuyProduct():
 # y sus calificaciones en un curso (nombre, notas en cada examen, promedio final, 
 # etc.). Luego, escribe un programa en Python que lea el archivo y muestre la 
 # lista de estudiantes ordenada por promedio final.
+def PromedioFinal():
+    with open("estudiantes.txt", "w") as clase:
+        contador = 0
+        for elemento in re.estudiantes:
+            contador = contador + 1
+            clase.writelines("\n")
+            clase.writelines("ESTUDIANTE " + str(contador) + "\n")
+            clase.writelines("\n")
+            for sub in elemento:
+                clase.writelines(sub + " : " + str(elemento[sub]) + "\n")
 
-with open("estudiantes.txt" "w") as claseA1:
-    for elemento in re.lista_promedios:
-        for sub in elemento:
-            
-            claseA1.writelines()
+
+with open("estudiantes.txt", "r") as es:
+    lineas = es.readline()
+    mayor = max(es)
+    
+
 
 # Crea un archivo de texto con información sobre diferentes estudiantes y sus 
 # calificaciones en un curso (nombre, notas en cada examen, promedio final, etc.). 
