@@ -155,6 +155,7 @@ def BuyProduct():
 # y sus calificaciones en un curso (nombre, notas en cada examen, promedio final, 
 # etc.). Luego, escribe un programa en Python que lea el archivo y muestre la 
 # lista de estudiantes ordenada por promedio final.
+
 def PromedioFinal():
     with open("estudiantes.txt", "w") as clase:
         contador = 0
@@ -165,12 +166,21 @@ def PromedioFinal():
             clase.writelines("\n")
             for sub in elemento:
                 clase.writelines(sub + " : " + str(elemento[sub]) + "\n")
-
-
-with open("estudiantes.txt", "r") as es:
-    lineas = es.readline()
-    mayor = max(es)
     
+    with open("estudiantes.txt", "r") as es:
+
+        caja = es.readlines()
+        titulo = 1
+        nombre = 3
+        desarrollo = 8
+        while desarrollo <= 48:
+            print(caja[titulo])
+            print(caja[nombre])
+            print(caja[desarrollo])
+            titulo += 10
+            nombre += 10
+            desarrollo += 10
+#PromedioFinal ()
 
 
 # Crea un archivo de texto con información sobre diferentes estudiantes y sus 
@@ -179,11 +189,39 @@ with open("estudiantes.txt", "r") as es:
 # de cada estudiante en un registro. Utiliza un arreglo de estos registros para 
 # luego mostrar la lista de estudiantes ordenada por promedio final.
 
+
+
 # Crea un archivo de texto con información sobre diferentes productos en una tienda 
 # (nombre, precio, cantidad disponible, etc.). Luego, escribe un programa en Python 
 # que lea el archivo y almacene la información de cada producto en un registro. 
 # Utiliza un arreglo de estos registros para luego permitir al usuario buscar un 
 # producto específico por nombre y mostrar toda su información.
+
+def producto2():
+    with open("productos2.txt", "w") as productos:
+        le = re.lista_productos
+        cont = 1
+        for i in le:
+            presentacion = "Articulo " + str(cont)
+            productos.writelines(str(presentacion) + "\n")
+            productos.writelines("\n")
+            cont = cont + 1
+            for e in i:
+                productos.writelines(str(e) + " : " + str(i[e]) + "\n")
+            productos.writelines("\n")      
+
+    with open("productos2.txt", "r") as articulo:
+        lectura = articulo.readlines()
+        arreglo = re.lista_productos
+        #nombre = str(input())
+        for elemento in lectura:
+            print(elemento)
+                
+producto2()
+
+        
+            
+
 
 # Crea un archivo de texto con información sobre diferentes empleados de una empresa 
 # (nombre, cargo, salario, etc.). Luego, escribe un programa en Python que lea el archivo 

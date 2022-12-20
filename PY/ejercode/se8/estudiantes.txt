@@ -6,7 +6,7 @@ edad : 27
 examen 1 : 90
 examen 2 : 30
 examen 3 : 70
-promedio : 2.533333333333333
+promedio : 2.5
 becado : Si
 
 ESTUDIANTE 2
@@ -16,7 +16,7 @@ edad : 33
 examen 1 : 70
 examen 2 : 60
 examen 3 : 70
-promedio : 2.9
+promedio : 2.7
 becado : si
 
 ESTUDIANTE 3
@@ -26,7 +26,7 @@ edad : 17
 examen 1 : 70
 examen 2 : 79
 examen 3 : 85
-promedio : 4.0
+promedio : 3.1
 becado : si
 
 ESTUDIANTE 4
@@ -36,7 +36,7 @@ edad : 25
 examen 1 : 80
 examen 2 : 89
 examen 3 : 90
-promedio : 2.0
+promedio : 3.5
 becado : no
 
 ESTUDIANTE 5
@@ -46,5 +46,5 @@ edad : 30
 examen 1 : 90
 examen 2 : 95
 examen 3 : 99
-promedio : 2.1
+promedio : 3.8
 becado : si

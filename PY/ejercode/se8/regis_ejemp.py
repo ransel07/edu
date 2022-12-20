@@ -217,16 +217,16 @@ empleados = [empleado, empleado1, empleado2, empleado3, empleado4]
 
 def promedio():
     for elemento in estudiantes:
-        examen1 = int(elemento["examen 1"])
+        examen1 = int(elemento["examen 1"])        
         examen2 = int(elemento["examen 2"])
         examen3 = int(elemento["examen 3"])
         sum =  examen1 + examen2 + examen3
         base4 = sum/25
         promedio = base4/3
-        estudiante["promedio"] = promedio
-        return str(round(promedio, 1))
-
-#promedio()
+        elemento["promedio"] = round(promedio, 1)    # Redondeo del "promedio" que se introduce en el "elemento["promedio"]"
+        
+        
+promedio()
 
 estudiantes = [ estudiante,  estudiante1,  estudiante2,  estudiante3,  estudiante4]
 
