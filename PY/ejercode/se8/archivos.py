@@ -212,11 +212,24 @@ def producto2():
 
     with open("productos2.txt", "r") as articulo:
         lectura = articulo.readlines()
+
         arreglo = re.lista_productos
-        #nombre = str(input())
-        for elemento in lectura:
-            print(elemento)
-                
+        
+        print(" Lista de Articulos ")
+        print(" ")
+        for registro in arreglo: 
+            print(registro["nombre"])
+        
+        print(" ")
+        print("OBTEN DATOS DEL ARTICULO QUE NESECITAS")
+        print(" ")
+        nombre = str(input("Articulo = "))
+        
+        for registro in arreglo: # Revisar cada "registro" (producto,1,2..) del arrglo (re.lista_productos)
+            if nombre == registro["nombre"]: # 
+                for elemento in registro: # Revisar cada "elemento" 
+                    print(elemento, " : ", registro[elemento])
+            
 producto2()
 
         

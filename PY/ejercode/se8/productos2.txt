@@ -1,40 +1,40 @@
-'<strong>Articulo</strong>' 1
+Articulo 1
 
 nombre : Ram
 precio : 75.5
 cantidad disponible : 50
 
-'<strong>Articulo</strong>' 2
+Articulo 2
 
 nombre : Board
 precio : 200.0
 cantidad disponible : 10
 
-'<strong>Articulo</strong>' 3
+Articulo 3
 
 nombre : Tarjeta de Video
 precio : 298.3
 cantidad disponible : 15
 
-'<strong>Articulo</strong>' 4
+Articulo 4
 
 nombre : SSD m.2
 precio : 93.8
 cantidad disponible : 33
 
-'<strong>Articulo</strong>' 5
+Articulo 5
 
 nombre : SSD Kingston 250GB
 precio : 110.3
 cantidad disponible : 30
 
-'<strong>Articulo</strong>' 6
+Articulo 6
 
 nombre : Hard Drive 2T
 precio : 145.99
 cantidad disponible : 53
 
-'<strong>Articulo</strong>' 7
+Articulo 7
 
 nombre : Disipador Coolermaster
 precio : 50.5
