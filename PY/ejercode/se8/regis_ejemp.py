@@ -202,7 +202,8 @@ empleado4 = {"nombre" : "Daneyris", "cargo" : "soporte tecnico", "salario" : 200
 
 #                                           LISTAS DE REGISTROS
 
-personas = [persona["edad"], persona1["edad"], persona2["edad"], persona3["edad"], persona4["edad"]]
+personas_edades = [persona["edad"], persona1["edad"], persona2["edad"], persona3["edad"], persona4["edad"]]
+personas = [persona, persona1, persona2, persona3, persona4]
 libros_autores = [ libro["autor"],  libro1["autor"],  libro2["autor"],  libro3["autor"],  libro4["autor"]]
 libros_titulo = [ libro["titulo"],  libro1["titulo"],  libro2["titulo"],  libro3["titulo"],  libro4["titulo"]]
 libros_titulo1 = [libro, libro1, libro2, libro3, libro4]

@@ -1,0 +1,5 @@
+{'nombre': 'Juan', 'cargo': 'contabilidad', 'salario': 20000, 'seguro social': 542542, 'edad': 35, 'direccion': 'Calle Falsa 123'}
+{'nombre': 'Rodrigo', 'cargo': 'RRHH', 'salario': 20000, 'seguro social': 809574, 'edad': 33, 'direccion': 'una calle hay numero algo'}
+{'nombre': 'ana', 'cargo': 'mantenimiento', 'salario': 20000, 'seguro social': 152634, 'edad': 28, 'direccion': 'calle 13'}
+{'nombre': 'Lorine', 'cargo': 'monitoreo', 'salario': 20000, 'seguro social': 121350, 'edad': 25, 'direccion': 'zona colonial'}
+{'nombre': 'Daneyris', 'cargo': 'soporte tecnico', 'salario': 20000, 'seguro social': 304020, 'edad': 30, 'direccion': 'kings Landing'}

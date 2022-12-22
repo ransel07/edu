@@ -1,5 +1,0 @@
-{'titulo': 'Harry Potter y el Prisionero de Askaban', 'autor': 'J.K. Rolling', 'año': 1999, 'genero': 'Fantasía'}
-{'titulo': 'El señor de los anillos', 'autor': 'J.R.R. Tolkien', 'año': 1954, 'genero': 'Fantasía'}
-{'titulo': 'Game of Throne', 'autor': 'George R. R. Martin', 'año': 1996, 'genero': 'Fantasía Medival'}
-{'titulo': 'Los juegos del hambre', 'autor': 'Suzanne Collins', 'año': 2008, 'genero': 'Ficción adulto joven'}
-{'titulo': 'Danza de dragones', 'autor': 'George R. R. Martin', 'año': 2011, 'genero': 'Fantasía Medival'}

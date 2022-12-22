@@ -189,8 +189,15 @@ def PromedioFinal():
 # de cada estudiante en un registro. Utiliza un arreglo de estos registros para 
 # luego mostrar la lista de estudiantes ordenada por promedio final.
 
-
-
+def PromedioFinal2():
+    with open("estudiates2.txt", "w") as promedio2:
+        lista = re.estudiantes
+        for line in lista:
+            promedio2.writelines(str(line) + "\n")
+    with open("estudiantes2.txt", "r") as WrithProm:
+        escritura = WrithProm.writelines()
+        
+PromedioFinal2()
 # Crea un archivo de texto con información sobre diferentes productos en una tienda 
 # (nombre, precio, cantidad disponible, etc.). Luego, escribe un programa en Python 
 # que lea el archivo y almacene la información de cada producto en un registro. 
@@ -200,24 +207,17 @@ def PromedioFinal():
 def producto2():
     with open("productos2.txt", "w") as productos:
         le = re.lista_productos
-        cont = 1
         for i in le:
-            presentacion = "Articulo " + str(cont)
-            productos.writelines(str(presentacion) + "\n")
-            productos.writelines("\n")
-            cont = cont + 1
-            for e in i:
-                productos.writelines(str(e) + " : " + str(i[e]) + "\n")
-            productos.writelines("\n")      
-
+            productos.writelines(str(i) + "\n")
+    
     with open("productos2.txt", "r") as articulo:
         lectura = articulo.readlines()
 
-        arreglo = re.lista_productos
-        
-        print(" Lista de Articulos ")
         print(" ")
-        for registro in arreglo: 
+        print("-----------Articulos disponibles-----------")
+        print(" ")
+
+        for registro in le: 
             print(registro["nombre"])
         
         print(" ")
@@ -225,16 +225,15 @@ def producto2():
         print(" ")
         nombre = str(input("Articulo = "))
         
-        for registro in arreglo: # Revisar cada "registro" (producto,1,2..) del arrglo (re.lista_productos)
+        for registro in le: # Revisar cada "registro" (producto,1,2..) del arrglo (re.lista_productos)
             if nombre == registro["nombre"]: # 
                 for elemento in registro: # Revisar cada "elemento" 
                     print(elemento, " : ", registro[elemento])
-            
-producto2()
-
-        
-            
-
+            elif nombre != registro["nombre"]:
+                print(f"{nombre} no esta registrado en la lista de productos")
+                print(" ")
+                nombre = str(input("Articulo = ")) # Esto tiene el inconveniente de que al acabarce el bucle no se vuelve a repetir
+#producto2()
 
 # Crea un archivo de texto con información sobre diferentes empleados de una empresa 
 # (nombre, cargo, salario, etc.). Luego, escribe un programa en Python que lea el archivo 
