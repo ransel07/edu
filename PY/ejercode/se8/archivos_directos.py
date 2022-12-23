@@ -1,6 +1,7 @@
-import regis_ejemp as re
-import struct
+import regis_ejemp as re #
+import struct            #
 
+#_________________________________________________________________________________________________________
 # Escribir una lista de números en un archivo binario y leerla luego
 
 lista = [1, 2, 3, 4, 5, 6, 10, 123, 850, 1030, 3540, 7550, 15000]
@@ -10,6 +11,7 @@ with open("archivoDirecto.bin", "wb") as proof:
 with open("archivoDirecto.bin", "rb") as proof:
     lectura = proof.read()
 
+#_________________________________________________________________________________________________________
 # Copiar el contenido de un archivo de texto a otro:
 
 with open("archivoProof.txt", "w") as proof2:
@@ -22,6 +24,7 @@ with open("archivoProof.txt", "r") as proof2:
         for r in lectura:
             proof3.write(str(r) + "\n")
 
+#_________________________________________________________________________________________________________
 # Crear un archivo de texto y contar el número de palabras:
 with open("ejemplosConteo.txt", "w") as x:
     lista = re.lista_productos
@@ -31,6 +34,7 @@ with open("ejemplosConteo.txt", "r") as x:
     lectura2 = x.read()
     #print(len(lectura2))
 
+#-----------------------------------------------------------------------------------------------------------------
 # Leer un archivo de imágenes en formato JPEG y escribir un archivo 
 # de imágenes en formato PNG
 def f():
@@ -44,44 +48,42 @@ def f():
     with open("Datos de la historia.pdf", "wb") as picture:
         picture.write(reads)
 
-# Crea un archivo binario llamado "datos.bin" que contenga una 
-# lista de nombres y edades. Luego, escribe un programa que 
-# lea el archivo y muestre el nombre y la edad de cada persona.
+#_________________________________________________________________________________________________________
+#           Crea un archivo binario llamado "datos.bin" que contenga una 
+#           lista de nombres y edades. Luego, escribe un programa que 
+#           lea el archivo y muestre el nombre y la edad de cada persona.
+
 
 with open ("datos.bin", "wb") as dt:
     ls = re.personas
-    contador = 0
     for reg in ls:
-        contador += 1
         # Se le aplica la funsion encode() para convertirlos a binarios
         # se le aplica la el modulo struct con la funsion pack() para convertirlos en un pack
         #El formato 'is' indica que la cadena de bytes contiene un entero ('i') seguido de una 
         # cadena de caracteres ('s'). Si quisieras empacar más elementos, podrías utilizar un formato diferente.
-        top = struct.pack('is', contador, 'Registro #'.encode())
+        reg1 = reg["nombre"].encode()
+        reg2 = reg["edad"]
+        reg3 = reg["direccion"].encode()
+        
+        top = struct.pack('sis', reg1, reg2, reg3)
         #En este caso, no se utiliza la función pack() porque sólo se quiere escribir una 
         # cadena de bytes que contenga un salto de línea, y no empacar varios valores en una 
         # cadena de bytes.
         lineJump = "\n".encode()
         dt.write(top + lineJump) 
-        for element in reg:
-            #En el caso de las cadenas de caracteres, es necesario utilizar la función encode() 
-            # para convertir las cadenas de caracteres en cadenas de bytes antes de empacarlas. 
-            # Esto se debe a que la función pack() sólo puede empacar cadenas de bytes, no cadenas 
-            # de caracteres.
-            e = struct.pack('ss', element.encode(), " : ".encode()) 
-            clave = str(reg[element]).encode() 
-            dt.write(e + clave + lineJump)
+        
 with open("datos.bin", "rb") as dtr:
-    # Se le aplica el metodo decode() para convertirlos a cadena de texto
-    reading = dtr.read()
-    (x, y) = struct.unpack("is", top) # (x, y) es porque a cada cual se le asigna lo elemento que se empaquetaron anteriormente
-    print(x, y.decode()) # decode() para descodificar los bytes de la cadena de caracteres
+    # Se lee el contenido del archivo línea por línea
+    for linea in dtr:
+        # Se desempacan los datos de la línea de acuerdo al formato especificado
+        dato = struct.unpack("sis", linea)
+        # Se imprimen los datos desempacados
+        print(dato)
 
-    def f(): #colocado para deshabilitar 
-        for reg in reading:
-            struct.unpack(top)
+        #(x, y) = struct.unpack("is", top) # (x, y) es porque a cada cual se le asigna lo elemento que se empaquetaron anteriormente
+        
+        #print(y.decode())
+    #print(x, y.decode()) # decode() para descodificar los bytes de la cadena de caracteres
 
-            if element == (reg["nombre"]):
-                    print(element)
 
 # get() devuelve el valor de una clave específica en un diccionario.
