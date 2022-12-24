@@ -207,19 +207,31 @@ def f():
                 for e in record[element]:
                     print(f"{e} : {record[element][e]}")
 
-with open ("empleados.bin", "rb") as emp: #   Factor de Suma de salarios, para saber el total de nomina
+def f():
+    with open ("empleados.bin", "rb") as emp: #   Factor de Suma de salarios, para saber el total de nomina
+        file = pickle.load(emp)
+        sum = 0
+        for id in file:
+            for DataEmploy in id: # dentro del id
+                registro = id[DataEmploy]
+                for elemento in registro:
+                    sueldo = registro["salario"]
+                sum = sum + sueldo
+        print(f"Total de nomina = {sum}")
+
+with open ("empleados.bin", "rb") as emp: # si se escribe el id que aparezca la lista al que corresponde
     file = pickle.load(emp)
-    sum = 0
-    for id in file:
-        for DataEmploy in id: # dentro del id
-            registro = id[DataEmploy]
-            for elemento in registro:
-                sueldo = registro["salario"]
-            sum = sum + sueldo
-    print(f"Total de nomina = {sum}")
-
-# si se escribe el id que aparezca la lista al que corresponde
-
+    buscador = int(input("Employee Code = "))
+    for ids in file:
+        for line in ids:
+            id = ids[line]
+            if line == buscador:
+                for element in id:
+                    print (f"{element} : {id[element]}")
+            
+        
+            
+            
 
 # Crea un archivo binario llamado "productos.bin" que contenga una lista de productos 
 # de una tienda. Cada producto debe tener un código de barras único, nombre, precio, 
