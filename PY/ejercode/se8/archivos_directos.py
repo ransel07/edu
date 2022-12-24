@@ -194,12 +194,12 @@ def f():
 # una empresa. Cada empleado debe tener un número de identificación único, nombre, edad, 
 # género y puesto de trabajo. Escriba un programa que lea el archivo y muestre toda la 
 # información de cada empleado.
-
-with open("empleados.bin", "wb") as emp:
-    rrhh = re.empleados
-    write = pickle.dump(rrhh, emp)
-
 def f():
+    with open("empleados.bin", "wb") as emp:
+        rrhh = re.empleados
+        write = pickle.dump(rrhh, emp)
+
+
     with open ("empleados.bin", "rb") as emp:
         file = pickle.load(emp)
         for record in file:
@@ -207,7 +207,7 @@ def f():
                 for e in record[element]:
                     print(f"{e} : {record[element][e]}")
 
-def f():
+
     with open ("empleados.bin", "rb") as emp: #   Factor de Suma de salarios, para saber el total de nomina
         file = pickle.load(emp)
         sum = 0
@@ -219,24 +219,41 @@ def f():
                 sum = sum + sueldo
         print(f"Total de nomina = {sum}")
 
-with open ("empleados.bin", "rb") as emp: # si se escribe el id que aparezca la lista al que corresponde
-    file = pickle.load(emp)
-    buscador = int(input("Employee Code = "))
-    for ids in file:
-        for line in ids:
-            id = ids[line]
-            if line == buscador:
-                for element in id:
-                    print (f"{element} : {id[element]}")
-            
-        
-            
-            
+    with open ("empleados.bin", "rb") as emp: # si se escribe el id que aparezca la lista al que corresponde
+        file = pickle.load(emp)
+        buscador = int(input("Employee Code = "))
+        for ids in file:
+            for line in ids:
+                id = ids[line]
+                if line == buscador:
+                    for element in id:
+                        print (f"{element} : {id[element]}")
 
 # Crea un archivo binario llamado "productos.bin" que contenga una lista de productos 
 # de una tienda. Cada producto debe tener un código de barras único, nombre, precio, 
 # cantidad en inventario y categoría. Escriba un programa que lea el archivo y muestre 
 # la información de todos los productos con un inventario de menos de 10 unidades.
+
+with open("producto.bin", "wb") as product:
+    write = pickle.dump(re.lista_productos, product)
+
+with open("producto.bin", "rb") as product:
+    file = pickle.load(product)
+    def f():
+        print("CODIGO DE CADA PRODUCTO\n")
+        for ids in file:
+            #print(ids)
+            for code in ids:
+                id = ids[code]
+                name = id["nombre"]
+                #print(id)
+                print(f"{name} = {code} \n")
+    input = input("intruduzca el codigo = ")
+    for ids in file:
+        for code in ids:
+            id = ids[code]
+            for element in id:
+
 
 # Crea un archivo binario llamado "estudiantes.bin" que contenga una lista de estudiantes 
 # de una escuela. Cada estudiante debe tener una matrícula única, nombre, apellido, edad, 

@@ -147,13 +147,13 @@ estudiante4 = {
 
 #                           Registros de Productos
 
-producto = {"nombre" : "Ram", "precio" : 75.5,"cantidad disponible" : 50,}
-producto1 = {"nombre" : "Board", "precio" : 200.0, "cantidad disponible" : 10,}
-producto2 = {"nombre" : "Tarjeta de Video", "precio" : 298.3, "cantidad disponible" : 15,}
-producto3 = {"nombre" : "SSD m.2", "precio" : 93.8, "cantidad disponible" : 33,}
-producto4 = {"nombre" : "SSD Kingston 250GB", "precio" : 110.30, "cantidad disponible" : 30,}
-producto5 = {"nombre" : "Hard Drive 2T", "precio" : 145.99, "cantidad disponible" : 53,}
-producto6 = {"nombre" : "Disipador Coolermaster", "precio" : 50.5, "cantidad disponible" : 15,}
+producto = {9534 : {"nombre" : "Ram", "precio" : 75.5,"cantidad disponible" : 50,}}
+producto1 = {7985 : {"nombre" : "Board", "precio" : 200.0, "cantidad disponible" : 10,}}
+producto2 = {3215 : {"nombre" : "Tarjeta de Video", "precio" : 298.3, "cantidad disponible" : 15,}}
+producto3 = {2458 : {"nombre" : "SSD m.2", "precio" : 93.8, "cantidad disponible" : 33,}}
+producto4 = {2358 : {"nombre" : "SSD Kingston 250GB", "precio" : 110.30, "cantidad disponible" : 30,}}
+producto5 = {6547 : {"nombre" : "Hard Drive 2T", "precio" : 145.99, "cantidad disponible" : 53,}}
+producto6 = {8756 : {"nombre" : "Disipador Coolermaster", "precio" : 50.5, "cantidad disponible" : 15,}}
 
 #                           Registros de Individuos
 
