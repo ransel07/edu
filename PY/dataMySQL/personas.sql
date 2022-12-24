@@ -48,4 +48,8 @@ INSERT INTO persons (name, age, address) VALUES ("Ana", 28, "calle 13");
 INSERT INTO persons (name, age, address) VALUES ("Lorine", 25, "zona colonial");
 INSERT INTO persons (name, age, address) VALUES ("Daneyris", 30, "kings Landing");
 
-SELECT * FROM persons;
+SELECT * FROM persons WHERE id = 1;
+SELECT * FROM persons WHERE age = 28 AND name = "Ana";
+
+UPDATE persons SET age = 30 WHERE id = 1;
+

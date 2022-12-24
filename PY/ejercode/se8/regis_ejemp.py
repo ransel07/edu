@@ -194,11 +194,11 @@ individuo4 = {
 
 #                                          Registro de empleados
 
-empleado = {'nombre': 'Juan', "cargo" : "contabilidad", "salario" : 20000, "seguro social" : 542542,'edad': 35, 'direccion': 'Calle Falsa 123'}
-empleado1 = {"nombre" : "Rodrigo", "cargo" : "RRHH", "salario" : 20000, "seguro social" : 809574, "edad" : 33, "direccion" : "una calle hay numero algo"}
-empleado2 = { "nombre" : "ana", "cargo" : "mantenimiento", "salario" : 20000, "seguro social" : 152634, "edad" : 28, "direccion" : "calle 13"}
-empleado3 = {"nombre" : "Lorine", "cargo" : "monitoreo", "salario" : 20000, "seguro social" : 121350, "edad" : 25, "direccion" : "zona colonial"}
-empleado4 = {"nombre" : "Daneyris", "cargo" : "soporte tecnico", "salario" : 20000, "seguro social" : 304020, "edad" : 30, "direccion" : "kings Landing"}
+empleado = {3200 : {'nombre': 'Juan', "cargo" : "contabilidad", "salario" : 23000, "seguro social" : 542542,'edad': 35, 'direccion': 'Calle Falsa 123'}}
+empleado1 = {1785 : {"nombre" : "Rodrigo", "cargo" : "RRHH", "salario" : 53000, "seguro social" : 809574, "edad" : 33, "direccion" : "una calle hay numero algo"}}
+empleado2 = {2533 : { "nombre" : "ana", "cargo" : "mantenimiento", "salario" : 20000, "seguro social" : 152634, "edad" : 28, "direccion" : "calle 13"}}
+empleado3 = {3652 : {"nombre" : "Lorine", "cargo" : "monitoreo", "salario" : 27000, "seguro social" : 121350, "edad" : 25, "direccion" : "zona colonial"}}
+empleado4 = {4896 : {"nombre" : "Daneyris", "cargo" : "soporte tecnico", "salario" : 22000, "seguro social" : 304020, "edad" : 30, "direccion" : "kings Landing"}}
 
 #                                           LISTAS DE REGISTROS
 

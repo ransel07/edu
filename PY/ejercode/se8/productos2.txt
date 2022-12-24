@@ -1,7 +1,0 @@
-{'nombre': 'Ram', 'precio': 75.5, 'cantidad disponible': 50}
-{'nombre': 'Board', 'precio': 200.0, 'cantidad disponible': 10}
-{'nombre': 'Tarjeta de Video', 'precio': 298.3, 'cantidad disponible': 15}
-{'nombre': 'SSD m.2', 'precio': 93.8, 'cantidad disponible': 33}
-{'nombre': 'SSD Kingston 250GB', 'precio': 110.3, 'cantidad disponible': 30}
-{'nombre': 'Hard Drive 2T', 'precio': 145.99, 'cantidad disponible': 53}
-{'nombre': 'Disipador Coolermaster', 'precio': 50.5, 'cantidad disponible': 15}
