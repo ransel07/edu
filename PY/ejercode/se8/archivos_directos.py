@@ -189,7 +189,7 @@ def f():
 
 
 
-
+#_________________________________________________________________________________________________________
 # Crea un archivo binario llamado "empleados.bin" que contenga una lista de empleados de 
 # una empresa. Cada empleado debe tener un número de identificación único, nombre, edad, 
 # género y puesto de trabajo. Escriba un programa que lea el archivo y muestre toda la 
@@ -229,17 +229,19 @@ def f():
                     for element in id:
                         print (f"{element} : {id[element]}")
 
+#_________________________________________________________________________________________________________
 # Crea un archivo binario llamado "productos.bin" que contenga una lista de productos 
 # de una tienda. Cada producto debe tener un código de barras único, nombre, precio, 
 # cantidad en inventario y categoría. Escriba un programa que lea el archivo y muestre 
 # la información de todos los productos con un inventario de menos de 10 unidades.
 
-with open("producto.bin", "wb") as product:
-    write = pickle.dump(re.lista_productos, product)
+def f():
+    with open("producto.bin", "wb") as product:
+        write = pickle.dump(re.lista_productos, product)
 
-with open("producto.bin", "rb") as product:
-    file = pickle.load(product)
-    def f():
+    with open("producto.bin", "rb") as product:
+        file = pickle.load(product)
+        
         print("CODIGO DE CADA PRODUCTO\n") # imprime el codigo de cada producto.
         for ids in file:
             for code in ids:
@@ -254,7 +256,7 @@ with open("producto.bin", "rb") as product:
                 if input == code_:
                     for element in id_:
                         print(f"{element} : {id_[element]}")
-    
+
         for ids in file: #programa que imprime los elementos que tienen menos de 10 unidades.
             for code in ids:
                 id = ids[code]
@@ -262,17 +264,63 @@ with open("producto.bin", "rb") as product:
                 if warehouse < 10:
                     for element in id:
                         print (f"{element} : {id[element]}")
-                
 
-
-
+#_________________________________________________________________________________________________________
 # Crea un archivo binario llamado "estudiantes.bin" que contenga una lista de estudiantes 
 # de una escuela. Cada estudiante debe tener una matrícula única, nombre, apellido, edad, 
 # curso y calificación final. Escriba un programa que lea el archivo y muestre la información 
 # de todos los estudiantes que hayan aprobado (calificación mayor o igual a 70).
 
+def f():
+    with open("estudiantes.bin", "wb") as archive:
+        pickle.dump(re.estudiantes, archive)
 
+    with open("estudiantes.bin", "rb") as archive:
+        file = pickle.load(archive)
+        
+        promedios = []
+        
+        for ids0 in file:
+            contador = 0
+            for id0 in ids0:
+                reg0 = ids0[id0] # El interior de las matriculas
+                #print(reg0)
+                sum = 0
+                for base in reg0:
+                    vaule = reg0[base]
+                    #print(base)
+                    if isinstance(vaule, int): # isinstance(objeto, clase) #Comprobar que objeto sea de una clase especifica
+                        sum += vaule
+                contador += 1
+                #print (sum)
+                prom = round(sum/3)
+                result = prom * 4 / 100
+                promedios.append(result) 
+        #print(promedios)
 
+        for ids in file:
+            for id in ids:
+                reg = ids[id]
+                #print(reg["nombre"] ,reg["examen 1"])
+                #for element in reg:
+                    
+                    #if reg[element] > 70:
+                        #print 
+                    
+
+with open("estudiantes.bin", "wb") as archive:
+        pickle.dump(re.EstudiantesIndex, archive)
+
+with open("estudiantes.bin", "rb") as archive:
+    file = pickle.load(archive)
+    input = input(" Matricula = ")
+    fi = file[input]
+    for element in file:
+        if element == input:
+            for i in element:
+                print(i, element[i])
+
+#_________________________________________________________________________________________________________
 # Crea un archivo binario llamado "facturas.bin" que contenga una lista de facturas de una 
 # empresa. Cada factura debe tener un número de factura único, nombre del cliente, fecha 
 # de emisión, monto total y estado (pagado o pendiente). Escriba un programa que lea el 

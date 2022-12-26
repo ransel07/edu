@@ -198,6 +198,7 @@ def PromedioFinal2():
         escritura = WrithProm.writelines()
         
 PromedioFinal2()
+
 # Crea un archivo de texto con información sobre diferentes productos en una tienda 
 # (nombre, precio, cantidad disponible, etc.). Luego, escribe un programa en Python 
 # que lea el archivo y almacene la información de cada producto en un registro. 

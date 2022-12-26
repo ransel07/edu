@@ -92,58 +92,50 @@ libro["año"] = 1999
 # Crea un registro llamado "estudiante" que contenga los campos "nombre", "edad", "promedio" y "becado". Luego, 
 # crea una variable de este tipo de registro y asígnale valores a sus campos.
 
-#                           Registros de Estudiantes
+#                           Lista de Registros de Estudiantes
 
-estudiante = {
-    "nombre" : "Ransel",
-    "edad" : "27",
-    "examen 1" : 90,
-    "examen 2" : 30,
-    "examen 3" : 70,
-    "promedio" : 2.0,
-    "becado" : "Si"
-}
+estudiantes = [{"2018-5542" : {"nombre" : "Ansel","edad" : "27", "examen 1" : 90,"examen 2" : 30,"examen 3" : 70, "becado" : "Si"}},
+{"2018-3054" : {"nombre" : "Rodrigo","edad" : "33","examen 1" : 70,"examen 2" : 60,"examen 3" : 70, "becado" : "no"}},
+{"2018-2045" : {"nombre" : "ana","edad" : "17","examen 1" : 72,"examen 2" : 79,"examen 3" : 85,"becado" : "no"}},
+{"2018-5563" : {"nombre" : "Lorine","edad" : "25","examen 1" : 81,"examen 2" : 89,"examen 3" : 90, "becado" : "no"}}, 
+{"2018-5564" : {"nombre" : "Daneyris","edad" : "30","examen 1" : 94,"examen 2" : 95,"examen 3" : 99, "becado" : "no"}},
+{"2018-9657" : {"nombre" : "Magnolia", "edad" : "20","examen 1" : 87,"examen 2" : 85,"examen 3" : 79, "becado" : "no"}},
+{"2017-1257" : {"nombre" : "Marco", "edad" : "26","examen 1" : 92,"examen 2" : 70,"examen 3" : 59, "becado" : "no"}},
+{"2018-7257" : {"nombre" : "Layla", "edad" : "26","examen 1" : 85,"examen 2" : 75,"examen 3" : 87, "becado" : "no"}},
+{"2018-4537" : {"nombre" : "Loyda", "edad" : "25","examen 1" : 99,"examen 2" : 97,"examen 3" : 99,"becado" : "si"}},
+{"2019-1234": {"nombre": "Juan", "edad": "22", "examen 1": 85, "examen 2": 95, "examen 3": 80, "becado": "No"}},
+{"2019-5678": {"nombre": "Ana", "edad": "20", "examen 1": 75, "examen 2": 85, "examen 3": 90, "becado": "no"}},
+{"2018-9101": {"nombre": "Pedro", "edad": "25", "examen 1": 95, "examen 2": 85, "examen 3": 80, "becado": "No"}},
+{"2018-1213": {"nombre": "Laura", "edad": "24", "examen 1": 85, "examen 2": 75, "examen 3": 90, "becado": "no"}},
+{"2019-2424": {"nombre": "Mario", "edad": "23", "examen 1": 80, "examen 2": 90, "examen 3": 85, "becado": "No"}},
+{"2018-3434": {"nombre": "Sandra", "edad": "21", "examen 1": 95, "examen 2": 80, "examen 3": 75, "becado": "no"}},
+{"2019-4545": {"nombre": "Pablo", "edad": "26", "examen 1": 96, "examen 2": 75, "examen 3": 80, "becado": "No"}},
+{"2018-5656": {"nombre": "Raquel", "edad": "25", "examen 1": 85, "examen 2": 95, "examen 3": 70, "becado": "no"}},
+{"2019-6767": {"nombre": "Gustavo", "edad": "24", "examen 1": 75, "examen 2": 85, "examen 3": 90, "becado": "No"}},
+{"2018-7878": {"nombre": "Gloria", "edad": "23", "examen 1": 95, "examen 2": 80, "examen 3": 75, "becado": "no"}}]
 
-estudiante1 = {
-    "nombre" : "Rodrigo",
-    "edad" : 33,
-    "examen 1" : 70,
-    "examen 2" : 60,
-    "examen 3" : 70,
-    "promedio" : 2.9,
-    "becado" : "si"
-}
 
-estudiante2 = {
-    "nombre" : "ana",
-    "edad" : 17,
-    "examen 1" : 70,
-    "examen 2" : 79,
-    "examen 3" : 85,
-    "promedio" : 4.0,
-    "becado" : "si"
-}
+#                                                     Registros de Estudiantes indexados
 
-estudiante3 = {
-    "nombre" : "Lorine",
-    "edad" : 25,
-    "examen 1" : 80,
-    "examen 2" : 89,
-    "examen 3" : 90,
-    "promedio" : 2.0,
-    "becado" : "no"
-}
-
-estudiante4 = {
-    "nombre" : "Daneyris",
-    "edad" : 30,
-    "examen 1" : 90,
-    "examen 2" : 95,
-    "examen 3" : 99,
-    "promedio" : 2.1,
-    "becado" : "si"
-}
-
+EstudiantesIndex = {"2018-5542" : {"nombre" : "Ansel","edad" : "27", "examen 1" : 90,"examen 2" : 30,"examen 3" : 70, "becado" : "Si"},
+"2018-3054" : {"nombre" : "Rodrigo","edad" : "33","examen 1" : 70,"examen 2" : 60,"examen 3" : 70, "becado" : "no"},
+"2018-2045" : {"nombre" : "ana","edad" : "17","examen 1" : 72,"examen 2" : 79,"examen 3" : 85,"becado" : "no"},
+"2018-5563" : {"nombre" : "Lorine","edad" : "25","examen 1" : 81,"examen 2" : 89,"examen 3" : 90, "becado" : "no"}, 
+"2018-5564" : {"nombre" : "Daneyris","edad" : "30","examen 1" : 94,"examen 2" : 95,"examen 3" : 99, "becado" : "no"},
+"2018-9657" : {"nombre" : "Magnolia", "edad" : "20","examen 1" : 87,"examen 2" : 85,"examen 3" : 79, "becado" : "no"},
+"2017-1257" : {"nombre" : "Marco", "edad" : "26","examen 1" : 92,"examen 2" : 70,"examen 3" : 59, "becado" : "no"},
+"2018-7257" : {"nombre" : "Layla", "edad" : "26","examen 1" : 85,"examen 2" : 75,"examen 3" : 87, "becado" : "no"},
+"2018-4537" : {"nombre" : "Loyda", "edad" : "25","examen 1" : 99,"examen 2" : 97,"examen 3" : 99,"becado" : "si"},
+"2019-1234" : {"nombre": "Juan", "edad": "22", "examen 1": 85, "examen 2": 95, "examen 3": 80, "becado": "No"},
+"2019-5678" : {"nombre": "Ana", "edad": "20", "examen 1": 75, "examen 2": 85, "examen 3": 90, "becado": "no"},
+"2018-9101" : {"nombre": "Pedro", "edad": "25", "examen 1": 95, "examen 2": 85, "examen 3": 80, "becado": "No"},
+"2018-1213" : {"nombre": "Laura", "edad": "24", "examen 1": 85, "examen 2": 75, "examen 3": 90, "becado": "no"},
+"2019-2424" : {"nombre": "Mario", "edad": "23", "examen 1": 80, "examen 2": 90, "examen 3": 85, "becado": "No"},
+"2018-3434" : {"nombre": "Sandra", "edad": "21", "examen 1": 95, "examen 2": 80, "examen 3": 75, "becado": "no"},
+"2019-4545" : {"nombre": "Pablo", "edad": "26", "examen 1": 96, "examen 2": 75, "examen 3": 80, "becado": "No"},
+"2018-5656" : {"nombre": "Raquel", "edad": "25", "examen 1": 85, "examen 2": 95, "examen 3": 70, "becado": "no"},
+"2019-6767" : {"nombre": "Gustavo", "edad": "24", "examen 1": 75, "examen 2": 85, "examen 3": 90, "becado": "No"},
+"2018-7878" : {"nombre": "Gloria", "edad": "23", "examen 1": 95, "examen 2": 80, "examen 3": 75, "becado": "no"}}
 
 #                           Registros de Productos
 
@@ -192,13 +184,21 @@ individuo4 = {
     "estado" : "Santo Domingo"
 }
 
-#                                          Registro de empleados
+#                                          LISTAS de Registro de empleados
 
-empleado = {3 : {'nombre': 'Juan', "cargo" : "contabilidad", "salario" : 23000, "seguro social" : 542542,'edad': 35, 'direccion': 'Calle Falsa 123'}}
-empleado1 = {1 : {"nombre" : "Rodrigo", "cargo" : "RRHH", "salario" : 53000, "seguro social" : 809574, "edad" : 33, "direccion" : "una calle hay numero algo"}}
-empleado2 = {2 : { "nombre" : "ana", "cargo" : "mantenimiento", "salario" : 20000, "seguro social" : 152634, "edad" : 28, "direccion" : "calle 13"}}
-empleado3 = {4 : {"nombre" : "Lorine", "cargo" : "monitoreo", "salario" : 27000, "seguro social" : 121350, "edad" : 25, "direccion" : "zona colonial"}}
-empleado4 = {5 : {"nombre" : "Daneyris", "cargo" : "soporte tecnico", "salario" : 22000, "seguro social" : 304020, "edad" : 30, "direccion" : "kings Landing"}}
+empleados = [{204600003: {'nombre': 'Ana', "cargo": "ventas", "salario": 35000, "seguro social": 454545, 'edad': 30, 'direccion': 'Calle Falsa 456'}},
+{204600004: {'nombre': 'Pedro', "cargo": "recursos humanos", "salario": 27000, "seguro social": 345345, 'edad': 25, 'direccion': 'Calle #9 789'}},
+{204600005: {'nombre': 'Laura', "cargo": "administración", "salario": 32000, "seguro social": 757575, 'edad': 28, 'direccion': 'Calle Falsa 159'}},
+{204600006: {'nombre': 'Mario', "cargo": "soporte técnico", "salario": 25000, "seguro social": 242424, 'edad': 29, 'direccion': 'Calle Empanada 357'}},
+{204600007: {'nombre': 'Sandra', "cargo": "ventas", "salario": 30000, "seguro social": 131313, 'edad': 24, 'direccion': 'Calle De verdad 258'}},
+{204600008: {'nombre': 'Pablo', "cargo": "recursos humanos", "salario": 29000, "seguro social": 121212, 'edad': 23, 'direccion': 'Calle Falsa 369'}},
+{204600009: {'nombre': 'Raquel', "cargo": "administración", "salario": 31000, "seguro social": 101010, 'edad': 27, 'direccion': 'Calle Falsa 159'}},
+{204600011: {'nombre': 'Carla', "cargo": "soporte técnico", "salario": 26000, "seguro social": 90909, 'edad': 22, 'direccion': 'Calle Falsa 159'}},
+{204600012: {'nombre': 'Gustavo', "cargo": "ventas", "salario": 33000, "seguro social": 88888, 'edad': 26, 'direccion': 'Calle Falsa 555'}},
+{204600013: {'nombre': 'Gloria', "cargo": "recursos humanos", "salario": 30000, "seguro social": 77777, 'edad': 29, 'direccion': 'Calle Falsa 666'}},
+{204600014: {'nombre': 'Hector', "cargo": "administración", "salario": 34000, "seguro social": 66666, 'edad': 24, 'direccion': 'Calle Falsa 777'}},
+
+]
 
 #                                           LISTAS DE REGISTROS
 
@@ -209,26 +209,13 @@ libros_titulo = [ libro["titulo"],  libro1["titulo"],  libro2["titulo"],  libro3
 libros_titulo1 = [libro, libro1, libro2, libro3, libro4]
 lbn = [ libro]
 autor =  libro['autor']
-estudiantes = [ estudiante,  estudiante1,  estudiante2,  estudiante3,  estudiante4]
 lista_productos = [ producto,  producto1,  producto2,  producto3, producto4, producto5, producto6]
-lista_promedios = [ estudiante["promedio"],  estudiante1["promedio"],  estudiante2["promedio"],  estudiante3["promedio"],  estudiante4["promedio"]]
 lista_individuos = [individuo, individuo1, individuo2, individuo3, individuo4]
-empleados = [empleado, empleado1, empleado2, empleado3, empleado4]
 
 
-def promedio():
-    for elemento in estudiantes:
-        examen1 = int(elemento["examen 1"])        
-        examen2 = int(elemento["examen 2"])
-        examen3 = int(elemento["examen 3"])
-        sum =  examen1 + examen2 + examen3
-        base4 = sum/25
-        promedio = base4/3
-        elemento["promedio"] = round(promedio, 1)    # Redondeo del "promedio" que se introduce en el "elemento["promedio"]"
-        
-        
-promedio()
 
-estudiantes = [ estudiante,  estudiante1,  estudiante2,  estudiante3,  estudiante4]
+
+
+
 
 
