@@ -240,25 +240,38 @@ with open("producto.bin", "wb") as product:
 with open("producto.bin", "rb") as product:
     file = pickle.load(product)
     def f():
-        print("CODIGO DE CADA PRODUCTO\n")
+        print("CODIGO DE CADA PRODUCTO\n") # imprime el codigo de cada producto.
         for ids in file:
-            #print(ids)
             for code in ids:
                 id = ids[code]
                 name = id["nombre"]
-                #print(id)
                 print(f"{name} = {code} \n")
-    input = input("intruduzca el codigo = ")
-    for ids in file:
-        for code in ids:
-            id = ids[code]
-            for element in id:
+        
+        input = int(input("intruduzca el codigo = \n")) #  Se imprime un producto al introducir su codigo.
+        for ids_ in file:
+            for code_ in ids_:
+                id_ = ids_[code_]
+                if input == code_:
+                    for element in id_:
+                        print(f"{element} : {id_[element]}")
+    
+        for ids in file: #programa que imprime los elementos que tienen menos de 10 unidades.
+            for code in ids:
+                id = ids[code]
+                warehouse = id["cantidad disponible"]
+                if warehouse < 10:
+                    for element in id:
+                        print (f"{element} : {id[element]}")
+                
+
 
 
 # Crea un archivo binario llamado "estudiantes.bin" que contenga una lista de estudiantes 
 # de una escuela. Cada estudiante debe tener una matrícula única, nombre, apellido, edad, 
 # curso y calificación final. Escriba un programa que lea el archivo y muestre la información 
 # de todos los estudiantes que hayan aprobado (calificación mayor o igual a 70).
+
+
 
 # Crea un archivo binario llamado "facturas.bin" que contenga una lista de facturas de una 
 # empresa. Cada factura debe tener un número de factura único, nombre del cliente, fecha 
