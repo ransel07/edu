@@ -333,15 +333,33 @@ def f():
 # tener una lista de nombres y edades separados por una coma. Cada línea del archivo debe tener un registro 
 # diferente. El archivo indexado debe tener índices que apunten a cada registro del archivo de texto.
 
-def f():
+def empleados():
+    archive_bin = "EmpleadosTec_No_Index.bin"
+    with open(archive_bin, "wb") as archive:
+        stafs = re.empleadosNU
+        pickle.dump(stafs, archive)
     indice = {}
-    with open("EmpleadosTecIndex.txt", "w") as archive:
-        stafs = re.EmpladosTecIndex
-        for i, employe in enumerate(stafs):
-            pickle.dumps(stafs)
-            indice[employe["nombre"]] = i
+    def Read_Archive(archive_bin):
+        with open(archive_bin, "rb") as archive:
+            file = pickle.load(archive)
+            
+            for i, data in enumerate(file):
+                indice[data["nombre"]] = i
 
-f()
+            NewRegitry = {}
+            for regitry, id in zip(file, indice):
+                NewRegitry[id] = regitry
+            
+        with open("EmpleadosTec_Index.bin", "wb") as no_index:
+            pickle.dump(NewRegitry, no_index)
+        with open("EmpleadosTec_Index.bin", "rb") as no_index:
+            readFile = pickle.load(no_index)
+            for frame in readFile:
+                print(f"{frame} : {readFile[frame]} \n")
+    Read_Archive(archive_bin)
+
+empleados()
+
 
 #_________________________________________________________________________________________________________
 #Crea una función que lea un archivo indexado y muestre el nombre y el puesto de los empleados que tienen 
@@ -355,7 +373,7 @@ def ReadIndex():
             #for ids in line:
                 #print(ids)
 
-ReadIndex()
+
 
 #_________________________________________________________________________________________________________
 #Crea un programa que permita agregar, eliminar y modificar registros en un archivo indexado creado 

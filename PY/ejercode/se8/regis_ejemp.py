@@ -150,7 +150,25 @@ EmpladosTecIndex = {"Juan": {"edad": 25, "salario": 1500, "puesto": "Programador
 "Miguel": {"edad": 65, "salario": 5500, "puesto": "Experto en machine learning", "tiempo_trabajando": 40, "tiene_seguro": False},
 "Carla": {"edad": 70, "salario": 6000, "puesto": "Experto en inteligencia artificial", "tiempo_trabajando": 40, "tiene_seguro": False}}
 
-#                           Registros de Productos
+#                                lista de empleados
+
+empleadosNU = [{"nombre": "Juan", "edad": 25, "salario": 1500, "puesto": "Programador", "tiempo_trabajando": 2},
+{"nombre": "Ana", "edad": 30, "salario": 2000, "puesto": "Analista de datos", "tiempo_trabajando": 5},
+{"nombre": "Pedro", "edad": 35, "salario": 2500, "puesto": "Jefe de proyecto", "tiempo_trabajando": 10},
+{"nombre": "Sofía", "edad": 40, "salario": 3000, "puesto": "Gerente de TI", "tiempo_trabajando": 15},
+{"nombre": "Mario", "edad": 45, "salario": 3500, "puesto": "Director de TI", "tiempo_trabajando": 20},
+{"nombre": "Laura", "edad": 50, "salario": 4000, "puesto": "Consultora de TI", "tiempo_trabajando": 25},
+{"nombre": "Pablo", "edad": 55, "salario": 4500, "puesto": "Experto en seguridad informática", "tiempo_trabajando": 30},
+{"nombre": "Rocío", "edad": 60, "salario": 5000, "puesto": "Experto en bases de datos", "tiempo_trabajando": 35},
+{"nombre": "Miguel", "edad": 65, "salario": 5500, "puesto": "Experto en machine learning", "tiempo_trabajando": 40},
+{"nombre": "Carla", "edad": 70, "salario": 6000, "puesto": "Experto en inteligencia artificial", "tiempo_trabajando": 40},
+{"nombre": "Fernando", "edad": 35, "salario": 2500, "puesto": "Jefe de proyecto", "tiempo_trabajando": 10},
+{"nombre": "Gloria", "edad": 40, "salario": 3000, "puesto": "Gerente de TI", "tiempo_trabajando": 15},
+{"nombre": "Hector", "edad": 45, "salario": 3500, "puesto": "Director de TI", "tiempo_trabajando": 20},
+{"nombre": "Irina", "edad": 50, "salario": 4000, "puesto": "Consultora de TI", "tiempo_trabajando": 25},
+{"nombre": "Javier", "edad": 55, "salario": 4500, "puesto": "Experto en seguridad informática", "tiempo_trabajando": 30}]
+
+#                               Registros de Productos
 
 producto = {9534 : {"nombre" : "Ram", "precio" : 75.5,"cantidad disponible" : 50,}}
 producto1 = {7985 : {"nombre" : "Board", "precio" : 200.0, "cantidad disponible" : 9,}}
@@ -199,7 +217,7 @@ individuo4 = {
 
 #                                          LISTAS de Registro de empleados
 
-empleados = [{204600003: {'nombre': 'Ana', "cargo": "ventas", "salario": 35000, "seguro social": 454545, 'edad': 30, 'direccion': 'Calle Falsa 456'}},
+empleadosCode = [{204600003: {'nombre': 'Ana', "cargo": "ventas", "salario": 35000, "seguro social": 454545, 'edad': 30, 'direccion': 'Calle Falsa 456'}},
 {204600004: {'nombre': 'Pedro', "cargo": "recursos humanos", "salario": 27000, "seguro social": 345345, 'edad': 25, 'direccion': 'Calle #9 789'}},
 {204600005: {'nombre': 'Laura', "cargo": "administración", "salario": 32000, "seguro social": 757575, 'edad': 28, 'direccion': 'Calle Falsa 159'}},
 {204600006: {'nombre': 'Mario', "cargo": "soporte técnico", "salario": 25000, "seguro social": 242424, 'edad': 29, 'direccion': 'Calle Empanada 357'}},
