@@ -180,40 +180,19 @@ producto6 = {8756 : {"nombre" : "Disipador Coolermaster", "precio" : 50.5, "cant
 
 #                           Registros de Individuos
 
-individuo = {
-    "nombre" : "Rodrigo",
-    "edad" : 22,
-    "pais" : "EE.UU.",
-    "estado" : "Florida"
-}
 
-individuo1 = {
-    "nombre" : "Ana",
-    "edad" : 30,
-    "pais" : "Colombia",
-    "estado" : "Bogota"
-}
-
-individuo2 = {
-    "nombre" : "Marta",
-    "edad" : 40,
-    "pais" : "España",
-    "estado" : "Madrid"
-}
-
-individuo3 = {
-    "nombre" : "Jonathan",
-    "edad" : 29,
-    "pais" : "Rep. Dom.",
-    "estado" : "Santo Domingo"
-}
-
-individuo4 = {
-    "nombre" : "Vanessa",
-    "edad" : 30,
-    "pais" : "Rep. Dom.",
-    "estado" : "Santo Domingo"
-}
+dominicanos = [{"nombre" : "Jonathan","edad" : 29,"pais" : "Rep. Dom.","estado" : "Santo Domingo"},
+{"nombre" : "Vanessa","edad" : 30,"pais" : "Rep. Dom.","estado" : "Santo Domingo"},
+{"nombre" : "Luis","edad" : 40,"pais" : "Rep. Dom.","estado" : "Santo Domingo"},
+{"nombre" : "Carla","edad" : 35,"pais" : "Rep. Dom.","estado" : "Santo Domingo"},
+{"nombre" : "Andrea","edad" : 25,"pais" : "Rep. Dom.","estado" : "Santo Domingo"},
+{"nombre" : "Roberto","edad" : 32,"pais" : "Rep. Dom.","estado" : "Santo Domingo"},
+{"nombre" : "Sandra","edad" : 28,"pais" : "Rep. Dom.","estado" : "Santo Domingo"},
+{"nombre" : "Javier","edad" : 37,"pais" : "Rep. Dom.","estado" : "Santo Domingo"},
+{"nombre" : "Claudia","edad" : 31,"pais" : "Rep. Dom.","estado" : "Santo Domingo"},
+{"nombre" : "Mario","edad" : 33,"pais" : "Rep. Dom.","estado" : "Santo Domingo"},
+{"nombre" : "Ana","edad" : 30,"pais" : "Rep. Dom.","estado" : "Santo Domingo"},
+{"nombre" : "Pablo","edad" : 29,"pais" : "Rep. Dom.","estado" : "Santo Domingo"}]
 
 #                                          LISTAS de Registro de empleados
 
@@ -227,13 +206,10 @@ empleadosCode = [{204600003: {'nombre': 'Ana', "cargo": "ventas", "salario": 350
 {204600011: {'nombre': 'Carla', "cargo": "soporte técnico", "salario": 26000, "seguro social": 90909, 'edad': 22, 'direccion': 'Calle Falsa 159'}},
 {204600012: {'nombre': 'Gustavo', "cargo": "ventas", "salario": 33000, "seguro social": 88888, 'edad': 26, 'direccion': 'Calle Falsa 555'}},
 {204600013: {'nombre': 'Gloria', "cargo": "recursos humanos", "salario": 30000, "seguro social": 77777, 'edad': 29, 'direccion': 'Calle Falsa 666'}},
-{204600014: {'nombre': 'Hector', "cargo": "administración", "salario": 34000, "seguro social": 66666, 'edad': 24, 'direccion': 'Calle Falsa 777'}},
-
-]
+{204600014: {'nombre': 'Hector', "cargo": "administración", "salario": 34000, "seguro social": 66666, 'edad': 24, 'direccion': 'Calle Falsa 777'}},]
 
 #                                           LISTAS DE REGISTROS
 
-personas_edades = [persona["edad"], persona1["edad"], persona2["edad"], persona3["edad"], persona4["edad"]]
 personas = [persona, persona1, persona2, persona3, persona4]
 libros_autores = [ libro["autor"],  libro1["autor"],  libro2["autor"],  libro3["autor"],  libro4["autor"]]
 libros_titulo = [ libro["titulo"],  libro1["titulo"],  libro2["titulo"],  libro3["titulo"],  libro4["titulo"]]
@@ -241,7 +217,7 @@ libros_titulo1 = [libro, libro1, libro2, libro3, libro4]
 lbn = [ libro]
 autor =  libro['autor']
 lista_productos = [ producto,  producto1,  producto2,  producto3, producto4, producto5, producto6]
-lista_individuos = [individuo, individuo1, individuo2, individuo3, individuo4]
+
 
 
 

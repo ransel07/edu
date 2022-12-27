@@ -1,4 +1,4 @@
-import regis_ejemp as re #
+import dataBaseEdu as db #
 import struct            
 import pickle
 
@@ -20,7 +20,7 @@ def f():
 
 def f():
     with open("archivoProof.txt", "w") as proof2:
-        lista_base = re.empleados
+        lista_base = db.empleados
         for reg in lista_base:
             proof2.write(str(reg) + "\n")
     with open("archivoProof.txt", "r") as proof2:
@@ -33,7 +33,7 @@ def f():
 # Crear un archivo de texto y contar el número de palabras:
 def f():
     with open("ejemplosConteo.txt", "w") as x:
-        lista = re.lista_productos
+        lista = db.lista_productos
         for e in lista:
             x.write((str(e) + "\n"))
     with open("ejemplosConteo.txt", "r") as x:
@@ -61,7 +61,7 @@ def f():
 
 def f():
     with open ("datos.bin", "wb") as dt:
-        ls = re.personas
+        ls = db.personas
         for reg in ls:
             # Se le aplica la funsion encode() para convertirlos a binarios
             # se le aplica la el modulo struct con la funsion pack() para convertirlos en un pack
@@ -92,7 +92,7 @@ def f():
 
 def f():
     with open("date.bin", "wb") as archivo:
-        persons = re.personas
+        persons = db.personas
         pickle.dump(persons, archivo)
     with open("date.bin", "rb") as archivo:
         persons = pickle.load(archivo)
@@ -105,7 +105,7 @@ def f():
 # muestre el nombre, edad y calificación de cada alumno.
 def f():
     with open("datos_alumnos.bin", "wb") as dtalumn:
-        estudiantes = re.estudiantes
+        estudiantes = db.estudiantes
         pickle.dump(estudiantes, dtalumn)
     with open("datos_alumnos.bin", "rb") as dtalumn:
         alumnos = pickle.load(dtalumn)
@@ -124,7 +124,7 @@ def f():
 
 def f():
     with open("datos_empleados.bin", "wb") as P_staff:
-        employees = re.empleados
+        employees = db.empleados
         write = pickle.dump(employees, P_staff)
     with open("datos_empleados.bin", "rb") as P_staff:
         readStaff = pickle.load(P_staff)
@@ -158,7 +158,7 @@ def f():
 
 def f():
     with open("productos.bin", "wb") as datoBin:
-        catalog = re.lista_productos
+        catalog = db.lista_productos
         write = pickle.dump(catalog, datoBin)
     with open("productos.bin", "rb") as datoBin:
         read = pickle.load(datoBin)
@@ -196,7 +196,7 @@ def f():
 # información de cada empleado.
 def f():
     with open("empleados.bin", "wb") as emp:
-        rrhh = re.empleados
+        rrhh = db.empleados
         write = pickle.dump(rrhh, emp)
 
 
@@ -234,10 +234,11 @@ def f():
 # de una tienda. Cada producto debe tener un código de barras único, nombre, precio, 
 # cantidad en inventario y categoría. Escriba un programa que lea el archivo y muestre 
 # la información de todos los productos con un inventario de menos de 10 unidades.
+#_________________________________________________________________________________________________________
 
 def f():
     with open("producto.bin", "wb") as product:
-        write = pickle.dump(re.lista_productos, product)
+        write = pickle.dump(db.lista_productos, product)
 
     with open("producto.bin", "rb") as product:
         file = pickle.load(product)
@@ -270,10 +271,11 @@ def f():
 # de una escuela. Cada estudiante debe tener una matrícula única, nombre, apellido, edad, 
 # curso y calificación final. Escriba un programa que lea el archivo y muestre la información 
 # de todos los estudiantes que hayan aprobado (calificación mayor o igual a 70).
+#_________________________________________________________________________________________________________
 
 def f():
     with open("estudiantes.bin", "wb") as archive:
-        pickle.dump(re.estudiantes, archive)
+        pickle.dump(db.estudiantes, archive)
 
     with open("estudiantes.bin", "rb") as archive:
         file = pickle.load(archive)
@@ -309,7 +311,7 @@ def f():
                     
 def f():
     with open("estudiantes.bin", "wb") as archive:
-            pickle.dump(re.EstudiantesIndex, archive)
+            pickle.dump(db.EstudiantesIndex, archive)
 
     with open("estudiantes.bin", "rb") as archive:
         file = pickle.load(archive)
@@ -325,6 +327,7 @@ def f():
 # empresa. Cada factura debe tener un número de factura único, nombre del cliente, fecha 
 # de emisión, monto total y estado (pagado o pendiente). Escriba un programa que lea el 
 # archivo y muestre la información de todas las facturas pendientes.
+#_________________________________________________________________________________________________________
 
 
 
@@ -332,11 +335,12 @@ def f():
 #Crea un programa que lea un archivo de texto y lo convierta en un archivo indexado. El archivo de texto debe 
 # tener una lista de nombres y edades separados por una coma. Cada línea del archivo debe tener un registro 
 # diferente. El archivo indexado debe tener índices que apunten a cada registro del archivo de texto.
+#_________________________________________________________________________________________________________
 
 def empleados():
     archive_bin = "EmpleadosTec_No_Index.bin"
     with open(archive_bin, "wb") as archive:
-        stafs = re.empleadosNU
+        stafs = db.empleadosNU
         pickle.dump(stafs, archive)
     indice = {}
     def Read_Archive(archive_bin):
@@ -358,12 +362,13 @@ def empleados():
                 print(f"{frame} : {readFile[frame]} \n")
     Read_Archive(archive_bin)
 
-empleados()
+
 
 
 #_________________________________________________________________________________________________________
 #Crea una función que lea un archivo indexado y muestre el nombre y el puesto de los empleados que tienen 
 # más de 5 años de experiencia en la empresa.
+#_________________________________________________________________________________________________________
 
 def ReadIndex():
     with open("EmpleadosTecIndex.txt", "rb") as archive:
@@ -373,12 +378,49 @@ def ReadIndex():
             #for ids in line:
                 #print(ids)
 
+#_________________________________________________________________________________________________________
+#Crea un programa que lea un archivo de texto y lo convierta en un archivo indexado. El archivo de texto 
+# debe tener una lista de nombres, edades y direcciones separados por una coma. Cada línea del archivo 
+# debe tener un registro diferente. El archivo indexado debe tener índices que apunten a cada registro 
+# del archivo de texto y permitan acceder a los datos de cada persona.
+#_________________________________________________________________________________________________________
+def Text():
+    with open("Lista_Dominicanos.txt", "w") as archive:
+        Do = db.dominicanos
+        for line in Do:
+            archive.writelines(str(line) + "\n")
+    
+Text()
+
+archive_DO = "Lista_Dominicanos.txt"
+
+def Index(archive_DO):
+    recordIndex = {}
+    with open(archive_DO, "r") as archive:
+        read = archive.readlines()
+        for line in read:
+            nombre, edad, pais, direccion = line.strip().split(", ")
+            recordIndex[nombre] = edad
+        print (recordIndex)
+
+Index(archive_DO)
+#_________________________________________________________________________________________________________
+#Crea un programa que lea un archivo de texto y lo convierta en un archivo indexado. El archivo de texto 
+# debe tener una lista de nombres, salarios y puestos de trabajo separados por una coma. Cada línea del 
+# archivo debe tener un registro diferente. El archivo indexado debe tener índices que apunten a cada 
+# registro del archivo de texto y permitan acceder a la información de cada empleado.
+#_________________________________________________________________________________________________________
+
+
+
 
 
 #_________________________________________________________________________________________________________
 #Crea un programa que permita agregar, eliminar y modificar registros en un archivo indexado creado 
 # en el ejercicio anterior. El programa debe pedir al usuario el nombre y la edad del registro a 
 # agregar, eliminar o modificar.
+
+
 
 #_________________________________________________________________________________________________________
 #Crea un programa que permita realizar búsquedas en un archivo indexado creado en el ejercicio 1. 
