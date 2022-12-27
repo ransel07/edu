@@ -137,6 +137,19 @@ EstudiantesIndex = {"2018-5542" : {"nombre" : "Ansel","edad" : "27", "examen 1" 
 "2019-6767" : {"nombre": "Gustavo", "edad": "24", "examen 1": 75, "examen 2": 85, "examen 3": 90, "becado": "No"},
 "2018-7878" : {"nombre": "Gloria", "edad": "23", "examen 1": 95, "examen 2": 80, "examen 3": 75, "becado": "no"}}
 
+#                           Registros de EmpleadosTecIndex
+
+EmpladosTecIndex = {"Juan": {"edad": 25, "salario": 1500, "puesto": "Programador", "tiempo_trabajando": 2, "tiene_seguro": True},
+"Ana": {"edad": 30, "salario": 2000, "puesto": "Analista de datos", "tiempo_trabajando": 5, "tiene_seguro": True},
+"Pedro": {"edad": 35, "salario": 2500, "puesto": "Jefe de proyecto", "tiempo_trabajando": 10, "tiene_seguro": False},
+"Sofía": {"edad": 40, "salario": 3000, "puesto": "Gerente de TI", "tiempo_trabajando": 15, "tiene_seguro": True},
+"Mario": {"edad": 45, "salario": 3500, "puesto": "Director de TI", "tiempo_trabajando": 20, "tiene_seguro": False},
+"Laura": {"edad": 50, "salario": 4000, "puesto": "Consultora de TI", "tiempo_trabajando": 25, "tiene_seguro": True},
+"Pablo": {"edad": 55, "salario": 4500, "puesto": "Experto en seguridad informática", "tiempo_trabajando": 30, "tiene_seguro": False},
+"Rocío": {"edad": 60, "salario": 5000, "puesto": "Experto en bases de datos", "tiempo_trabajando": 35, "tiene_seguro": True},
+"Miguel": {"edad": 65, "salario": 5500, "puesto": "Experto en machine learning", "tiempo_trabajando": 40, "tiene_seguro": False},
+"Carla": {"edad": 70, "salario": 6000, "puesto": "Experto en inteligencia artificial", "tiempo_trabajando": 40, "tiene_seguro": False}}
+
 #                           Registros de Productos
 
 producto = {9534 : {"nombre" : "Ram", "precio" : 75.5,"cantidad disponible" : 50,}}

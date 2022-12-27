@@ -307,21 +307,78 @@ def f():
                     #if reg[element] > 70:
                         #print 
                     
+def f():
+    with open("estudiantes.bin", "wb") as archive:
+            pickle.dump(re.EstudiantesIndex, archive)
 
-with open("estudiantes.bin", "wb") as archive:
-        pickle.dump(re.EstudiantesIndex, archive)
-
-with open("estudiantes.bin", "rb") as archive:
-    file = pickle.load(archive)
-    input = input(" Matricula = ")
-    fi = file[input]
-    for element in file:
-        if element == input:
-            for i in element:
-                print(i, element[i])
-
+    with open("estudiantes.bin", "rb") as archive:
+        file = pickle.load(archive)
+        input = input(" Matricula = ")
+        for element in file:
+            data = file[element]
+            #print(file[element])
+            if element == input:
+                for e in data:
+                    print(f"{e} : {data[e]}")
 #_________________________________________________________________________________________________________
 # Crea un archivo binario llamado "facturas.bin" que contenga una lista de facturas de una 
 # empresa. Cada factura debe tener un número de factura único, nombre del cliente, fecha 
 # de emisión, monto total y estado (pagado o pendiente). Escriba un programa que lea el 
 # archivo y muestre la información de todas las facturas pendientes.
+
+
+
+#_________________________________________________________________________________________________________
+#Crea un programa que lea un archivo de texto y lo convierta en un archivo indexado. El archivo de texto debe 
+# tener una lista de nombres y edades separados por una coma. Cada línea del archivo debe tener un registro 
+# diferente. El archivo indexado debe tener índices que apunten a cada registro del archivo de texto.
+
+def f():
+    indice = {}
+    with open("EmpleadosTecIndex.txt", "w") as archive:
+        stafs = re.EmpladosTecIndex
+        for i, employe in enumerate(stafs):
+            pickle.dumps(stafs)
+            indice[employe["nombre"]] = i
+
+f()
+
+#_________________________________________________________________________________________________________
+#Crea una función que lea un archivo indexado y muestre el nombre y el puesto de los empleados que tienen 
+# más de 5 años de experiencia en la empresa.
+
+def ReadIndex():
+    with open("EmpleadosTecIndex.txt", "rb") as archive:
+        read = archive.readlines()
+        for line in read:
+            print (line)
+            #for ids in line:
+                #print(ids)
+
+ReadIndex()
+
+#_________________________________________________________________________________________________________
+#Crea un programa que permita agregar, eliminar y modificar registros en un archivo indexado creado 
+# en el ejercicio anterior. El programa debe pedir al usuario el nombre y la edad del registro a 
+# agregar, eliminar o modificar.
+
+#_________________________________________________________________________________________________________
+#Crea un programa que permita realizar búsquedas en un archivo indexado creado en el ejercicio 1. 
+# El programa debe pedir al usuario un nombre y mostrar todos los registros que contengan ese nombre.
+
+#_________________________________________________________________________________________________________
+#Crea un programa que permita realizar búsquedas en un archivo indexado creado en el ejercicio 1 
+# utilizando diferentes índices. El programa debe permitir buscar por nombre, edad y dirección.
+
+#_________________________________________________________________________________________________________
+#Crea un programa que permita realizar búsquedas en un archivo indexado creado en el ejercicio 1 
+# utilizando índices múltiples. Por ejemplo, el usuario puede buscar todos los registros que tengan un nombre 
+# determinado y una edad determinada.
+
+#_________________________________________________________________________________________________________
+#Crea un programa que permita realizar búsquedas en un archivo indexado creado en el ejercicio 1 
+# utilizando índices de búsqueda binaria. El programa debe permitir buscar por nombre, edad y dirección.
+
+#_________________________________________________________________________________________________________
+#Crea un programa que permita realizar búsquedas en un archivo indexado creado en el ejercicio 1 utilizando 
+# índices hash. El programa debe permitir buscar por nombre, edad y dirección.
