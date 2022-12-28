@@ -1,0 +1,18 @@
+nombre: El señor de los anillos, año: 2001, genero: Fantasía, duración: 3h 48min, calificación: 9.0
+nombre: Matrix, año: 1999, genero: Ciencia ficción, duración: 2h 16min, calificación: 8.7
+nombre: Forrest Gump, año: 1994, genero: Drama, duración: 2h 22min, calificación: 8.8
+nombre: Titanic, año: 1997, genero: Drama, duración: 3h 14min, calificación: 7.7
+nombre: Indiana Jones, año: 1981, genero: Aventura, duración: 1h 55min, calificación: 8.2
+nombre: Pulp Fiction, año: 1994, genero: Thriller, duración: 2h 34min, calificación: 8.9
+nombre: Star Wars: Episodio V, año: 1980, genero: Ciencia ficción, duración: 2h 4min, calificación: 8.7
+nombre: El rey león, año: 1994, genero: Animación, duración: 1h 28min, calificación: 8.5
+nombre: El club de la pelea, año: 1999, genero: Drama, duración: 2h 19min, calificación: 8.3
+nombre: La vida es bella, año: 1997, genero: Comedia, duración: 2h 2min, calificación: 8.6
+nombre: El señor de los anillos: La comunidad del anillo, año: 2001, genero: Acción, duración: 3h 48min, calificación: 8.9
+nombre: Matrix, año: 1999, genero: Ciencia ficción, duración: 2h 16min, calificación: 8.7
+nombre: El rey león, año: 1994, genero: Animación, duración: 1h 28min, calificación: 8.5
+nombre: Forrest Gump, año: 1994, genero: Comedia dramática, duración: 2h 22min, calificación: 8.8
+nombre: Titanic, año: 1997, genero: Drama romántico, duración: 3h 15min, calificación: 7.8
+nombre: Avatar, año: 2009, genero: Ciencia ficción, duración: 2h 42min, calificación: 7.9
+nombre: Piratas del Caribe: La maldición del perla negra, año: 2003, genero: Aventura, duración: 2h 23min, calificación: 8.0
+nombre: Harry Potter y la piedra filosofal, año: 2001, genero: Aventura, duración: 2h 32min, calificación: 7.6

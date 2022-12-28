@@ -1,7 +1,7 @@
 import dataBaseEdu as db #
 import struct            
 import pickle
-
+import json
 
 
 #_________________________________________________________________________________________________________
@@ -389,32 +389,22 @@ def Text():
         Do = db.dominicanos
         for line in Do:
             archive.writelines(str(line) + "\n")
-    
-Text()
 
 archive_DO = "Lista_Dominicanos.txt"
 
 def Index(archive_DO):
+    index = {}
+    contador = 0
     with open(archive_DO, "r") as archive:
-        ls = []
-        index = {}
         read = archive.readlines()
         for line in read:
-            lista = line.strip().split(", ")
-            for element in lista:
-                ls.append(element)
-        for ind, record in enumerate(ls):
-            index[ind] = record
-            
+            element = line.strip()
+            index[contador] = element
+            contador += 1
         with open (archive_DO, "w") as archivex:
             for ind, record in index.items():
-                archivex.writelines(str(ind) + ": " + record + "\n")
-            def delect():
-                for lin in index:
-                    archivex.writelines(str(lin) + index[lin] + "\n")
+                archivex.writelines(str(ind) + ": " + str(record) + "\n")
 
-
-Index(archive_DO)
 #_________________________________________________________________________________________________________
 #Crea un programa que lea un archivo de texto y lo convierta en un archivo indexado. El archivo de texto 
 # debe tener una lista de nombres, salarios y puestos de trabajo separados por una coma. Cada línea del 
@@ -422,17 +412,107 @@ Index(archive_DO)
 # registro del archivo de texto y permitan acceder a la información de cada empleado.
 #_________________________________________________________________________________________________________
 
+def Create_Archive_Without_Key():
+    with open("Registros_empleados_2022.txt", "w") as archive:
+        record = db.empleadosNU
+        for count,info in enumerate(record):
+            final_record = count == len(record) - 1 
+            for count2, atributte in enumerate(info):
+                clave = str(atributte)
+                valor = str(info[atributte])
+                final_info = count2 == len(info) - 1
+                if final_info and final_record:           
+                    archive.write(clave +" : "+ valor)
+                else:
+                    archive.write(clave +" : "+ valor + ", ")
+            if final_record:
+                return
+            archive.write("\n")
+
+record_employee = "Registros_empleados_2022.txt"
+def Index2(record_employee):
+    index = {}
+    with open(record_employee, "r") as archive:
+        read = archive.readlines()
+        for count ,line in enumerate(read):
+            linea = line.strip().split()
+            index[count] = linea
+        with open(record_employee, "w") as archive:
+            for element in index:
+                clave = str(element)
+                valor = str(index[element])
+                archive.writelines(clave + ": " + valor + "\n")
 
 
+#_________________________________________________________________________________________________________
+#Crea un programa que lea un archivo de texto y lo convierta en un archivo indexado. El archivo de texto 
+# debe tener una lista de peliculas separados por una coma. Cada línea del archivo debe tener un registro 
+# diferente. El archivo indexado debe tener índices que apunten a cada registro del archivo de texto y 
+# permitan acceder a la información de cada empleado.
+#_________________________________________________________________________________________________________
 
+def Create_Archive_Without_Key2():
+    with open("peliculas_.txt", "w") as archive:
+        movie = db.movie2
+        for count, record in enumerate(movie):
+            final_record = count == len(movie) - 1
+            for count2 ,atributte in enumerate(record):
+                for count3 ,element in enumerate(atributte):
+                    final_element = count3 == len(atributte) - 1
+                final_atributte = count2 == len(record) - 1
+                conjunt = str(atributte) + ": " +  str(record[atributte])
+                if final_element & final_atributte:
+                    archive.writelines(conjunt)
+                else:
+                    archive.writelines(conjunt + ", ")
+            if final_record:
+                return
+            else:
+                archive.writelines("\n")
+Create_Archive_Without_Key2()
+def Create_Archive_Without_Key3():
+    with open("Pelicula_n.txt", "w") as archive:
+        movies = db.movie2
+        for movie in movies:
+            archive.writelines(str(movie) + "\n")
+#Create_Archive_Without_Key3()
+
+movie = "peliculas_.txt"
+movie2 = "Pelicula_n.txt"
+
+def Index3(movie):
+    index = {}
+    with open(movie, "r") as archive:
+        read = archive.readlines()
+        for count, line in enumerate(read):
+            linea = line.strip()
+            index[count] = linea
+        with open(movie, "w") as archive:
+            for element in index:
+                conjunt = str(element) + ": " + str(index[element])
+                archive.writelines(conjunt + "\n")
+#Index3(movie)
 
 #_________________________________________________________________________________________________________
 #Crea un programa que permita agregar, eliminar y modificar registros en un archivo indexado creado 
 # en el ejercicio anterior. El programa debe pedir al usuario el nombre y la edad del registro a 
 # agregar, eliminar o modificar.
 
+employee = "empleados.bin"
 
-
+def Create_Archive_Bin(employee):
+    with open(employee, "wb") as bin:
+        employees = db.empleadosNU
+        pickle.dump(employees, bin)
+Create_Archive_Bin(employee)
+def Read_Archive_Bin(employee):
+    index = {}
+    with open(employee, "rb") as bin:
+        read = pickle.load(bin)
+        for count, data in enumerate(read):
+            index[data["nombre"]] = count
+        print(index)
+Read_Archive_Bin(employee)
 #_________________________________________________________________________________________________________
 #Crea un programa que permita realizar búsquedas en un archivo indexado creado en el ejercicio 1. 
 # El programa debe pedir al usuario un nombre y mostrar todos los registros que contengan ese nombre.

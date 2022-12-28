@@ -208,6 +208,38 @@ empleadosCode = [{204600003: {'nombre': 'Ana', "cargo": "ventas", "salario": 350
 {204600013: {'nombre': 'Gloria', "cargo": "recursos humanos", "salario": 30000, "seguro social": 77777, 'edad': 29, 'direccion': 'Calle Falsa 666'}},
 {204600014: {'nombre': 'Hector', "cargo": "administración", "salario": 34000, "seguro social": 66666, 'edad': 24, 'direccion': 'Calle Falsa 777'}},]
 
+#                                           LISTAS DE REGISTROS de peliculas
+
+movie = [{"nombre": "Avatar", "año": 2009, "genero": "Ciencia ficción", "director": "James Cameron", "actores_principales": ["Sam Worthington", "Zoe Saldana", "Sigourney Weaver"]},
+{"nombre": "Titanic", "año": 1997, "genero": "Drama romántico", "director": "James Cameron", "actores_principales": ["Leonardo DiCaprio", "Kate Winslet", "Billy Zane"]},
+{"nombre": "Harry Potter y la piedra filosofal", "año": 2001, "genero": "Fantasía", "director": "Chris Columbus", "actores_principales": ["Daniel Radcliffe", "Emma Watson", "Rupert Grint"]},
+{"nombre": "El señor de los anillos: La comunidad del anillo", "año": 2001, "genero": "Fantasía", "director": "Peter Jackson", "actores_principales": ["Elijah Wood", "Ian McKellen", "Orlando Bloom"]},
+{"nombre": "Indiana Jones y el templo maldito", "año": 1984, "genero": "Aventuras", "director": "Steven Spielberg", "actores_principales": ["Harrison Ford", "Kate Capshaw", "Jonathan Ke Quan"]},
+{"nombre": "La terminal", "año": 2004, "genero": "Comedia", "director": "Steven Spielberg", "actores_principales": ["Tom Hanks", "Catherine Zeta-Jones", "Diego Luna"]},
+{"nombre": "La la land", "año": 2016, "genero": "Musical", "director": "Damien Chazelle", "actores_principales": ["Ryan Gosling", "Emma Stone", "John Legend"]},
+{"nombre": "La reina de las nieves", "año": 2013, "genero": "Animación", "director": "Chris Buck", "actores_principales": ["Kristen Bell", "Idina Menzel", "Jonathan Groff"]}]
+
+movie2 = [{"nombre": "El señor de los anillos", "año": 2001, "genero": "Fantasía", "duración": "3h 48min", "calificación": 9.0},
+{"nombre": "Matrix", "año": 1999, "genero": "Ciencia ficción", "duración": "2h 16min", "calificación": 8.7},
+{"nombre": "Forrest Gump", "año": 1994, "genero": "Drama", "duración": "2h 22min", "calificación": 8.8},
+{"nombre": "Titanic", "año": 1997, "genero": "Drama", "duración": "3h 14min", "calificación": 7.7},
+{"nombre": "Indiana Jones", "año": 1981, "genero": "Aventura", "duración": "1h 55min", "calificación": 8.2},
+{"nombre": "Pulp Fiction", "año": 1994, "genero": "Thriller", "duración": "2h 34min", "calificación": 8.9},
+{"nombre": "Star Wars: Episodio V", "año": 1980, "genero": "Ciencia ficción", "duración": "2h 4min", "calificación": 8.7},
+{"nombre": "El rey león", "año": 1994, "genero": "Animación", "duración": "1h 28min", "calificación": 8.5},
+{"nombre": "El club de la pelea", "año": 1999, "genero": "Drama", "duración": "2h 19min", "calificación": 8.3},
+{"nombre": "La vida es bella", "año": 1997, "genero": "Comedia", "duración": "2h 2min", "calificación": 8.6},
+{"nombre": "El señor de los anillos: La comunidad del anillo", "año": 2001, "genero": "Acción", "duración": "3h 48min", "calificación": 8.9},
+{"nombre": "Matrix", "año": 1999, "genero": "Ciencia ficción", "duración": "2h 16min", "calificación": 8.7},
+{"nombre": "El rey león", "año": 1994, "genero": "Animación", "duración": "1h 28min", "calificación": 8.5},
+{"nombre": "Forrest Gump", "año": 1994, "genero": "Comedia dramática", "duración": "2h 22min", "calificación": 8.8},
+{"nombre": "Titanic", "año": 1997, "genero": "Drama romántico", "duración": "3h 15min", "calificación": 7.8},
+{"nombre": "Avatar", "año": 2009, "genero": "Ciencia ficción", "duración": "2h 42min", "calificación": 7.9},
+{"nombre": "Piratas del Caribe: La maldición del perla negra", "año": 2003, "genero": "Aventura", "duración": "2h 23min", "calificación": 8.0},
+{"nombre": "Harry Potter y la piedra filosofal", "año": 2001, "genero": "Aventura", "duración": "2h 32min", "calificación": 7.6}]
+
+
+
 #                                           LISTAS DE REGISTROS
 
 personas = [persona, persona1, persona2, persona3, persona4]

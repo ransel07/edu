@@ -1,48 +1,12 @@
-0: {'nombre': 'Jonathan'
-1: 'edad': 29
-2: 'pais': 'Rep. Dom.'
-3: 'estado': 'Santo Domingo'}
-4: {'nombre': 'Vanessa'
-5: 'edad': 30
-6: 'pais': 'Rep. Dom.'
-7: 'estado': 'Santo Domingo'}
-8: {'nombre': 'Luis'
-9: 'edad': 40
-10: 'pais': 'Rep. Dom.'
-11: 'estado': 'Santo Domingo'}
-12: {'nombre': 'Carla'
-13: 'edad': 35
-14: 'pais': 'Rep. Dom.'
-15: 'estado': 'Santo Domingo'}
-16: {'nombre': 'Andrea'
-17: 'edad': 25
-18: 'pais': 'Rep. Dom.'
-19: 'estado': 'Santo Domingo'}
-20: {'nombre': 'Roberto'
-21: 'edad': 32
-22: 'pais': 'Rep. Dom.'
-23: 'estado': 'Santo Domingo'}
-24: {'nombre': 'Sandra'
-25: 'edad': 28
-26: 'pais': 'Rep. Dom.'
-27: 'estado': 'Santo Domingo'}
-28: {'nombre': 'Javier'
-29: 'edad': 37
-30: 'pais': 'Rep. Dom.'
-31: 'estado': 'Santo Domingo'}
-32: {'nombre': 'Claudia'
-33: 'edad': 31
-34: 'pais': 'Rep. Dom.'
-35: 'estado': 'Santo Domingo'}
-36: {'nombre': 'Mario'
-37: 'edad': 33
-38: 'pais': 'Rep. Dom.'
-39: 'estado': 'Santo Domingo'}
-40: {'nombre': 'Ana'
-41: 'edad': 30
-42: 'pais': 'Rep. Dom.'
-43: 'estado': 'Santo Domingo'}
-44: {'nombre': 'Pablo'
-45: 'edad': 29
-46: 'pais': 'Rep. Dom.'
-47: 'estado': 'Santo Domingo'}
+0: {'nombre': 'Jonathan', 'edad': 29, 'pais': 'Rep. Dom.', 'estado': 'Santo Domingo'}
+1: {'nombre': 'Vanessa', 'edad': 30, 'pais': 'Rep. Dom.', 'estado': 'Santo Domingo'}
+2: {'nombre': 'Luis', 'edad': 40, 'pais': 'Rep. Dom.', 'estado': 'Santo Domingo'}
+3: {'nombre': 'Carla', 'edad': 35, 'pais': 'Rep. Dom.', 'estado': 'Santo Domingo'}
+4: {'nombre': 'Andrea', 'edad': 25, 'pais': 'Rep. Dom.', 'estado': 'Santo Domingo'}
+5: {'nombre': 'Roberto', 'edad': 32, 'pais': 'Rep. Dom.', 'estado': 'Santo Domingo'}
+6: {'nombre': 'Sandra', 'edad': 28, 'pais': 'Rep. Dom.', 'estado': 'Santo Domingo'}
+7: {'nombre': 'Javier', 'edad': 37, 'pais': 'Rep. Dom.', 'estado': 'Santo Domingo'}
+8: {'nombre': 'Claudia', 'edad': 31, 'pais': 'Rep. Dom.', 'estado': 'Santo Domingo'}
+9: {'nombre': 'Mario', 'edad': 33, 'pais': 'Rep. Dom.', 'estado': 'Santo Domingo'}
+10: {'nombre': 'Ana', 'edad': 30, 'pais': 'Rep. Dom.', 'estado': 'Santo Domingo'}
+11: {'nombre': 'Pablo', 'edad': 29, 'pais': 'Rep. Dom.', 'estado': 'Santo Domingo'}
