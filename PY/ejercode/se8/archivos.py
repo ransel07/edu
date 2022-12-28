@@ -81,7 +81,7 @@ def funsion():
 # lea el archivo y muestre toda la información de cada libro en un formato 
 # legible para el usuario.
 
-import regis_ejemp as re
+import dataBaseEdu as re
 
 def funsion():
     with open("ejercicio6.txt", "w") as e6:

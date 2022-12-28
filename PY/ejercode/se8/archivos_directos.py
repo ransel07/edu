@@ -395,13 +395,24 @@ Text()
 archive_DO = "Lista_Dominicanos.txt"
 
 def Index(archive_DO):
-    recordIndex = {}
     with open(archive_DO, "r") as archive:
+        ls = []
+        index = {}
         read = archive.readlines()
         for line in read:
-            nombre, edad, pais, direccion = line.strip().split(", ")
-            recordIndex[nombre] = edad
-        print (recordIndex)
+            lista = line.strip().split(", ")
+            for element in lista:
+                ls.append(element)
+        for ind, record in enumerate(ls):
+            index[ind] = record
+            
+        with open (archive_DO, "w") as archivex:
+            for ind, record in index.items():
+                archivex.writelines(str(ind) + ": " + record + "\n")
+            def delect():
+                for lin in index:
+                    archivex.writelines(str(lin) + index[lin] + "\n")
+
 
 Index(archive_DO)
 #_________________________________________________________________________________________________________
