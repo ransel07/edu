@@ -469,7 +469,7 @@ def Create_Archive_Without_Key2():
                 return
             else:
                 archive.writelines("\n")
-Create_Archive_Without_Key2()
+#Create_Archive_Without_Key2()
 def Create_Archive_Without_Key3():
     with open("Pelicula_n.txt", "w") as archive:
         movies = db.movie2
@@ -504,9 +504,9 @@ def Create_Archive_Bin(employee):
     with open(employee, "wb") as bin:
         employees = db.empleadosNU
         pickle.dump(employees, bin)
-#Create_Archive_Bin(employee)
+Create_Archive_Bin(employee)
 
-def Read_Archive_Bin(employee):
+def Read_Archive_Bin_and_Index(employee):
     index = {}
     arch_index = {}
     with open(employee, "rb") as bin:
@@ -517,18 +517,57 @@ def Read_Archive_Bin(employee):
             for element, data in zip(index, read):
                 arch_index[element] = data
             pickle.dump(arch_index, bin)
-#Read_Archive_Bin(employee)
+Read_Archive_Bin_and_Index(employee)
 
 def Add_Del_Mod(employee):
-    add = "add"
-    mod = "mod"
-    delete = "delete"
-    add_ = {}
+    decide = "mod"
+    pack = {}
     with open(employee, "rb") as bin:
         read = pickle.load(bin)
-        for key in read:
-            add_[key] = read[key]
-            add_[add]
+        lista = ["nombre","edad","puesto","tiempo_trabajando"]
+        contador = 0
+        box = {}
+        for record in read:
+            pack[record] = read[record]
+        if decide == "add":
+            for element in lista:
+                contador += 1
+                vaule = input(f"{element} = ")
+                box[element] = vaule
+            pack[box[lista[0]]] = box
+            print (pack)
+        if decide == "del":
+            switch = True
+            delete = "sdcds"
+            count = 0
+            for line in read:
+                count += 1
+                if line == delete:
+                    del pack[delete]
+                    switch = False
+            if switch == True:
+                print ("Esta persona no esta en este record \n")
+        if decide == "mod":
+            modify = "Juan"
+            for line in pack:
+                intro = pack[line]
+                switch = True
+                while switch:
+                    if line == modify:
+                        element_mod = input("Atributo a modificar = ")
+                        vaule_element = input(f"{element_mod} = ")
+                        for atributte in intro:
+                            if atributte == element_mod:
+                                intro[element_mod] = vaule_element
+                                break
+                        if element_mod == "salir":
+                            switch = False
+                            print ("algo")
+                        if atributte != element_mod:
+                                print("Incorrecto")
+        print(pack)
+
+
 Add_Del_Mod(employee)
 #_________________________________________________________________________________________________________
 #Crea un programa que permita realizar búsquedas en un archivo indexado creado en el ejercicio 1. 
