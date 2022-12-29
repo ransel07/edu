@@ -1,0 +1,103 @@
+<mxfile host="65bd71144e">
+    <diagram id="7nW45xScgSrCi-i8tWKL" name="Page-1">
+        <mxGraphModel dx="932" dy="1589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;if add&lt;/span&gt;" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="27.509999999999984" y="280" width="83.33" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="inicio" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="42.5" y="10" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="read(&quot;arch&quot;)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="27.5" y="100" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="x = imput add, del, mod" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;shadow=0;rounded=0;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="180" width="162.5" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;if&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;del&lt;/span&gt;" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="27.5" y="445" width="83.34" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;if&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;mod&lt;/span&gt;" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="790" width="83.34" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="add2 = box[nombre] = atributte_N" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;glass=0;shadow=0;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="275" width="134.56" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Line&amp;nbsp; in box = {}" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="340" width="115" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="write in arch" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;shadow=0;rounded=0;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="610" width="182.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="delete = &quot;juan&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;shadow=0;rounded=0;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="164.34000000000003" y="455" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;if&amp;nbsp; line in box = &quot;Juan&quot;&lt;/span&gt;" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="301" y="430" width="133.34" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="add&amp;nbsp; x in box = {}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;glass=0;shadow=0;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="454.34" y="455" width="115" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="mod = &quot;juan&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;shadow=0;rounded=0;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="142.92000000000002" y="800" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;span style=&quot;color: rgb(255 , 255 , 255) ; font-size: 9px&quot;&gt;cual elemento quiere modificar?&lt;br style=&quot;font-size: 9px&quot;&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(204 , 202 , 194) ; background-color: rgb(31 , 36 , 48) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 9px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: rgb(213 , 255 , 128) ; font-size: 9px&quot;&gt;edad = e,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(204 , 202 , 194) ; background-color: rgb(31 , 36 , 48) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 9px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: rgb(213 , 255 , 128) ; font-size: 9px&quot;&gt;salario = s,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(204 , 202 , 194) ; background-color: rgb(31 , 36 , 48) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 9px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: rgb(213 , 255 , 128) ; font-size: 9px&quot;&gt;puesto = p,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(204 , 202 , 194) ; background-color: rgb(31 , 36 , 48) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 9px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: rgb(213 , 255 , 128) ; font-size: 9px&quot;&gt;or&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(204 , 202 , 194) ; background-color: rgb(31 , 36 , 48) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 9px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: rgb(213 , 255 , 128) ; font-size: 9px&quot;&gt;tiempo de trabajo = t.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(204 , 202 , 194) ; background-color: rgb(31 , 36 , 48) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 9px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: rgb(213 , 255 , 128) ; font-size: 9px&quot;&gt;&amp;nbsp;si quiere volver utillize el comando &quot;volver&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(204 , 202 , 194) ; background-color: rgb(31 , 36 , 48) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 9px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: rgb(213 , 255 , 128) ; font-size: 9px&quot;&gt;si quiere salir utilize &quot;salir&quot;&lt;/span&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=0;shadow=0;glass=0;sketch=1;fontSize=9;" vertex="1" parent="1">
+                    <mxGeometry x="264.34" y="580" width="250" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="atributte = p" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;shadow=0;rounded=0;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="800" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;if&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;atributte&amp;nbsp;== e&lt;/span&gt;" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="570.01" y="790" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;if&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;atributte&amp;nbsp;== s&lt;/span&gt;" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="570.01" y="870" width="100.01" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;if&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;atributte&amp;nbsp; == p&lt;/span&gt;" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="570.01" y="950" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;if&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;atributte&amp;nbsp; == t&lt;/span&gt;" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="571.84" y="1040" width="100.01" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&quot;Parametro incorrectos&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;shadow=0;rounded=0;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="1050" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Vuelve a introducir&amp;nbsp; el atributte a modificar" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;shadow=0;rounded=0;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="970" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=0;shadow=0;glass=0;sketch=1;fontSize=9;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="170" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="nombre&lt;br&gt;edad&lt;br&gt;puesto&lt;br&gt;tiempo de trabajo" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;shadow=0;rounded=0;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="170.42000000000002" y="265" width="125" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;if&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;atributte&amp;nbsp;== e&lt;/span&gt;" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="470.01" y="-130" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;if&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;atributte&amp;nbsp;== s&lt;/span&gt;" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="470.01" y="-50" width="100.01" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;if&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;atributte&amp;nbsp; == p&lt;/span&gt;" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="470.01" y="30" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;if&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;atributte&amp;nbsp; == t&lt;/span&gt;" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="110" width="100.01" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="add&amp;nbsp; nombre, edad, puesto, tiempo_trabajo in atributtes_N = {}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;glass=0;shadow=0;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="324.34000000000003" y="265" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&quot;Parametro incorrectos&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;shadow=0;rounded=0;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="124.34" y="970" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Vuelve a introducir&amp;nbsp; el atributte a modificar" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;shadow=0;rounded=0;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="124.34" y="890" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;if&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;mod == read&lt;/span&gt;" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;sketch=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="785" width="100" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

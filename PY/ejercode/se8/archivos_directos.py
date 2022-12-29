@@ -504,15 +504,32 @@ def Create_Archive_Bin(employee):
     with open(employee, "wb") as bin:
         employees = db.empleadosNU
         pickle.dump(employees, bin)
-Create_Archive_Bin(employee)
+#Create_Archive_Bin(employee)
+
 def Read_Archive_Bin(employee):
     index = {}
+    arch_index = {}
     with open(employee, "rb") as bin:
         read = pickle.load(bin)
         for count, data in enumerate(read):
             index[data["nombre"]] = count
-        print(index)
-Read_Archive_Bin(employee)
+        with open(employee, "wb") as bin:
+            for element, data in zip(index, read):
+                arch_index[element] = data
+            pickle.dump(arch_index, bin)
+#Read_Archive_Bin(employee)
+
+def Add_Del_Mod(employee):
+    add = "add"
+    mod = "mod"
+    delete = "delete"
+    add_ = {}
+    with open(employee, "rb") as bin:
+        read = pickle.load(bin)
+        for key in read:
+            add_[key] = read[key]
+            add_[add]
+Add_Del_Mod(employee)
 #_________________________________________________________________________________________________________
 #Crea un programa que permita realizar búsquedas en un archivo indexado creado en el ejercicio 1. 
 # El programa debe pedir al usuario un nombre y mostrar todos los registros que contengan ese nombre.

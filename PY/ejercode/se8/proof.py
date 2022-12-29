@@ -4,17 +4,21 @@ empleados = [{"nombre": "Juan", "edad": 25, "salario": 1500, "puesto": "Programa
 {"nombre": "Sofía", "edad": 40, "salario": 3000, "puesto": "Gerente de TI", "tiempo_trabajando": 15},
 {"nombre": "Mario", "edad": 45, "salario": 3500, "puesto": "Director de TI", "tiempo_trabajando": 20}]
 
-indice = {}
+# indice = {}
 
-intro = "ana"
+# intro = "ana"
 
-for id, element in enumerate(empleados):
-    indice[element["nombre"]] = id
+# for id, element in enumerate(empleados):
+#     indice[element["nombre"]] = id
 
-data = empleados[indice[intro.title()]]
-for attribute in data:
-    print(f"{attribute} : {data[attribute]}")
+# data = empleados[indice[intro.title()]]
+# for attribute in data:
+#     print(f"{attribute} : {data[attribute]}")
 
-#for i in indice:
-    #print(f"{i} : {indice[i]}")
+# #for i in indice:
+#     #print(f"{i} : {indice[i]}")
+
+while True:
+    nombre, edad, direccion, tiempo_trabajo = input("= ")
+    print(nombre, edad, direccion, tiempo_trabajo)
 
