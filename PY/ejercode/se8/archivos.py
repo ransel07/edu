@@ -156,8 +156,8 @@ def BuyProduct():
 # etc.). Luego, escribe un programa en Python que lea el archivo y muestre la 
 # lista de estudiantes ordenada por promedio final.
 
-def PromedioFinal():
-    with open("estudiantes.txt", "w") as clase:
+def PromedioFinalx():
+    with open("estudiantes.cvs", "w") as clase:
         contador = 0
         for elemento in re.estudiantes:
             contador = contador + 1
@@ -166,8 +166,7 @@ def PromedioFinal():
             clase.writelines("\n")
             for sub in elemento:
                 clase.writelines(sub + " : " + str(elemento[sub]) + "\n")
-    
-    with open("estudiantes.txt", "r") as es:
+    with open("estudiantes.cvs", "r") as es:
 
         caja = es.readlines()
         titulo = 1
@@ -180,7 +179,7 @@ def PromedioFinal():
             titulo += 10
             nombre += 10
             desarrollo += 10
-#PromedioFinal ()
+# PromedioFinalx ()
 
 
 # Crea un archivo de texto con información sobre diferentes estudiantes y sus 
@@ -197,7 +196,7 @@ def PromedioFinal2():
     with open("estudiantes2.txt", "r") as WrithProm:
         escritura = WrithProm.writelines()
         
-PromedioFinal2()
+#PromedioFinal2()
 
 # Crea un archivo de texto con información sobre diferentes productos en una tienda 
 # (nombre, precio, cantidad disponible, etc.). Luego, escribe un programa en Python 

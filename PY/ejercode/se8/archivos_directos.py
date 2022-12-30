@@ -4,6 +4,18 @@ import pickle
 import json
 
 
+
+
+# with open("estudiantes.csv", "w") as clase:
+#     contador = 0
+#     for elemento in db.estudiantes:
+#         contador = contador + 1
+#         clase.writelines("\n")
+#         clase.writelines("ESTUDIANTE " + str(contador) + "\n")
+#         clase.writelines("\n")
+#         for sub in elemento:
+#             clase.writelines(sub + " : " + str(elemento[sub]) + "\n")
+
 #_________________________________________________________________________________________________________
 # Escribir una lista de números en un archivo binario y leerla luego
 
@@ -536,7 +548,7 @@ def Add_Del_Mod(employee):
                 box[element] = vaule
             pack[box[lista[0]]] = box
             print (pack)
-        if decide == "del":
+        elif decide == "del":
             switch = True
             delete = "sdcds"
             count = 0
@@ -547,28 +559,34 @@ def Add_Del_Mod(employee):
                     switch = False
             if switch == True:
                 print ("Esta persona no esta en este record \n")
-        if decide == "mod":
+        elif decide == "mod":
             modify = "Juan"
+            cont = 0
             for line in pack:
                 intro = pack[line]
-                switch = True
-                while switch:
-                    if line == modify:
-                        element_mod = input("Atributo a modificar = ")
-                        vaule_element = input(f"{element_mod} = ")
-                        for atributte in intro:
-                            if atributte == element_mod:
-                                intro[element_mod] = vaule_element
-                                break
-                        if element_mod == "salir":
-                            switch = False
-                            print ("algo")
-                        if atributte != element_mod:
-                                print("Incorrecto")
-        print(pack)
+                # switch = True
+                # while switch:
+                element_mod = input("Atributo a modificar = ")
+                if line == modify:
+                    for i, atributte in enumerate(intro):
+                        if element_mod == atributte:
+                            vaule_element = input(f"{element_mod} = ")
+                            condition = i == len(intro)
+                            intro[element_mod] = vaule_element
+                            break
+                        cont += 1
+                    if i == cont:
+                        print("Incorrecto")
+                    elif element_mod == "salir":
+                        print ("algo")
+                        break
+                else:
+                    break
+                #print(intro)
 
 
-Add_Del_Mod(employee)
+
+#Add_Del_Mod(employee)
 #_________________________________________________________________________________________________________
 #Crea un programa que permita realizar búsquedas en un archivo indexado creado en el ejercicio 1. 
 # El programa debe pedir al usuario un nombre y mostrar todos los registros que contengan ese nombre.

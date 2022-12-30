@@ -4,21 +4,39 @@ empleados = [{"nombre": "Juan", "edad": 25, "salario": 1500, "puesto": "Programa
 {"nombre": "Sofía", "edad": 40, "salario": 3000, "puesto": "Gerente de TI", "tiempo_trabajando": 15},
 {"nombre": "Mario", "edad": 45, "salario": 3500, "puesto": "Director de TI", "tiempo_trabajando": 20}]
 
-# indice = {}
+def binary_search(lista, elemento):
+    izquierda = 0
+    derecha = len(lista) - 1
+    while izquierda <= derecha:
+        medio = (izquierda + derecha) // 2
+        if lista[medio] == elemento:
+            return medio
+        elif elemento < lista[medio]:
+            derecha = medio - 1
+        else:
+            izquierda = medio + 1
+    return -1
 
-# intro = "ana"
+# Ejemplo de uso
+lista = [range(1,10)]
+indice = binary_search(lista, 3)
+if indice == -1:
+    print("El elemento no se encuentra en la lista")
+else:
+    print("El elemento se encuentra en el índice", indice)
 
-# for id, element in enumerate(empleados):
-#     indice[element["nombre"]] = id
 
-# data = empleados[indice[intro.title()]]
-# for attribute in data:
-#     print(f"{attribute} : {data[attribute]}")
+# Crea una función llamada "busqueda_binaria" que reciba como parámetros un arreglo de números enteros 
+# ordenados y un número a buscar. La función debe devolver la posición del número en el arreglo, o -1 
+# si no se encuentra.
 
-# #for i in indice:
-#     #print(f"{i} : {indice[i]}")
-
-while True:
-    nombre, edad, direccion, tiempo_trabajo = input("= ")
-    print(nombre, edad, direccion, tiempo_trabajo)
-
+def search_binary(lista, num):
+    left_numb = 0
+    right_numb= len(lista)
+    if num == left_numb:
+        return lista[num]
+    if num == right_numb:
+        return
+    else:
+        left_numb += 1
+        right_numb -= 1
