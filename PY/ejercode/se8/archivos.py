@@ -157,7 +157,7 @@ def BuyProduct():
 # lista de estudiantes ordenada por promedio final.
 
 def PromedioFinalx():
-    with open("estudiantes.cvs", "w") as clase:
+    with open("estudiantes.csv", "w") as clase:
         contador = 0
         for elemento in re.estudiantes:
             contador = contador + 1
@@ -166,7 +166,7 @@ def PromedioFinalx():
             clase.writelines("\n")
             for sub in elemento:
                 clase.writelines(sub + " : " + str(elemento[sub]) + "\n")
-    with open("estudiantes.cvs", "r") as es:
+    with open("estudiantes.csv", "r") as es:
 
         caja = es.readlines()
         titulo = 1
