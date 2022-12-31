@@ -17,26 +17,85 @@ def binary_search(lista, elemento):
             izquierda = medio + 1
     return -1
 
-# Ejemplo de uso
-lista = [range(1,10)]
-indice = binary_search(lista, 3)
-if indice == -1:
-    print("El elemento no se encuentra en la lista")
-else:
-    print("El elemento se encuentra en el índice", indice)
+# # Ejemplo de uso
+# lista = [range(1,10)]
+# indice = binary_search(lista, 3)
+# if indice == -1:
+#     print("El elemento no se encuentra en la lista")
+# else:
+#     print("El elemento se encuentra en el índice", indice)
 
+"__________________________________________________________________________________________________"
+"Crea una función llamada busqueda_binaria que reciba como parámetros un arreglo de números enteros" 
+"ordenados y un número a buscar. La función debe devolver la posición del número en el arreglo, o -1" 
+"si no se encuentra."
+"__________________________________________________________________________________________________"
 
-# Crea una función llamada "busqueda_binaria" que reciba como parámetros un arreglo de números enteros 
-# ordenados y un número a buscar. La función debe devolver la posición del número en el arreglo, o -1 
-# si no se encuentra.
 
 def search_binary(lista, num):
     left_numb = 0
-    right_numb= len(lista)
-    if num == left_numb:
-        return lista[num]
-    if num == right_numb:
-        return
+    right_numb = len(lista)
+    while left_numb <= right_numb:
+        middle_index = (left_numb + right_numb) // 2
+        if lista[middle_index] == num:
+            return middle_index
+        elif lista[middle_index] < num:
+            left_numb = middle_index + 1
+        else:
+            right_numb = middle_index - 1
+    return -1
+
+"___________________________________________________________________________"
+"Crea una función llamada busqueda_binaria_recursiva que haga lo mismo que" 
+"la función anterior, pero de forma recursiva."
+"___________________________________________________________________________"
+
+
+def busqueda_binaria_recursiva(lista, num):
+    count = 0
+    if count == 0:
+        left = 0
+        right = len(lista) - 1
+    elif left > right:
+        return -1
+    count += 1
+    middle = (left + right) // 2
+    if lista[middle] == num:
+        return middle
+    elif lista[middle] < num:
+        left = middle + 1
     else:
-        left_numb += 1
-        right_numb -= 1
+        right = middle - 1
+    busqueda_binaria_recursiva(lista, num)
+
+listado = range(1, 20)
+numb = 15
+indice = busqueda_binaria_recursiva(listado, 15)
+
+if indice == -1:
+    print("El elemento no se encuentra en la lista\n")
+else:
+    print("El elemento se encuentra en el índice", indice, "\n")
+
+"___________________________________________________________________________"
+"Crea una función llamada busqueda_binaria_string que reciba como parámetros un arreglo" 
+"de cadenas de caracteres ordenadas alfabéticamente y una cadena a buscar. La función debe" 
+"devolver la posición de la cadena en el arreglo, o -1 si no se encuentra."
+"___________________________________________________________________________"
+
+
+
+"___________________________________________________________________________"
+"Crea una función llamada busqueda_binaria_fechas que reciba como parámetros un arreglo"
+"de variables de tipo fecha ordenadas cronológicamente y una fecha a buscar. "
+"Una fecha se puede representar con un registro que contenga los campos día, mes y año." 
+"La función debe devolver la posición de la fecha en el arreglo, o -1 si no se encuentra."
+"___________________________________________________________________________"
+
+
+"___________________________________________________________________________"
+"Crea una función llamada busqueda_binaria_estructura que reciba como parámetros un arreglo "
+"de cualquier tipo de estructura ordenada y un elemento a buscar. La función debe devolver la" 
+"posición del elemento en el arreglo, o -1 si no se encuentra."
+"___________________________________________________________________________"
+
