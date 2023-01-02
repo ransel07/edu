@@ -234,15 +234,51 @@ def producto2():
                 print(" ")
                 nombre = str(input("Articulo = ")) # Esto tiene el inconveniente de que al acabarce el bucle no se vuelve a repetir
 #producto2()
+"______________________________________________________________________________________"
+"Crea un archivo de texto con información sobre diferentes empleados de una empresa "
+"(nombre, cargo, salario, etc.). Luego, escribe un programa en Python que lea el archivo" 
+"y almacene la información de cada empleado en un registro. Utiliza un arreglo de estos" 
+"registros para luego calcular el salario total de todos los empleados y mostrar el" 
+"promedio de salarios por cargo."
+"______________________________________________________________________________________"
 
-# Crea un archivo de texto con información sobre diferentes empleados de una empresa 
-# (nombre, cargo, salario, etc.). Luego, escribe un programa en Python que lea el archivo 
-# y almacene la información de cada empleado en un registro. Utiliza un arreglo de estos 
-# registros para luego calcular el salario total de todos los empleados y mostrar el 
-# promedio de salarios por cargo.
+archive ="employe.txt"
+
+def info_empploye(archive):
+    with open(archive, "w") as arch:
+        empploye = re.empleadosNU
+        for line in empploye:
+            for element in line:
+                vaule = str(line[element])
+                key = str(element)
+                arch.writelines(key + " : " + vaule + "\n")
+    with open(archive, "r") as arch:
+        read = arch.readlines()
+        array = []
+        salarios = []
+        record = {}
+        for line in read:
+            nline = line.strip().split(", ")
+            for element in nline:
+                box = element.strip().split(":")
+                record[box[0]] = box[1]
+            if line.startswith("n"):
+                array.append(record)
+
+        for atributte in array:
+            for section in atributte:
+                if section == "puesto ":
+                    salarios.append(atributte[section])
+        print (salarios)
+        # prom = round(sum(salarios) / len(salarios))
+        # print(prom)
+
+info_empploye(archive)
+
 
 # Crea un archivo de texto con información sobre diferentes libros (título, autor, año de 
 # publicación, etc.). Luego, escribe un programa en Python que lea el archivo y almacene 
 # la información de cada libro en un registro. Utiliza un arreglo de estos registros para 
 # luego permitir al usuario buscar libros por año de publicación y mostrar todos los 
 # títulos y autores de los libros publicados en ese año.
+

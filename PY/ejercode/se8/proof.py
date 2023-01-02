@@ -51,31 +51,30 @@ def search_binary(lista, num):
 "___________________________________________________________________________"
 
 
-def busqueda_binaria_recursiva(lista, num):
-    count = 0
-    if count == 0:
-        left = 0
-        right = len(lista) - 1
-    elif left > right:
-        return -1
-    count += 1
+def busqueda_binaria_recursiva(lista, num, left, right, count):
+    if left > right :
+        return f"no se ha entontrado {num} en la lista"
     middle = (left + right) // 2
+    count += 1
     if lista[middle] == num:
-        return middle
+        return f"El numero {num} si esta en la lista; Numero de intentosintentos: {count}"
     elif lista[middle] < num:
-        left = middle + 1
+        return busqueda_binaria_recursiva(lista, num, middle + 1, right, count)
     else:
-        right = middle - 1
-    busqueda_binaria_recursiva(lista, num)
+        return busqueda_binaria_recursiva(lista, num, left, middle - 1, count)
 
-listado = range(1, 20)
-numb = 15
-indice = busqueda_binaria_recursiva(listado, 15)
+switch = True
+while switch:
+    lista = []
+    for numb in range(21):
+        lista.append(numb)
+    num = int(input("numero a buscar = "))
+    if num == -99:
+        switch = False
+    else:
+        p = busqueda_binaria_recursiva(lista, num, 0, len(lista), 0)
+        print(p)
 
-if indice == -1:
-    print("El elemento no se encuentra en la lista\n")
-else:
-    print("El elemento se encuentra en el índice", indice, "\n")
 
 "___________________________________________________________________________"
 "Crea una función llamada busqueda_binaria_string que reciba como parámetros un arreglo" 
@@ -83,7 +82,15 @@ else:
 "devolver la posición de la cadena en el arreglo, o -1 si no se encuentra."
 "___________________________________________________________________________"
 
-
+def busqueda_binaria_string(arreglo, cadena):
+    left = 0
+    right = len(arreglo)
+    while left <= right:
+        middle = (left + right)//2
+        if arreglo[middle] == cadena:
+            return 1
+        else:
+            left
 
 "___________________________________________________________________________"
 "Crea una función llamada busqueda_binaria_fechas que reciba como parámetros un arreglo"
