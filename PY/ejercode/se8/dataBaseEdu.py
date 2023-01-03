@@ -166,7 +166,9 @@ empleadosNU = [{"nombre": "Juan", "edad": 25, "salario": 1500, "puesto": "Progra
 {"nombre": "Gloria", "edad": 40, "salario": 3000, "puesto": "Gerente de TI", "tiempo_trabajando": 15},
 {"nombre": "Hector", "edad": 45, "salario": 3500, "puesto": "Director de TI", "tiempo_trabajando": 20},
 {"nombre": "Irina", "edad": 50, "salario": 4000, "puesto": "Consultora de TI", "tiempo_trabajando": 25},
-{"nombre": "Javier", "edad": 55, "salario": 4500, "puesto": "Experto en seguridad informática", "tiempo_trabajando": 30}]
+{"nombre": "Javier", "edad": 55, "salario": 4500, "puesto": "Experto en seguridad informática", "tiempo_trabajando": 30},
+{"nombre": "Frack", "edad": 45, "salario": 5500, "puesto": "Experto en seguridad informática", "tiempo_trabajando": 30},
+{"nombre": "Rose", "edad": 37, "salario": 5000, "puesto": "Experto en seguridad informática", "tiempo_trabajando": 30}]
 
 #                               Registros de Productos
 

@@ -73,3 +73,13 @@ edad : 55
 salario : 4500
 puesto : Experto en seguridad informática
 tiempo_trabajando : 30
+nombre : Frack
+edad : 45
+salario : 5500
+puesto : Experto en seguridad informática
+tiempo_trabajando : 30
+nombre : Rose
+edad : 37
+salario : 5000
+puesto : Experto en seguridad informática
+tiempo_trabajando : 30

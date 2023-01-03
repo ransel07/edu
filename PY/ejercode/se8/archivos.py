@@ -265,18 +265,18 @@ def info_empploye(archive):
                 array.append(record)
                 record = {}
         
-        average = []
-        bridge = {}
-        for atributte in array:
-            for section in atributte:
-                position = section == "puesto "
-                salary = section == "salario "
-                if salary or position:
-                    bridge[section] = atributte[section]
-                    if section.startswith("p"):
-                        average.append(bridge)
-                        bridge = {}
-        print (average)
+        def puesto_salario(array):
+            bridge = {}
+            for dict in array:
+                bridge[dict["puesto "]] = int(dict["salario "])
+            return bridge
+        print (puesto_salario(array))
+        
+        # for part in average:
+        #     # print (part)
+        #     for inte in part:
+        #         print (inte)
+        #     # if part == part:
         # prom = round(sum(salarios) / len(salarios))
         # print(prom)
     # read_archive(archive)
