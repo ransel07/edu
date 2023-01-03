@@ -50,30 +50,30 @@ def search_binary(lista, num):
 "la función anterior, pero de forma recursiva."
 "___________________________________________________________________________"
 
+def busqueda():
+    def busqueda_binaria_recursiva(lista, num, left, right, count):
+        if left > right :
+            return f"no se ha entontrado {num} en la lista"
+        middle = (left + right) // 2
+        count += 1
+        if lista[middle] == num:
+            return f"El numero {num} si esta en la lista; Numero de intentosintentos: {count}"
+        elif lista[middle] < num:
+            return busqueda_binaria_recursiva(lista, num, middle + 1, right, count)
+        else:
+            return busqueda_binaria_recursiva(lista, num, left, middle - 1, count)
 
-def busqueda_binaria_recursiva(lista, num, left, right, count):
-    if left > right :
-        return f"no se ha entontrado {num} en la lista"
-    middle = (left + right) // 2
-    count += 1
-    if lista[middle] == num:
-        return f"El numero {num} si esta en la lista; Numero de intentosintentos: {count}"
-    elif lista[middle] < num:
-        return busqueda_binaria_recursiva(lista, num, middle + 1, right, count)
-    else:
-        return busqueda_binaria_recursiva(lista, num, left, middle - 1, count)
-
-switch = True
-while switch:
-    lista = []
-    for numb in range(21):
-        lista.append(numb)
-    num = int(input("numero a buscar = "))
-    if num == -99:
-        switch = False
-    else:
-        p = busqueda_binaria_recursiva(lista, num, 0, len(lista), 0)
-        print(p)
+    switch = True
+    while switch:
+        lista = []
+        for numb in range(21):
+            lista.append(numb)
+        num = int(input("numero a buscar = "))
+        if num == -99:
+            switch = False
+        else:
+            p = busqueda_binaria_recursiva(lista, num, 0, len(lista), 0)
+            print(p)
 
 
 "___________________________________________________________________________"
@@ -82,15 +82,29 @@ while switch:
 "devolver la posición de la cadena en el arreglo, o -1 si no se encuentra."
 "___________________________________________________________________________"
 
-def busqueda_binaria_string(arreglo, cadena):
+def busqueda_binaria_string(arreglo_saludos, cadena):
     left = 0
-    right = len(arreglo)
+    right = len(arreglo_saludos) - 1
+    arreglo_saludos.sort()
+    
     while left <= right:
         middle = (left + right)//2
-        if arreglo[middle] == cadena:
-            return 1
+        if middle == arreglo_saludos.index(cadena):
+            return middle
+        elif middle < arreglo_saludos.index(cadena):
+            left = middle + 1
         else:
-            left
+            right = middle - 1
+    
+    return -1
+
+arreglo_saludos = ["Hola", "Buenos días", "Buenas tardes", "Buenas noches", "Bienvenido", 
+"Gracias", "De nada", "Perdón", "Lo siento", "Adiós", "Hasta luego", "Hasta mañana", 
+"Hasta pronto", "Buen viaje", "Buen fin de semana", "Buenas fiestas", 
+"Feliz cumpleaños", "Felices fiestas", "Feliz Navidad", "Feliz Año Nuevo",]
+cadena = "Buen viaje"
+
+print (busqueda_binaria_string(arreglo_saludos, cadena))
 
 "___________________________________________________________________________"
 "Crea una función llamada busqueda_binaria_fechas que reciba como parámetros un arreglo"

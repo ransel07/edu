@@ -234,6 +234,7 @@ def producto2():
                 print(" ")
                 nombre = str(input("Articulo = ")) # Esto tiene el inconveniente de que al acabarce el bucle no se vuelve a repetir
 #producto2()
+
 "______________________________________________________________________________________"
 "Crea un archivo de texto con información sobre diferentes empleados de una empresa "
 "(nombre, cargo, salario, etc.). Luego, escribe un programa en Python que lea el archivo" 
@@ -252,26 +253,33 @@ def info_empploye(archive):
                 vaule = str(line[element])
                 key = str(element)
                 arch.writelines(key + " : " + vaule + "\n")
+    
+    record = {}
     with open(archive, "r") as arch:
         read = arch.readlines()
         array = []
-        salarios = []
-        record = {}
         for line in read:
-            nline = line.strip().split(", ")
-            for element in nline:
-                box = element.strip().split(":")
-                record[box[0]] = box[1]
-            if line.startswith("n"):
+            nline = line.strip().split(":")
+            record[nline[0]] = nline[1]
+            if line.startswith("t"):
                 array.append(record)
-
+                record = {}
+        
+        average = []
+        bridge = {}
         for atributte in array:
             for section in atributte:
-                if section == "puesto ":
-                    salarios.append(atributte[section])
-        print (salarios)
+                position = section == "puesto "
+                salary = section == "salario "
+                if salary or position:
+                    bridge[section] = atributte[section]
+                    if section.startswith("p"):
+                        average.append(bridge)
+                        bridge = {}
+        print (average)
         # prom = round(sum(salarios) / len(salarios))
         # print(prom)
+    # read_archive(archive)
 
 info_empploye(archive)
 
