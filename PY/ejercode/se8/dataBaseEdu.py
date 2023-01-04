@@ -166,17 +166,10 @@ empleadosNU = [{"nombre": "Juan", "edad": 25, "salario": 1500, "puesto": "Progra
 {"nombre": "Gloria", "edad": 40, "salario": 3000, "puesto": "Gerente de TI", "tiempo_trabajando": 15},
 {"nombre": "Hector", "edad": 45, "salario": 3500, "puesto": "Director de TI", "tiempo_trabajando": 20},
 {"nombre": "Irina", "edad": 50, "salario": 4000, "puesto": "Consultora de TI", "tiempo_trabajando": 25},
-{"nombre": "Javier", "edad": 55, "salario": 4500, "puesto": "Experto en seguridad informática", "tiempo_trabajando": 30}]
+{"nombre": "Javier", "edad": 55, "salario": 4500, "puesto": "Experto en seguridad informática", "tiempo_trabajando": 30},
+{"nombre": "Frack", "edad": 45, "salario": 5500, "puesto": "Experto en seguridad informática", "tiempo_trabajando": 30},
+{"nombre": "Rose", "edad": 37, "salario": 5000, "puesto": "Experto en seguridad informática", "tiempo_trabajando": 30}]
 
-#                               Registros de Productos
-
-producto = {9534 : {"nombre" : "Ram", "precio" : 75.5,"cantidad disponible" : 50,}}
-producto1 = {7985 : {"nombre" : "Board", "precio" : 200.0, "cantidad disponible" : 9,}}
-producto2 = {3215 : {"nombre" : "Tarjeta de Video", "precio" : 298.3, "cantidad disponible" : 15,}}
-producto3 = {2458 : {"nombre" : "SSD m.2", "precio" : 93.8, "cantidad disponible" : 33,}}
-producto4 = {2358 : {"nombre" : "SSD Kingston 250GB", "precio" : 110.30, "cantidad disponible" : 30,}}
-producto5 = {6547 : {"nombre" : "Hard Drive 2T", "precio" : 145.99, "cantidad disponible" : 53,}}
-producto6 = {8756 : {"nombre" : "Disipador Coolermaster", "precio" : 50.5, "cantidad disponible" : 15,}}
 
 #                           Registros de Individuos
 
@@ -238,7 +231,30 @@ movie2 = [{"nombre": "El señor de los anillos", "año": 2001, "genero": "Fantas
 {"nombre": "Piratas del Caribe: La maldición del perla negra", "año": 2003, "genero": "Aventura", "duración": "2h 23min", "calificación": 8.0},
 {"nombre": "Harry Potter y la piedra filosofal", "año": 2001, "genero": "Aventura", "duración": "2h 32min", "calificación": 7.6}]
 
+#                               Registros de Productos
 
+productos = [
+{"nombre" : "Laptop", "marca" : "HP", "modelo" : "Elitebook", "precio" : 750.5, "cantidad disponible" : 50},
+{"nombre" : "Teclado", "marca" : "Logitech", "modelo" : "G513", "precio" : 99.99, "cantidad disponible" : 75},
+{"nombre" : "Monitor", "marca" : "Dell", "modelo" : "U2415", "precio" : 249.99, "cantidad disponible" : 25},
+{"nombre" : "Mouse", "marca" : "Razer", "modelo" : "Deathadder", "precio" : 69.99, "cantidad disponible" : 100},
+{"nombre" : "CPU", "marca" : "AMD", "modelo" : "Ryzen 9 5900X", "precio" : 499.99, "cantidad disponible" : 50},
+{"nombre" : "Motherboard", "marca" : "Asus", "modelo" : "ROG Strix B550-E", "precio" : 199.99, "cantidad disponible" : 75},
+{"nombre" : "RAM", "marca" : "Corsair", "modelo" : "Vengeance LPX 16GB DDR4", "precio" : 75.5, "cantidad disponible" : 100},
+{"nombre" : "SSD", "marca" : "Samsung", "modelo" : "970 Evo 500GB", "precio" : 109.99, "cantidad disponible" : 50},
+{"nombre" : "Case", "marca" : "Phanteks", "modelo" : "Eclipse P400A", "precio" : 99.99, "cantidad disponible" : 75},
+{"nombre" : "Power Supply", "marca" : "EVGA", "modelo" : "750W SuperNOVA", "precio" : 119.99, "cantidad disponible" : 25},
+{"nombre" : "Monitor", "marca" : "Dell", "modelo" : "U2718Q", "precio" : 699.0, "cantidad disponible" : 20},
+{"nombre" : "Laptop", "marca" : "Lenovo", "modelo" : "ThinkPad X1 Carbon", "precio" : 1499.0, "cantidad disponible" : 15},
+{"nombre" : "Impresora", "marca" : "HP", "modelo" : "OfficeJet Pro 7740", "precio" : 299.99, "cantidad disponible" : 10},
+{"nombre" : "Router", "marca" : "Netgear", "modelo" : "Nighthawk R7000", "precio" : 199.99, "cantidad disponible" : 25},
+{"nombre" : "Smartphone", "marca" : "Apple", "modelo" : "iPhone 12", "precio" : 849.99, "cantidad disponible" : 40},
+{"nombre" : "Altavoces", "marca" : "JBL", "modelo" : "Charge 4", "precio" : 149.95, "cantidad disponible" : 35},
+{"nombre" : "Tablet", "marca" : "Samsung", "modelo" : "Galaxy Tab S7", "precio" : 649.99, "cantidad disponible" : 30},
+{"nombre" : "Cámara de fotos", "marca" : "Canon", "modelo" : "EOS 5D Mark IV", "precio" : 2499.0, "cantidad disponible" : 20},
+{"nombre" : "Consola de videojuegos", "marca" : "Sony", "modelo" : "PlayStation 5", "precio" : 499.99, "cantidad disponible" : 15},
+{"nombre" : "Smartwatch", "marca" : "Fitbit", "modelo" : "Versa 3", "precio" : 199.95, "cantidad disponible" : 25}
+]
 
 #                                           LISTAS DE REGISTROS
 
@@ -248,7 +264,6 @@ libros_titulo = [ libro["titulo"],  libro1["titulo"],  libro2["titulo"],  libro3
 libros_titulo1 = [libro, libro1, libro2, libro3, libro4]
 lbn = [ libro]
 autor =  libro['autor']
-lista_productos = [ producto,  producto1,  producto2,  producto3, producto4, producto5, producto6]
 
 
 

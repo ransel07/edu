@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="7nW45xScgSrCi-i8tWKL" name="Page-1">
-        <mxGraphModel dx="340" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1060" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -233,7 +233,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="1O9VaLL-yu8syo3G_Ptp" name="Archivo">
-        <mxGraphModel dx="373" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+        <mxGraphModel dx="4360" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
             <root>
                 <mxCell id="x6R_ft5IZKhQPZ7CtvtX-0"/>
                 <mxCell id="x6R_ft5IZKhQPZ7CtvtX-1" parent="x6R_ft5IZKhQPZ7CtvtX-0"/>
@@ -296,14 +296,26 @@
                 <mxCell id="rawZ5uESTLYPTQi4e3e3-13" value="simplemente realizar un calcula de promedio directo." style="rounded=0;whiteSpace=wrap;html=1;" parent="x6R_ft5IZKhQPZ7CtvtX-1" vertex="1">
                     <mxGeometry x="560" y="575" width="120" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="Z3Jqc5A_RDCqztGQEQN1-0" value="Se filtra para la seleccion de &quot;puesto&quot;&lt;br&gt;y la seleccion de &quot;salario&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="x6R_ft5IZKhQPZ7CtvtX-1">
-                    <mxGeometry x="320" y="120" width="130" height="60" as="geometry"/>
+                <mxCell id="Z3Jqc5A_RDCqztGQEQN1-0" value="Se filtra para la seleccion de &quot;puesto&quot;&lt;br&gt;y la seleccion de &quot;salario&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="x6R_ft5IZKhQPZ7CtvtX-1" vertex="1">
+                    <mxGeometry x="160" y="120" width="130" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="Z3Jqc5A_RDCqztGQEQN1-1" value="Se filtra para la seleccion de &quot;puesto&quot;&lt;br&gt;y la seleccion de &quot;salario&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="x6R_ft5IZKhQPZ7CtvtX-1">
-                    <mxGeometry x="320" y="200" width="130" height="60" as="geometry"/>
+                <mxCell id="Z3Jqc5A_RDCqztGQEQN1-1" value="Se filtra para la seleccion de &quot;puesto&quot;&lt;br&gt;y la seleccion de &quot;salario&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="x6R_ft5IZKhQPZ7CtvtX-1" vertex="1">
+                    <mxGeometry x="160" y="210" width="130" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="Z3Jqc5A_RDCqztGQEQN1-2" value="Se toman de esa lista &quot;puestos&quot;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="x6R_ft5IZKhQPZ7CtvtX-1">
-                    <mxGeometry x="320" y="290" width="120" height="40" as="geometry"/>
+                <mxCell id="Z3Jqc5A_RDCqztGQEQN1-2" value="Se almacenan los el puesto como &quot;key&quot; y el salario como &quot;vaule&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="x6R_ft5IZKhQPZ7CtvtX-1" vertex="1">
+                    <mxGeometry x="150" y="300" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Nuby1DA8UVwhijTuT92c-0" value="Se recorre esa lista" style="rounded=0;whiteSpace=wrap;html=1;" parent="x6R_ft5IZKhQPZ7CtvtX-1" vertex="1">
+                    <mxGeometry x="162.5" y="390" width="127.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Nuby1DA8UVwhijTuT92c-1" value="Se podria tomar el puesto como key y el salario como vaule." style="rounded=0;whiteSpace=wrap;html=1;" parent="x6R_ft5IZKhQPZ7CtvtX-1" vertex="1">
+                    <mxGeometry x="-270" y="140" width="130" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="Nuby1DA8UVwhijTuT92c-2" value="Recorrer cada elemento de array" style="rounded=0;whiteSpace=wrap;html=1;" parent="x6R_ft5IZKhQPZ7CtvtX-1" vertex="1">
+                    <mxGeometry x="-280" y="270" width="130" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="Nuby1DA8UVwhijTuT92c-6" value="Cuando el puesto sea igual que el puesto anterior" style="rounded=0;whiteSpace=wrap;html=1;" parent="x6R_ft5IZKhQPZ7CtvtX-1" vertex="1">
+                    <mxGeometry x="151.25" y="460" width="150" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

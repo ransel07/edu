@@ -81,11 +81,11 @@ def funsion():
 # lea el archivo y muestre toda la información de cada libro en un formato 
 # legible para el usuario.
 
-import dataBaseEdu as re
+import dataBaseEdu as bd
 
 def funsion():
     with open("ejercicio6.txt", "w") as e6:
-        for elemento in re.libros_titulo1:
+        for elemento in bd.libros_titulo1:
             e6.write(str(elemento) + "\n")
 
     with open("ejercicio6.txt", "r") as e6:
@@ -99,7 +99,7 @@ def funsion():
 
 def funsion():
     with open("ejercicio7.txt", "w") as arch:
-        for elemento in re.empleados:
+        for elemento in bd.empleados:
             arch.write(str(elemento) + "\n")
 
     with open("ejercicio7.txt", "r") as arch:
@@ -118,7 +118,7 @@ def funsion():
 def CreateTex():
     with open("productos.txt", "w") as productos:
         contar = 0
-        for elemento in re.lista_productos:
+        for elemento in bd.lista_productos:
             visual = "---------------- " + elemento["nombre"] + " ----------------\n"
             code = "codigo del producto " + str(contar)
             productos.writelines(" \n" + visual)
@@ -141,7 +141,7 @@ def BuyProduct():
     cant_buy = int(input("Cantidad = "))
 
     if 0 <= buy <= 7:
-        prod= re.lista_productos[buy]    # Obtener el producto con índice 0
+        prod= bd.lista_productos[buy]    # Obtener el producto con índice 0
         # Acceder a la propiedad "cantidad disponibles" del producto
         cantidad_disponible = prod["cantidad disponible"]
         p = int(cantidad_disponible)  - int(cant_buy)
@@ -159,7 +159,7 @@ def BuyProduct():
 def PromedioFinalx():
     with open("estudiantes.csv", "w") as clase:
         contador = 0
-        for elemento in re.estudiantes:
+        for elemento in bd.estudiantes:
             contador = contador + 1
             clase.writelines("\n")
             clase.writelines("ESTUDIANTE " + str(contador) + "\n")
@@ -190,51 +190,53 @@ def PromedioFinalx():
 
 def PromedioFinal2():
     with open("estudiates2.txt", "w") as promedio2:
-        lista = re.estudiantes
+        lista = bd.estudiantes
         for line in lista:
             promedio2.writelines(str(line) + "\n")
     with open("estudiantes2.txt", "r") as WrithProm:
         escritura = WrithProm.writelines()
         
 #PromedioFinal2()
+"______________________________________________________________________________________"
+"Crea un archivo de texto con información sobre diferentes productos en una tienda" 
+"(nombre, precio, cantidad disponible, etc.). Luego, escribe un programa en Python" 
+"que lea el archivo y almacene la información de cada producto en un registro." 
+"Utiliza un arreglo de estos registros para luego permitir al usuario buscar un "
+"producto específico por nombre y mostrar toda su información."
+"______________________________________________________________________________________"
 
-# Crea un archivo de texto con información sobre diferentes productos en una tienda 
-# (nombre, precio, cantidad disponible, etc.). Luego, escribe un programa en Python 
-# que lea el archivo y almacene la información de cada producto en un registro. 
-# Utiliza un arreglo de estos registros para luego permitir al usuario buscar un 
-# producto específico por nombre y mostrar toda su información.
+arch_article = "productos2.txt"
 
-def producto2():
-    with open("productos2.txt", "w") as productos:
-        le = re.lista_productos
-        for i in le:
-            productos.writelines(str(i) + "\n")
+def producto2(arch_article):
+    with open(arch_article, "w") as productos:
+        lista_productos = bd.productos
+        for line in lista_productos:
+            productos.writelines(str(line) + "\n")
     
-    with open("productos2.txt", "r") as articulo:
-        lectura = articulo.readlines()
+    with open(arch_article, "r") as articulo:
+        read = articulo.readlines()
 
         print(" ")
         print("-----------Articulos disponibles-----------")
         print(" ")
 
-        for registro in le: 
-            print(registro["nombre"])
+        for l in read: 
+            print(l)
         
         print(" ")
         print("OBTEN DATOS DEL ARTICULO QUE NESECITAS")
         print(" ")
-        nombre = str(input("Articulo = "))
+        # nombre = str(input("Articulo = "))
         
-        for registro in le: # Revisar cada "registro" (producto,1,2..) del arrglo (re.lista_productos)
-            if nombre == registro["nombre"]: # 
-                for elemento in registro: # Revisar cada "elemento" 
-                    print(elemento, " : ", registro[elemento])
-            elif nombre != registro["nombre"]:
-                print(f"{nombre} no esta registrado en la lista de productos")
-                print(" ")
-                nombre = str(input("Articulo = ")) # Esto tiene el inconveniente de que al acabarce el bucle no se vuelve a repetir
-#producto2()
-
+        # for registro in le:
+        #     if nombre == registro["nombre"]: 
+        #         for elemento in registro: 
+        #             print(elemento, " : ", registro[elemento])
+        #     elif nombre != registro["nombre"]:
+        #         print(f"{nombre} no esta registrado en la lista de productos")
+        #         print(" ")
+                # nombre = str(input("Articulo = ")) 
+producto2()
 "______________________________________________________________________________________"
 "Crea un archivo de texto con información sobre diferentes empleados de una empresa "
 "(nombre, cargo, salario, etc.). Luego, escribe un programa en Python que lea el archivo" 
@@ -247,41 +249,46 @@ archive ="employe.txt"
 
 def info_empploye(archive):
     with open(archive, "w") as arch:
-        empploye = re.empleadosNU
+        empploye = bd.empleadosNU
         for line in empploye:
             for element in line:
                 vaule = str(line[element])
                 key = str(element)
                 arch.writelines(key + " : " + vaule + "\n")
     
-    record = {}
     with open(archive, "r") as arch:
         read = arch.readlines()
-        array = []
-        for line in read:
-            nline = line.strip().split(":")
-            record[nline[0]] = nline[1]
-            if line.startswith("t"):
-                array.append(record)
-                record = {}
-        
-        average = []
-        bridge = {}
-        for atributte in array:
-            for section in atributte:
-                position = section == "puesto "
-                salary = section == "salario "
-                if salary or position:
-                    bridge[section] = atributte[section]
-                    if section.startswith("p"):
-                        average.append(bridge)
-                        bridge = {}
-        print (average)
-        # prom = round(sum(salarios) / len(salarios))
-        # print(prom)
-    # read_archive(archive)
 
-info_empploye(archive)
+        def organizacion(read):
+            array = []
+            record = {}
+            for line in read:
+                nline = line.strip().split(":")
+                record[nline[0]] = nline[1]
+                if line.startswith("t"):
+                    array.append(record)
+                    record = {}
+            return array
+        array = organizacion(read)
+
+        def puesto_salario(array):
+            bridge = {}
+            for dict in array:
+                bridge[dict["puesto "]] = int(dict["salario "])
+            return bridge
+        result = puesto_salario(array)
+
+        def average(result):
+            avg = {}
+            for key, vaule in result.items():
+                if key in avg:
+                    avg[key] = (avg[key] + vaule) / 2
+                else:
+                    avg[key] = vaule
+            return avg
+        print(average(result))
+
+# info_empploye(archive)
 
 
 # Crea un archivo de texto con información sobre diferentes libros (título, autor, año de 
