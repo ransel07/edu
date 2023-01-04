@@ -1,6 +1,32 @@
 # Logica
 
-## proposición
+## Indice
+
+* [proposición](#proposición)
+* [Proposición condicional](#proposición-condicional)
+<!-- * []() -->
+<!-- * []() -->
+<!-- * []() -->
+<!-- * []() -->
+<!-- * []() -->
+<!-- * []() -->
+<!-- * []() -->
+<!-- * []() -->
+<!-- * []() -->
+<!-- * []() -->
+<!-- * []() -->
+<!-- * []() -->
+<!-- * []() -->
+<!-- * []() -->
+<!-- * []() -->
+<!-- * []() -->
+<!-- * []() -->
+<!-- * []() -->
+<!-- * []() -->
+<!-- * []() -->
+<!-- * []() -->
+
+## _proposición_
 
 Una proposición en matemática discreta es una afirmación que puede ser verdadera o falsa y que se basa en conceptos y teoremas de la matemática discreta.
 
@@ -23,4 +49,39 @@ Para demostrar esta proposición, podemos utilizar el hecho de que los números 
 
 Espero que esto te haya ayudado a comprender cómo se pueden demostrar proposiciones en matemática discreta utilizando argumentos lógicos y teoremas demostrados previamente.
 
-##
+## _Proposición condicional_
+
+Una proposición condicional es una afirmación que se basa en la existencia de una condición previa. En lógica, se suele representar mediante la forma "si p, entonces q", donde p es la condición previa y q es la consecuencia.
+
+### Hipótesis (o antecedente) y conclusión (o consecuente)
+
+En una proposición condicional, la **hipótesis** o **antecedente** es la parte de la afirmación que se presenta como condición previa. La **conclusión** o **consecuente** es la parte de la afirmación que se presenta como consecuencia de la condición previa.
+
+>Por ejemplo, en la afirmación "si llueve, entonces los campos estarán mojados", la hipótesis o antecedente es "llueve" y la conclusión o consecuente es "los campos estarán mojados".
+
+Es importante tener en cuenta que la hipótesis o antecedente de una proposición condicional debe ser necesaria para que se cumpla la conclusión o consecuente, pero no suficiente. Esto significa que la conclusión o consecuente puede ser verdadera por otros motivos además de la hipótesis o antecedente.
+
+Una proposición condicional que es verdadera porque la hipótesis es falsa se dice que es **verdadera por omisión** o **superficialmente verdadera**.
+>Por ejemplo, si la proposición, si el departamento de matemáticas obtiene $40,000 adicionales, entonces contratará un nuevo académico, es verdadera porque el departamento de matemáticas no obtuvo $40,000 adicionales, se dice que la proposición es verdadera por omisión o que es superficialmente verdadera.
+Algunas afirmaciones no de la forma pueden rescribirse como proposiciones.
+
+La **condición necesaria** es un concepto en lógica que se refiere a una proposición que debe ser cierta para que otra proposición también sea cierta. Se suele expresar mediante la palabra "si" o la fórmula lógica "→", y se utiliza para establecer una relación de dependencia entre dos proposiciones.
+
+>Por ejemplo, podemos decir que "si llueve, el suelo estará mojado" es una condición necesaria para que el suelo esté mojado. Esto significa que si llueve, entonces el suelo estará mojado, pero no necesariamente si el suelo está mojado, entonces ha llovido.
+>Otro ejemplo de condición necesaria podría ser "si quieres aprobar el examen, debes estudiar". En este caso, estudiar es una condición necesaria para aprobar el examen, pero no necesariamente aprobar el examen es una condición necesaria para haber estudiado.
+
+Una **condición suficiente** es una afirmación que, si es verdadera, garantiza que se cumpla una consecuencia o conclusión determinada. En otras palabras, una condición suficiente es aquella que es necesaria y suficiente para que se cumpla la consecuencia.
+
+>Por ejemplo, en la afirmación "si el sol brilla, entonces hace buen tiempo", la condición "el sol brilla" es suficiente para garantizar que se cumpla la consecuencia "hace buen tiempo". Esto significa que si el sol brilla, entonces hace buen tiempo, independientemente de cualquier otra circunstancia.
+
+Una condición suficiente no necesita ser necesariamente la única condición que garantiza que se cumpla la consecuencia. Puede haber varias condiciones suficientes para una misma consecuencia.
+
+En lógica, dos proposiciones son **equivalentes** cuando tienen el mismo valor de verdad, es decir, cuando son ciertas o falsas de manera simultánea. Se suele utilizar la fórmula lógica "↔" para expresar la equivalencia entre dos proposiciones.
+
+>**P ≡ Q**.
+
+Por ejemplo, podemos decir que la proposición "p ∧ q" es equivalente a la proposición "q ∧ p", ya que ambas proposiciones son ciertas o falsas de manera simultánea.
+
+Otro ejemplo de proposiciones equivalentes podría ser "p ∨ q" y "q ∨ p", ya que ambas proposiciones son ciertas o falsas de manera simultánea.
+
+## Verdadera por omisión o superficialmente
