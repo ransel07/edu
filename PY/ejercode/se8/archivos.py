@@ -208,24 +208,41 @@ def PromedioFinal2():
 arch_article = "productos2.txt"
 
 def producto2(arch_article):
-    with open(arch_article, "w") as productos:
-        lista_productos = bd.productos
-        for line in lista_productos:
-            productos.writelines(str(line) + "\n")
+    with open(arch_article, "w") as archive:
+        l_productos = bd.productos
+        for record in l_productos:
+            for atributte in record:
+                key = str(atributte)
+                vaule = str(record[atributte])
+                archive.writelines(key + " : " + vaule + ", ")
+            archive.writelines(key  + " : " + vaule + "\n")
     
     with open(arch_article, "r") as articulo:
         read = articulo.readlines()
 
         print(" ")
-        print("-----------Articulos disponibles-----------")
-        print(" ")
+        print("-----------Articulos disponibles-----------\n")
+        
+        def Organization(read):
+            nrecord = {}
+            pack = []
+            for line in read: 
+                division = line.strip().split(",")
+                for element in division:
+                    division1 = element.strip().split(":")
+                    # print (division1)
+                    nrecord[division1[0]] = division1[1]
+                    if element.startswith("c"):
+                        pack.append(nrecord)
+                        nrecord = {}
+            return pack, nrecord
+        org = Organization(read)
+        print (org)
 
-        for l in read: 
-            print(l)
         
         print(" ")
-        print("OBTEN DATOS DEL ARTICULO QUE NESECITAS")
-        print(" ")
+        print("OBTEN DATOS DEL ARTICULO QUE NESECITAS \n")
+
         # nombre = str(input("Articulo = "))
         
         # for registro in le:
@@ -236,7 +253,7 @@ def producto2(arch_article):
         #         print(f"{nombre} no esta registrado en la lista de productos")
         #         print(" ")
                 # nombre = str(input("Articulo = ")) 
-producto2()
+producto2(arch_article)
 "______________________________________________________________________________________"
 "Crea un archivo de texto con información sobre diferentes empleados de una empresa "
 "(nombre, cargo, salario, etc.). Luego, escribe un programa en Python que lea el archivo" 

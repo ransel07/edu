@@ -1,20 +1,20 @@
-{'nombre': 'Laptop', 'marca': 'HP', 'modelo': 'Elitebook', 'precio': 750.5, 'cantidad disponible': 50}
-{'nombre': 'Teclado', 'marca': 'Logitech', 'modelo': 'G513', 'precio': 99.99, 'cantidad disponible': 75}
-{'nombre': 'Monitor', 'marca': 'Dell', 'modelo': 'U2415', 'precio': 249.99, 'cantidad disponible': 25}
-{'nombre': 'Mouse', 'marca': 'Razer', 'modelo': 'Deathadder', 'precio': 69.99, 'cantidad disponible': 100}
-{'nombre': 'CPU', 'marca': 'AMD', 'modelo': 'Ryzen 9 5900X', 'precio': 499.99, 'cantidad disponible': 50}
-{'nombre': 'Motherboard', 'marca': 'Asus', 'modelo': 'ROG Strix B550-E', 'precio': 199.99, 'cantidad disponible': 75}
-{'nombre': 'RAM', 'marca': 'Corsair', 'modelo': 'Vengeance LPX 16GB DDR4', 'precio': 75.5, 'cantidad disponible': 100}
-{'nombre': 'SSD', 'marca': 'Samsung', 'modelo': '970 Evo 500GB', 'precio': 109.99, 'cantidad disponible': 50}
-{'nombre': 'Case', 'marca': 'Phanteks', 'modelo': 'Eclipse P400A', 'precio': 99.99, 'cantidad disponible': 75}
-{'nombre': 'Power Supply', 'marca': 'EVGA', 'modelo': '750W SuperNOVA', 'precio': 119.99, 'cantidad disponible': 25}
-{'nombre': 'Monitor', 'marca': 'Dell', 'modelo': 'U2718Q', 'precio': 699.0, 'cantidad disponible': 20}
-{'nombre': 'Laptop', 'marca': 'Lenovo', 'modelo': 'ThinkPad X1 Carbon', 'precio': 1499.0, 'cantidad disponible': 15}
-{'nombre': 'Impresora', 'marca': 'HP', 'modelo': 'OfficeJet Pro 7740', 'precio': 299.99, 'cantidad disponible': 10}
-{'nombre': 'Router', 'marca': 'Netgear', 'modelo': 'Nighthawk R7000', 'precio': 199.99, 'cantidad disponible': 25}
-{'nombre': 'Smartphone', 'marca': 'Apple', 'modelo': 'iPhone 12', 'precio': 849.99, 'cantidad disponible': 40}
-{'nombre': 'Altavoces', 'marca': 'JBL', 'modelo': 'Charge 4', 'precio': 149.95, 'cantidad disponible': 35}
-{'nombre': 'Tablet', 'marca': 'Samsung', 'modelo': 'Galaxy Tab S7', 'precio': 649.99, 'cantidad disponible': 30}
-{'nombre': 'Cámara de fotos', 'marca': 'Canon', 'modelo': 'EOS 5D Mark IV', 'precio': 2499.0, 'cantidad disponible': 20}
-{'nombre': 'Consola de videojuegos', 'marca': 'Sony', 'modelo': 'PlayStation 5', 'precio': 499.99, 'cantidad disponible': 15}
-{'nombre': 'Smartwatch', 'marca': 'Fitbit', 'modelo': 'Versa 3', 'precio': 199.95, 'cantidad disponible': 25}
+nombre : Laptop, marca : HP, modelo : Elitebook, precio : 750.5, cantidad disponible : 50, cantidad disponible : 50
+nombre : Teclado, marca : Logitech, modelo : G513, precio : 99.99, cantidad disponible : 75, cantidad disponible : 75
+nombre : Monitor, marca : Dell, modelo : U2415, precio : 249.99, cantidad disponible : 25, cantidad disponible : 25
+nombre : Mouse, marca : Razer, modelo : Deathadder, precio : 69.99, cantidad disponible : 100, cantidad disponible : 100
+nombre : CPU, marca : AMD, modelo : Ryzen 9 5900X, precio : 499.99, cantidad disponible : 50, cantidad disponible : 50
+nombre : Motherboard, marca : Asus, modelo : ROG Strix B550-E, precio : 199.99, cantidad disponible : 75, cantidad disponible : 75
+nombre : RAM, marca : Corsair, modelo : Vengeance LPX 16GB DDR4, precio : 75.5, cantidad disponible : 100, cantidad disponible : 100
+nombre : SSD, marca : Samsung, modelo : 970 Evo 500GB, precio : 109.99, cantidad disponible : 50, cantidad disponible : 50
+nombre : Case, marca : Phanteks, modelo : Eclipse P400A, precio : 99.99, cantidad disponible : 75, cantidad disponible : 75
+nombre : Power Supply, marca : EVGA, modelo : 750W SuperNOVA, precio : 119.99, cantidad disponible : 25, cantidad disponible : 25
+nombre : Monitor, marca : Dell, modelo : U2718Q, precio : 699.0, cantidad disponible : 20, cantidad disponible : 20
+nombre : Laptop, marca : Lenovo, modelo : ThinkPad X1 Carbon, precio : 1499.0, cantidad disponible : 15, cantidad disponible : 15
+nombre : Impresora, marca : HP, modelo : OfficeJet Pro 7740, precio : 299.99, cantidad disponible : 10, cantidad disponible : 10
+nombre : Router, marca : Netgear, modelo : Nighthawk R7000, precio : 199.99, cantidad disponible : 25, cantidad disponible : 25
+nombre : Smartphone, marca : Apple, modelo : iPhone 12, precio : 849.99, cantidad disponible : 40, cantidad disponible : 40
+nombre : Altavoces, marca : JBL, modelo : Charge 4, precio : 149.95, cantidad disponible : 35, cantidad disponible : 35
+nombre : Tablet, marca : Samsung, modelo : Galaxy Tab S7, precio : 649.99, cantidad disponible : 30, cantidad disponible : 30
+nombre : Cámara de fotos, marca : Canon, modelo : EOS 5D Mark IV, precio : 2499.0, cantidad disponible : 20, cantidad disponible : 20
+nombre : Consola de videojuegos, marca : Sony, modelo : PlayStation 5, precio : 499.99, cantidad disponible : 15, cantidad disponible : 15
+nombre : Smartwatch, marca : Fitbit, modelo : Versa 3, precio : 199.95, cantidad disponible : 25, cantidad disponible : 25
