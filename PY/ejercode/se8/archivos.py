@@ -1,3 +1,5 @@
+from colorama import Fore, Style
+
 # Crea un archivo de texto llamado "ejercicio1.txt" y escribe algunas líneas de 
 # texto en él. Luego, abre el archivo en modo de lectura y muestra su contenido 
 # en pantalla.
@@ -211,39 +213,45 @@ def producto2(arch_article):
     with open(arch_article, "w") as archive:
         l_productos = bd.productos
         for record in l_productos:
-            for atributte in record:
+            for i, atributte in enumerate(record):
+                count = i < len(record) - 1
                 key = str(atributte)
                 vaule = str(record[atributte])
-                archive.writelines(key + " : " + vaule + ", ")
+                if count:
+                    archive.writelines(key + " : " + vaule + ", ")
             archive.writelines(key  + " : " + vaule + "\n")
     
     with open(arch_article, "r") as articulo:
         read = articulo.readlines()
 
-        print(" ")
-        print("-----------Articulos disponibles-----------\n")
-        
         def Organization(read):
-            nrecord = {}
+            temporary = {}
             pack = []
             for line in read: 
                 division = line.strip().split(",")
                 for element in division:
                     division1 = element.strip().split(":")
-                    # print (division1)
-                    nrecord[division1[0]] = division1[1]
-                    if element.startswith("c"):
-                        pack.append(nrecord)
-                        nrecord = {}
-            return pack, nrecord
+                    temporary[division1[0].strip()] = division1[1].strip()
+                    if element.startswith(" c"):
+                        pack.append(temporary)
+                        temporary = {}
+            return pack
         org = Organization(read)
-        print (org)
 
-        
+        def available(org):
+            print(" ")
+            print(Fore.BLUE + "-----------Articulos disponibles-----------\n" + Style.RESET_ALL)
+            for record3 in org:
+                for keys in record3:
+                    if keys == "nombre":
+                        articule_color = Fore.RED + record3[keys] + Style.RESET_ALL
+                        print (articule_color)
+            return "-----------------"
+        brochure = available(org)
+        print (brochure)
+
         print(" ")
-        print("OBTEN DATOS DEL ARTICULO QUE NESECITAS \n")
-
-        # nombre = str(input("Articulo = "))
+        print(Fore.GREEN + "OBTEN DATOS DEL ARTICULO QUE NESECITAS \n" + Style.RESET_ALL)
         
         # for registro in le:
         #     if nombre == registro["nombre"]: 
@@ -254,6 +262,7 @@ def producto2(arch_article):
         #         print(" ")
                 # nombre = str(input("Articulo = ")) 
 producto2(arch_article)
+
 "______________________________________________________________________________________"
 "Crea un archivo de texto con información sobre diferentes empleados de una empresa "
 "(nombre, cargo, salario, etc.). Luego, escribe un programa en Python que lea el archivo" 
