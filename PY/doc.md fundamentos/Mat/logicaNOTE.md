@@ -2,7 +2,7 @@
 
 ## Indice
 
-* [conjucion](#conjuncion)
+* [Conjucion](#conjuncion)
 * [Disyucion](#disyucion)
 * [Disyucion](#disyucion)
 * [Negación](#negación)
@@ -54,11 +54,11 @@ p ↔ q == p <-> q
 
 ## TABLA
 
-|p|q|p ^ q|p v q|p ^ ~q|p -> q|p <-> q|
-|-|-|-----|-----|------|------|-------|
-|T|T|--T--|--T--|---F--|---T--|---T---|
-|T|F|--F--|--T--|---T--|---F--|---F---|
-|F|T|--F--|--T--|---F--|---T--|---F---|
-|F|F|--F--|--F--|---F--|---T--|---T---|
+| p | q | ~p | ~q |p ^ q|p v q|p ^ ~q|p -> q|p <-> q|
+|---|---|----|----|-----|-----|------|------|-------|
+| T | T |  F |  F |  T  |  T  |   F  |   T  |   T   |
+| T | F |  F |  T |  F  |  T  |   T  |   F  |   F   |
+| F | T |  T |  F |  F  |  T  |   T  |   T  |   F   |
+| F | F |  T |  T |  T  |  F  |   F  |   T  |   T   |
 
 Dos proposiciones diferentes tienen los mismos valores de verdad sin importar qué valores de verdad tengan las proposiciones que las constituyen. Tales proposiciones se conocen como **equivalentes lógicos** (**P ≡ Q**).
