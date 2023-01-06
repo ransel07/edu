@@ -103,24 +103,23 @@ cadenas = ["klk", "lunes", "martes", "miercoles", "jueves", "viernes", "sabado",
 "sus elementos (de mayor a menor)"
 "___________________________________________________"
 
-def Quicksort_lista_listas(lista, count):
-    if count < 1:
-        array = [sum(interlist) for interlist in lista]
-    count += 1
-    if len(array) < 2:
-        return array
+def Quicksort_Suma_listas(lista):
+    
+    if len(lista) <= 1:
+        return lista
 
-    pivot = array[0]
-    left = [element for element in array if element <= pivot]
-    right = [element for element in array if element > pivot]
+    pivot = lista[len(lista) // 2]
+    
+    left = [element for element in lista if sum(element) < sum(pivot)]
+    middle = [element for element in lista if sum(element) == sum(pivot)]
+    right = [element for element in lista if sum(element) > sum(pivot)]
 
-    print (f"{left}, {pivot}, {right}")
+    print (f"{left}, {middle}, {right}")
 
-    less = Quicksort_lista_listas(left, count)
-    more = Quicksort_lista_listas(right, count)
-    return less + pivot + more + count
+    less = Quicksort_Suma_listas(left)
+    more = Quicksort_Suma_listas(right)
+    return less + middle + more + (pivot)
 
-count = 0
-lista_in_lista = [[23,12], [23,13], [42,43], [32, 22]]
-i = Quicksort_lista_listas(lista_in_lista, count)
+lista_in_lista = [[23,12], [23,13], [42,43], [32, 22], [22, 21], [20, 15], [13, 10], [50, 55]]
+i = Quicksort_Suma_listas(lista_in_lista)
 print (i)
