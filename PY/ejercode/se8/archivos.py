@@ -244,7 +244,7 @@ def producto2(arch_article):
             for record3 in org:
                 for keys in record3:
                     if keys == "nombre":
-                        articule_color = Fore.RED + record3[keys] + Style.RESET_ALL
+                        articule_color = Fore.RED + record3[keys] + " " + record3["marca"] + Style.RESET_ALL
                         print (articule_color)
             return "-----------------"
         brochure = available(org)
@@ -252,15 +252,26 @@ def producto2(arch_article):
 
         print(" ")
         print(Fore.GREEN + "OBTEN DATOS DEL ARTICULO QUE NESECITAS \n" + Style.RESET_ALL)
-        
-        # for registro in le:
-        #     if nombre == registro["nombre"]: 
-        #         for elemento in registro: 
-        #             print(elemento, " : ", registro[elemento])
-        #     elif nombre != registro["nombre"]:
-        #         print(f"{nombre} no esta registrado en la lista de productos")
-        #         print(" ")
-                # nombre = str(input("Articulo = ")) 
+        def Select(org):
+            while True:
+                count = 0
+                want = input("Que quieres hacer? ")
+                if want == "salir":
+                    return print(Fore.YELLOW + "Gracias por visitarnos" + Style.RESET_ALL)
+                else:
+                    name = input("Nombre del articulo: ")
+                    trademark = input("Marca: ")
+                    for record in org:
+                        atributte1 = record["nombre"] == name.title()
+                        atributte2 = record["marca"] == trademark.title()
+                        if atributte1 and atributte2:
+                            count += 1
+                            for atributte3 in record:
+                                print (atributte3, record[atributte3])
+                if count < 0:
+                    print (f"El articulo {name} {trademark} no pertenece a la lista proporcionada")
+        Select(org)
+
 producto2(arch_article)
 
 "______________________________________________________________________________________"
