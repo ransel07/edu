@@ -255,19 +255,21 @@ def producto2(arch_article):
         def Select(org):
             while True:
                 count = 0
-                want = input("Que quieres hacer? ")
-                if want == "salir":
+                intro = "Consultar" #input("Que quieres hacer? ").title()
+                if intro == "Salir":
                     return print(Fore.YELLOW + "Gracias por visitarnos" + Style.RESET_ALL)
-                else:
-                    name = input("Nombre del articulo: ")
-                    trademark = input("Marca: ")
+                elif intro == "Consultar":
+                    name = "laptop" #input("Nombre del articulo: ").title()
+                    trademark = "HP" #input("Marca: ").title()
                     for record in org:
                         atributte1 = record["nombre"] == name.title()
                         atributte2 = record["marca"] == trademark.title()
                         if atributte1 and atributte2:
                             count += 1
                             for atributte3 in record:
-                                print (atributte3, record[atributte3])
+                                print (f"|{atributte3}|{record[atributte3]}|")
+                else:
+                    print ("Accion a realizar no valida \n")
                 if count < 0:
                     print (f"El articulo {name} {trademark} no pertenece a la lista proporcionada")
         Select(org)
