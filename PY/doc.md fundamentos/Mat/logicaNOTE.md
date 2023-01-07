@@ -62,3 +62,10 @@ p ↔ q == p <-> q
 | F | F |  T |  T |  T  |  F  |   F  |   T  |   T   |
 
 Dos proposiciones diferentes tienen los mismos valores de verdad sin importar qué valores de verdad tengan las proposiciones que las constituyen. Tales proposiciones se conocen como **equivalentes lógicos** (**P ≡ Q**).
+
+## Cuantificadores
+
+Sea P una función proposicional con dominio de discurso D. Se dice que la afirmación para toda x, P(x) es una afirmación cuantificada universalmente. El símbolo ∀ significa “para toda”, “Para cada”, “Para cualquier”. Entonces, la afirmación
+para toda x, P(x) se escribe ∀ x P(x).
+
+Un valor x en el dominio de discurso que hace que P(x) sea falsa se llama **contraejemplo** de la afirmación.

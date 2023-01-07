@@ -84,4 +84,14 @@ Por ejemplo, podemos decir que la proposición "p ∧ q" es equivalente a la pro
 
 Otro ejemplo de proposiciones equivalentes podría ser "p ∨ q" y "q ∨ p", ya que ambas proposiciones son ciertas o falsas de manera simultánea.
 
-## Verdadera por omisión o superficialmente
+## Cuantificadores
+
+En matemática, una **función proporcional** es aquella que cumple con la relación de proporcionalidad directa entre dos variables. Esto significa que si aumentamos una de las variables en un cierto porcentaje, también aumentará la otra variable en ese mismo porcentaje.
+
+En matemática, el término **dominio** se utiliza para referirse al conjunto de valores que puede tomar una variable en una función o en un problema matemático. El dominio de una función matemática es el conjunto de valores que puede tomar la variable independiente (típicamente representada por x) para los cuales la función es definida.
+
+En matemática discreta, una **afirmación** es una declaración que se puede considerar verdadera o falsa. Una afirmación matemática es una declaración que se basa en conceptos y teoremas matemáticos y que puede ser demostrada o refutada mediante el uso de pruebas y argumentos lógicos.
+
+Una **afirmación cuantificada universalmente** es aquella que se aplica a todos los elementos de un conjunto o dominio. Esta afirmación se expresa utilizando el cuantificador universal ∀.
+
+>Por ejemplo, la afirmación "∀x ∈ Z, x es un número entero" es una afirmación cuantificada universalmente, ya que se aplica a todos los elementos x del conjunto de los números enteros Z. Esta afirmación es verdadera para todos los valores de x que pertenecen al conjunto Z.
