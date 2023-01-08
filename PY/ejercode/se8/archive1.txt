@@ -1,0 +1,5 @@
+arbol, casa, perro, gato, libro, computadora, mesa, silla, ventana, puerta, reloj, zapato
+coche, moto, bicicleta, avion, barco, tren, autobus, avioneta, helicoptero, paracaidas, saltaron, columpio
+balancon, resbaladilla, tobogan, castillo, torre, puente, rampa, escalera, ascensor, montaña, rio, mar
+oceano, lago, charco, pantano, bosque, jardin, flor, arbol frutal, planta, siembra, cultivo, recoleccion
+cosecha, 

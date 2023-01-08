@@ -265,10 +265,30 @@ libros_titulo1 = [libro, libro1, libro2, libro3, libro4]
 lbn = [ libro]
 autor =  libro['autor']
 
+list_num = [9,34,6,4,43,35,5,63,12,1,7,46,16,15,12,23,1,11,4,13,74,3,8,3,4,14,43,30]
+list_num2 = [35, 14, 9, 25, 38, 22, 11, 6, 1, 19, 39, 4, 36, 30, 26, 3, 18, 29, 7, 8, 21, 17, 31, 5, 27, 12, 16, 20, 23, 10, 2, 28, 32, 24, 13, 15, 37, 40, 33, 34]
 
+list_cadenas = ["sabueso", "bolsa", "lunar", "galleta", "cementerio", "pantalla", "guitarra", "pulso", "desayuno", "capullo", 
+"mancha", "bolsillo", "plato", "maíz", "globo"]
 
+list_de_cadenas = ["uw7gf8", "lk9jd1","mn5gh2","qr3wz6","ty8ik9","bf1hj4","xc4zq7","vn2yl5","pl0ot3",
+"de6vx8","sw9rc1","qz4mp7","tu8vb3","ni6wf9","ko2dl4","jm5xh6","hl7yb2","vb1pk9","cs8jt5","ri3xw7"]
 
+words_list_ = ["árbol", "casa", "perro", "gato", "libro", "computadora", "mesa", "silla", 
+"ventana", "puerta", "reloj", "zapato", "coche", "moto", "bicicleta", "avión", "barco", 
+"tren", "autobús", "avioneta", "helicóptero", "paracaidas", "saltarín", "columpio", "balancín", 
+"resbaladilla", "tobogán", "castillo", "torre", "puente", "rampa", "escalera", "ascensor", 
+"montaña", "río", "mar", "océano", "lago", "charco", "pantano", "bosque", "jardín", "flor", 
+"árbol frutal", "planta", "siembra", "cultivo", "recolección", "cosecha"]
 
+words_list_2 = ['tarea', 'computadora', 'café', 'amigos', 'universidad', 'cine', 'playa', 
+'lectura', 'viajar', 'perro', 'gato', 'pájaro', 'pez', 'iguana', 'ratón', 'rana', 'lagarto', 
+'tortuga', 'jirafa', 'león', 'tigre', 'elefante', 'rinoceronte', 'cebra', 'cocodrilo', 'anaconda', 
+'pitón', 'boa', 'escorpión', 'araña', 'mosca', 'mosquito', 'abeja', 'hormiga', 'araña', 'mariposa', 
+'libélula', 'grillo', 'escarabajo']
+
+list_names = ['Sophia', 'Jacob', 'Olivia', 'William', 'Emma', 'James', 'Isabella', 'Benjamin', 'Ava', 'Elijah', 'Mia', 'Logan', 
+'Abigail', 'Oliver', 'Emily', 'Luke', 'Chloe', 'Ethan', 'Elena', 'Henry']
 
 
 

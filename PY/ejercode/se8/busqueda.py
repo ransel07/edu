@@ -140,3 +140,24 @@ def busqueda_binaria_Mayusculas(arreglo_mayus, cadena):
 "posición del elemento en el arreglo, o -1 si no se encuentra."
 "___________________________________________________________________________"
 
+"_______________________________________________________________________________________"
+"Crea una función llamada busqueda_binaria_string_palindromos que reciba como parámetro "
+"un arreglo de cadenas de caracteres ordenadas alfabéticamente y una cadena a buscar. "
+"La función debe devolver la posición de la cadena en el arreglo si es un palíndromo" 
+"(es decir, si se lee igual al derecho y al revés), o -1 si no se encuentra."
+"____________________________________________________________________________________"
+
+
+
+
+
+
+"Crea una función llamada busqueda_binaria_string_vocal que reciba como parámetro un "
+"arreglo de cadenas de caracteres ordenadas alfabéticamente y una cadena a buscar. La "
+"función debe devolver la posición de la cadena en el arreglo si empieza con una vocal, "
+"o -1 si no se encuentra."
+
+"Crea una función llamada busqueda_binaria_string_caracteres que reciba como parámetro" 
+"un arreglo de cadenas de caracteres ordenadas alfabéticamente y una cadena a buscar. La "
+"función debe devolver la posición de la cadena en el arreglo si tiene más de 10 caracteres, "
+"o -1 si no se encuentra."

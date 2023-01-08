@@ -1,3 +1,6 @@
+import dataBaseEdu as db
+from colorama import Fore, Style
+
 def f():
     def intercambion(lista):
         for i in range(len(lista) - 1):
@@ -101,25 +104,152 @@ cadenas = ["klk", "lunes", "martes", "miercoles", "jueves", "viernes", "sabado",
 "___________________________________________________"
 "ordenar lista de listas de números de acuerdo a la suma de"
 "sus elementos (de mayor a menor)"
-"___________________________________________________"
+"____________________________________________________________"
 
-def Quicksort_Suma_listas(lista):
-    
+def Quicksort_Suma_listas(lista, count):
     if len(lista) <= 1:
         return lista
-
-    pivot = lista[len(lista) // 2]
     
-    left = [element for element in lista if sum(element) < sum(pivot)]
-    middle = [element for element in lista if sum(element) == sum(pivot)]
-    right = [element for element in lista if sum(element) > sum(pivot)]
+    if count < 1:
+        lista = [sum(element) for element in lista]
 
-    print (f"{left}, {middle}, {right}")
+    pivot = lista[0]
+    
+    left = [element for element in lista[1:] if element <= pivot]
+    right = [element for element in lista[1:] if element > pivot]
 
-    less = Quicksort_Suma_listas(left)
-    more = Quicksort_Suma_listas(right)
-    return less + middle + more + (pivot)
+    print (f"{left}, {pivot}, {right}, {count}")
+    count += 1
 
-lista_in_lista = [[23,12], [23,13], [42,43], [32, 22], [22, 21], [20, 15], [13, 10], [50, 55]]
-i = Quicksort_Suma_listas(lista_in_lista)
-print (i)
+    less = Quicksort_Suma_listas(left, count)
+    more = Quicksort_Suma_listas(right, count)
+    return less + [pivot] + more
+
+# count = 0
+# lista_in_lista = [[23,12], [23,13], [42,43], [32, 22], [22, 21], [20, 15], [13, 10], [50, 55]]
+# i = Quicksort_Suma_listas(lista_in_lista, count)
+# print (i)
+
+"____________________________________________________________"
+"Crear una función que reciba una lista de palabras y devuelva una nueva "
+"lista con las palabras en orden inverso."
+"____________________________________________________________"
+
+def QuickSort_inverse(lista):
+    if len(lista) <= 1:
+        return lista
+    
+    pivot = lista[0]
+
+    left = [cadena for cadena in lista[1:] if cadena.lower() >= pivot.lower()]
+    right = [cadena for cadena in lista[1:] if cadena.lower() < pivot.lower()]
+
+    print (f"{left} {pivot} {right}")
+
+    less = QuickSort_inverse(left)
+    more = QuickSort_inverse(right)
+
+    return less + [pivot] + more
+
+# inv = QuickSort_inverse(db.list_cadenas)
+# print (inv)
+
+"______________________________________________________________________________"
+"Crear una función que reciba una lista de nombres y devuelva una nueva lista "
+"con los nombres en orden alfabético."
+"______________________________________________________________________________"
+
+def QuickSort_Names_Alphbert(lista):
+    if len(lista) <= 1:
+        return lista
+    
+    pivot = lista[0]
+
+    left = [name for name in lista[1:] if name.lower() <= pivot.lower()]
+    right = [name for name in lista[1:] if name.lower() > pivot.lower()]
+
+    print (f"{left}{pivot}{right}")
+
+    less = QuickSort_Names_Alphbert(left)
+    more = QuickSort_Names_Alphbert(right)
+
+    return less + [pivot] + more
+
+# names = QuickSort_Names_Alphbert(db.list_names)
+# print (names)
+"______________________________________________________________________________"
+"Dadas dos listas de números, implementa una función que devuelva una lista que contenga "
+"todos los números de ambas listas, ordenados de menor a mayor."
+"______________________________________________________________________________"
+
+def QuickSort_Combinacion_Listas(lista, lista2):
+    klk = len(lista)
+    for num in lista2:
+        lista.append(num)
+    
+    def QuickSort(lista):
+        if len(lista) <= 1:
+            return lista
+        
+        pivot = lista[0]
+
+        left = [e for e in lista[1:] if e <= pivot]
+        right = [e for e in lista[1:] if e > pivot]
+
+        print (f"{left}{pivot}{right}")
+
+        return QuickSort(left) + [pivot] + QuickSort(right)
+    qs = QuickSort(lista)
+    return qs
+# qcl = QuickSort_Combinacion_Listas(db.list_num, db.list_num2)
+# print (qcl)
+
+"______________________________________________________________________________"
+"Dados dos archivos de texto con palabras, implementa una función que devuelva un archivo "
+"de texto que contenga todas las palabras de ambos archivos, ordenadas alfabéticamente."
+"______________________________________________________________________________"
+
+def Archives_(file, file2):
+    with open(file, "w") as archive1:
+        count = 0
+        for line in db.words_list_:
+            if count <= 10:
+                archive1.writelines(line + ", ")
+                count += 1
+            else:
+                archive1.writelines(line + "\n")
+                count = 0
+    with open(file2, "w") as archive1:
+        count = 0
+        for line in db.words_list_2:
+            if count <= 10:
+                archive1.writelines(line + ", ")
+                count += 1
+            else:
+                archive1.writelines(line + "\n")
+                count = 0
+
+
+# Archives_(file, file2)
+
+def QuickSort_Archives_Alphabet(file, file2):
+    final_list = []
+    with open(file, "r") as archive:
+        read = archive.readlines()
+        for line in read:
+            line_list = line.split()
+            for element in line_list:
+                final_list.append(element)
+    with open(file2, "r") as archive2:
+        read = archive2.readlines()
+        for line2 in read:
+            line_list2 = line2.split()
+            for element2 in line_list2:
+                final_list.append(element2)
+    print (len(final_list))
+    def QuickSort(lista):
+        if len(lista):
+
+file = "archive1.txt"
+file2 = "archive2.txt"
+QuickSort_Archives_Alphabet(file, file2)

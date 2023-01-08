@@ -1,0 +1,4 @@
+tarea, computadora, cafe, amigos, universidad, cine, playa, lectura, viajar, perro, gato, pajaro
+pez, iguana, raton, rana, lagarto, tortuga, jirafa, lean, tigre, elefante, rinoceronte, cebra
+cocodrilo, anaconda, piton, boa, escorpion, araña, mosca, mosquito, abeja, hormiga, araña, mariposa
+libelula, grillo, escarabajo, 
