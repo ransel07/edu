@@ -246,10 +246,24 @@ def QuickSort_Archives_Alphabet(file, file2):
             line_list2 = line2.split()
             for element2 in line_list2:
                 final_list.append(element2)
-    print (len(final_list))
+
     def QuickSort(lista):
-        if len(lista):
+        if len(lista) <= 2:
+            return lista
+        
+        pivot = lista[0]
+
+        left = [x for x in lista[1:] if x.lower() <= pivot.lower()]
+        right = [x for x in lista[1:] if x.lower() > pivot.lower()]
+
+        print (f"{left}{pivot}{right}")
+
+        return QuickSort(left) + [pivot] + QuickSort(right)
+    
+    return QuickSort(final_list)
+
 
 file = "archive1.txt"
 file2 = "archive2.txt"
-QuickSort_Archives_Alphabet(file, file2)
+k = QuickSort_Archives_Alphabet(file, file2)
+print (k)

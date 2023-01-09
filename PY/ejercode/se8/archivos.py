@@ -1,4 +1,24 @@
 from colorama import Fore, Style
+import dataBaseEdu as bd
+
+def Archive_CSV_MySQL(archivo):
+    with open(archivo, "w") as csv:
+        employee = bd.empleadosNU
+        count = 0
+        for line in employee:
+            for renglon in line:
+                count += 1
+                key = str(renglon)
+                value = str(line[renglon])
+                if count < len(line):
+                    csv.writelines(key + ", " + value + ", ")
+                else:
+                    csv.writelines(key + ", " + value)
+                    count = 0
+            csv.writelines("\n")
+
+archivo = "employees.csv"
+Archive_CSV_MySQL(archivo)
 
 # Crea un archivo de texto llamado "ejercicio1.txt" y escribe algunas líneas de 
 # texto en él. Luego, abre el archivo en modo de lectura y muestra su contenido 
@@ -83,7 +103,7 @@ def funsion():
 # lea el archivo y muestre toda la información de cada libro en un formato 
 # legible para el usuario.
 
-import dataBaseEdu as bd
+
 
 def funsion():
     with open("ejercicio6.txt", "w") as e6:
@@ -274,7 +294,7 @@ def producto2(arch_article):
                     print (f"El articulo {name} {trademark} no pertenece a la lista proporcionada")
         Select(org)
 
-producto2(arch_article)
+# producto2(arch_article)
 
 "______________________________________________________________________________________"
 "Crea un archivo de texto con información sobre diferentes empleados de una empresa "
