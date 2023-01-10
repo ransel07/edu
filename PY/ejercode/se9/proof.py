@@ -1,22 +1,30 @@
-"Crea una clase Alumno que tenga los atributos nombre, edad, curso" 
-"y calificaciones (una lista). Añade métodos para obtener y establecer "
-"cada atributo."
+"Crea una clase Empleado que tenga los atributos nombre, salario y "
+"cargo. Añade métodos para obtener y establecer cada atributo, y también"
+"un método para mostrar el nombre y el cargo del empleado."
 
-
-class Alumno:
-    def __init__(self, name, middle_name, age, curse):
+class Employee:
+    def __init__(self, name, salary, position):
         self.name = name
-        self.middle_name = middle_name
-        self.age = age
-        self.curse = curse
-        self.ratings = []
+        self.salary = salary
+        self.position = position
+    
+    def get_name(self):
+        return self.name
+    def set_name(self, name):
+        self.name = name
+    def get_salary(self):
+        return self.salary
+    def set_salary(self, salary):
+        self.salary = salary
+    def get_position(self, position):
+        return self.position
+    def set_position(self, position):
+        self.position = position
+    
+    def Name_Position(self, name, position):
+        print (self.name)
+        print (self.position)
 
+emp1 = Employee("Juan", 40000, "Analista de Datos")
 
-
-alumno = Alumno("Ransel", "Melenciano", 29, "Prime")
-
-print (alumno.name, alumno.middle_name)
-
-alumno.name = "Rodolfo"
-
-print (alumno.age)
+Employee.Name_Position()
