@@ -13,7 +13,7 @@ edad : 35
 salario : 2500
 puesto : Jefe de proyecto
 tiempo_trabajando : 10
-nombre : Sof�a
+nombre : Sofía
 edad : 40
 salario : 3000
 puesto : Gerente de TI
@@ -31,9 +31,9 @@ tiempo_trabajando : 25
 nombre : Pablo
 edad : 55
 salario : 4500
-puesto : Experto en seguridad inform�tica
+puesto : Experto en seguridad informática
 tiempo_trabajando : 30
-nombre : Roc�o
+nombre : Rocío
 edad : 60
 salario : 5000
 puesto : Experto en bases de datos
@@ -71,5 +71,15 @@ tiempo_trabajando : 25
 nombre : Javier
 edad : 55
 salario : 4500
-puesto : Experto en seguridad inform�tica
+puesto : Experto en seguridad informática
+tiempo_trabajando : 30
+nombre : Frack
+edad : 45
+salario : 5500
+puesto : Experto en seguridad informática
+tiempo_trabajando : 30
+nombre : Rose
+edad : 37
+salario : 5000
+puesto : Experto en seguridad informática
 tiempo_trabajando : 30

@@ -1,0 +1,18 @@
+Cliente 1: Nombre: Carlos, Edad: 25, Dirección: Calle Falsa 123
+Cliente 2: Edad: 30, Nombre: Ana, Dirección: Avenida Siempre Viva 456
+Cliente 3: Dirección: Calle del Medio 789, Nombre: Pedro, Edad: 35
+Cliente 4: Edad: 40, Dirección: Calle sin Salida 1011, Nombre: María
+Cliente 5: Dirección: Avenida del Sol 1213, Edad: 45, Nombre: José
+Cliente 6: Nombre: Marta, Dirección: Calle de la Esperanza 1415, Edad: 50
+Cliente 7: Edad: 55, Dirección: Calle de la Alegría 1617, Nombre: Laura
+Cliente 8: Dirección: Calle del Amor 1819, Nombre: David, Edad: 60
+Cliente 9: Edad: 65, Nombre: Sandra, Dirección: Calle del Recuerdo 2021
+Cliente 10: Nombre: Ricardo, Dirección: Calle de la Felicidad 2223, Edad: 70
+Cliente 11: Dirección: Calle de la Amistad 2425, Edad: 75, Nombre: Daniela
+Cliente 12: Nombre: Fernando, Edad: 80, Dirección: Calle del Tesoro 2627
+Cliente 13: Edad: 85, Dirección: Calle de la Serenidad 2829, Nombre: Beatriz
+Cliente 14: Dirección: Calle de la Paz 3031, Nombre: Pablo, Edad: 90
+Cliente 15: Nombre: Elena, Edad: 95, Dirección: Calle de la Armonía 3233
+Cliente 16: Edad: 100, Dirección: Calle del Equilibrio 3435, Nombre: Jorge
+Cliente 17: Dirección: Calle de la Tranquilidad 3637, Nombre: Norma, Edad: 105
+Cliente 18: Nombre: Sergio, Edad: 110, Dirección: Calle de la Calma 3839

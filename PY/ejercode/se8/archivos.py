@@ -17,8 +17,8 @@ def Archive_CSV_MySQL(archivo):
                     count = 0
             csv.writelines("\n")
 
-archivo = "employees.csv"
-Archive_CSV_MySQL(archivo)
+# archivo = "employees.csv"
+# Archive_CSV_MySQL(archivo)
 
 # Crea un archivo de texto llamado "ejercicio1.txt" y escribe algunas líneas de 
 # texto en él. Luego, abre el archivo en modo de lectura y muestra su contenido 
@@ -307,7 +307,7 @@ def producto2(arch_article):
 archive ="employe.txt"
 
 def info_empploye(archive):
-    with open(archive, "w") as arch:
+    with open(archive, "w", encoding = 'utf-8') as arch:
         empploye = bd.empleadosNU
         for line in empploye:
             for element in line:
@@ -349,10 +349,47 @@ def info_empploye(archive):
 
 # info_empploye(archive)
 
+"________________________________________________________________________________________"
+"Crea un archivo de texto con información sobre diferentes libros (título, autor, año de" 
+"publicación, etc.). Luego, escribe un programa en Python que lea el archivo y almacene" 
+"la información de cada libro en un registro. Utiliza un arreglo de estos registros para" 
+"luego permitir al usuario buscar libros por año de publicación y mostrar todos los" 
+"títulos y autores de los libros publicados en ese año."
+"________________________________________________________________________________________"
 
-# Crea un archivo de texto con información sobre diferentes libros (título, autor, año de 
-# publicación, etc.). Luego, escribe un programa en Python que lea el archivo y almacene 
-# la información de cada libro en un registro. Utiliza un arreglo de estos registros para 
-# luego permitir al usuario buscar libros por año de publicación y mostrar todos los 
-# títulos y autores de los libros publicados en ese año.
+def f():
+    def quicksort(lista):
+        if len(lista) <= 1:
+            return lista
+        pivote = lista[0]
+        menores = [x for x in lista[1:] if x < pivote]
+        mayores = [x for x in lista[1:] if x >= pivote]
+        print (f"{menores}{pivote}{mayores}")
+        return quicksort(menores) + [pivote] + quicksort(mayores)
 
+    with open('archivo.txt', "w", encoding = 'utf-8') as arch:
+        nums = bd.list_num
+        for i, num in enumerate(nums):
+            if i < len(nums) - 1:
+                arch.writelines(str(num) + ", ")
+            else:
+                arch.writelines(str(num))
+
+    with open('archivo.txt', 'r', encoding = 'utf-8') as f:
+        line = f.readlines()
+        new_list = []
+        for numb in line:
+            box = numb.split()
+            for element in box:
+                inc = element.strip(", ")
+                new_list.append(int(inc))
+        print(new_list)
+
+    lista = quicksort(new_list)
+
+    with open('archivo.txt', "w", encoding = 'utf-8') as f:
+        for i, n in enumerate(lista):
+            if i < len(lista) - 1:
+                f.writelines(str(n) + ", ")
+            else:
+                f.writelines(str(n))
