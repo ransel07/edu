@@ -1,93 +1,4 @@
 
-persona = {
-    'nombre': 'Juan',
-    'edad': 35,
-    'direccion': 'Calle Falsa 123'
-}
-
-pelicula = {
-    'titulo': 'Star Wars',
-    'director': 'George Lucas',
-    'ano': 1977,
-    'actores': ['Mark Hamill', 'Harrison Ford', 'Carrie Fisher']
-}
-
-persona1 = {
-    "nombre" : "Rodrigo",
-    "edad" : 33,
-    "direccion" : "una calle hay numero algo"
-}
-
-persona2 = {
-    "nombre" : "ana",
-    "edad" : 28,
-    "direccion" : "calle 13"
-}
-
-persona3 = {
-    "nombre" : "Lorine",
-    "edad" : 25,
-    "direccion" : "zona colonial"
-}
-
-persona4 = {
-    "nombre" : "Daneyris",
-    "edad" : 30,
-    "direccion" : "kings Landing"
-}
-
-
-
-# Crea un procedimiento llamado "imprimir_persona" que reciba como parámetro una variable de tipo "persona" y muestre en 
-# pantalla los valores de sus campos. 
-
-def imprimir_persona(persona):
-    print(persona["nombre"])
-    print(persona["edad"])
-    print(persona["direccion"])
-
-persona["nombre"] = "Ransel"
-persona["edad"] = 27
-persona["direccion"] = "calle puerto rico #14"
-
-libro = {
-    'titulo': 'El señor de los anillos',
-    'autor': 'J.R.R. Tolkien',
-    'año': 1954,
-    'genero': 'Fantasía'
-}
-
-libro1 = {
-    'titulo': 'El señor de los anillos',
-    'autor': 'J.R.R. Tolkien',
-    'año': 1954,
-    'genero': 'Fantasía'
-}
-
-libro2 = {
-    'titulo': 'Game of Throne',
-    'autor': 'George R. R. Martin',
-    'año': 1996,
-    'genero': 'Fantasía Medival'
-}
-
-libro3 = {
-    'titulo': 'Los juegos del hambre',
-    'autor': 'Suzanne Collins',
-    'año': 2008,
-    'genero': 'Ficción adulto joven'
-}
-
-libro4 = {
-    'titulo': 'Danza de dragones',
-    'autor': 'George R. R. Martin',
-    'año': 2011,
-    'genero': 'Fantasía Medival'
-}
-
-libro["titulo"] = "Harry Potter y el Prisionero de Askaban"
-libro["autor"] = "J.K. Rolling"
-libro["año"] = 1999
 
 # Crea un registro llamado "estudiante" que contenga los campos "nombre", "edad", "promedio" y "becado". Luego, 
 # crea una variable de este tipo de registro y asígnale valores a sus campos.
@@ -255,15 +166,6 @@ productos = [
 {"nombre" : "Consola de videojuegos", "marca" : "Sony", "modelo" : "PlayStation 5", "precio" : 499.99, "cantidad disponible" : 15},
 {"nombre" : "Smartwatch", "marca" : "Fitbit", "modelo" : "Versa 3", "precio" : 199.95, "cantidad disponible" : 25}
 ]
-
-#                                           LISTAS DE REGISTROS
-
-personas = [persona, persona1, persona2, persona3, persona4]
-libros_autores = [ libro["autor"],  libro1["autor"],  libro2["autor"],  libro3["autor"],  libro4["autor"]]
-libros_titulo = [ libro["titulo"],  libro1["titulo"],  libro2["titulo"],  libro3["titulo"],  libro4["titulo"]]
-libros_titulo1 = [libro, libro1, libro2, libro3, libro4]
-lbn = [ libro]
-autor =  libro['autor']
 
 list_num = [9,34,6,4,43,35,5,63,12,1,7,46,16,15,12,23,1,11,4,13,74,3,8,3,4,14,43,30]
 list_num2 = [35, 14, 9, 25, 38, 22, 11, 6, 1, 19, 39, 4, 36, 30, 26, 3, 18, 29, 7, 8, 21, 17, 31, 5, 27, 12, 16, 20, 23, 10, 2, 28, 32, 24, 13, 15, 37, 40, 33, 34]
