@@ -8,21 +8,35 @@ select * from persons;
 -- Modificar 
 ALTER TABLE collaborators MODIFY COLUMN id int auto_increment;
 ALTER TABLE collaborators MODIFY COLUMN working_hours int;
-
-ALTER TABLE collaborators CHANGE nombre name varchar(255);
-alter table collaborators add working_hours varchar(255) AFTER age;
 alter table collaborators modify column social_security varchar(255) after age;
+
+-- Agregar
+ALTER TABLE collaborators ADD working_hours varchar(255) AFTER address_;
+ALTER TABLE collaborators ADD name varchar(255) AFTER id;
+ALTER TABLE collaborators ADD after_name VARCHAR(255) AFTER name;
+
+
+-- Cambiar
+ALTER TABLE collaborators CHANGE nombre name varchar(255);
+ALTER TABLE collaborators CHANGE nombre name varchar(255);
+SELECT id, nombre AS name FROM collaborators;
+
+-- Borrar
 ALTER TABLE collaborators drop column social_security;
+ALTER TABLE collaborators drop column address
 
 
 insert into collaborators (name, after_name, position, salary, age, social_security, address_) values ("Ransel", "Melenciano", "Analista de Datos", 5000, 29,"20185542", "calle no te importa");
 
-insert into collaborators (name, after_name, position, salary, age, social_security, address_) values ("Ransel", "Melenciano", "Analista de Datos", 5000, 27,"20185542", "calle no te importa");
-insert into collaborators (name, after_name, position, salary, age, social_security, address_) values ("Juan", "Molina", "Programador", 1500, 26,"20175632", "calle villa juana");
-insert into collaborators (name, after_name, position, salary, age, social_security, address_) values ("Ana", "Fernandez", "Analista de Datos", 2000, 27,"20181302", "Charles de Gaulle");
-insert into collaborators (name, after_name, position, salary, age, social_security, address_) values ("Pedro", "Morrinson", "Jefe de proyecto", 2500, 30,"20181299", "Cancino");
-insert into collaborators (name, after_name, position, salary, age, social_security, address_) values ("Sofía", "Martinez", "Gerente de TI", 3000, 28,"20185542", "Residencial las Acacias");
+insert into collaborators (name, after_name, position_, salary, age, address_,working_hours) VALUES ("Ransel", "Melenciano", "Analista de Datos", 5000, 27,"calle no te importa", 48);
+insert into collaborators (name, after_name, position_, salary, age, address_,working_hours) VALUES("Juan", "Molina", "Programador", 1500, 26,"calle villa juana", 48);
+insert into collaborators (name, after_name, position_, salary, age, address_,working_hours) VALUES ("Ana", "Fernandez", "Analista de Datos", 2000, 27, "Charles de Gaulle", 40);
+insert into collaborators (name, after_name, position_, salary, age, address_,working_hours) VALUES ("Pedro", "Morrinson", "Jefe de proyecto", 2500, 30, "Cancino", 42); 
+insert into collaborators (name, after_name, position_, salary, age, address_,working_hours) VALUES ("Sofía", "Martinez", "Gerente de TI", 3000, 28, "Residencial las Acacias", 50);
 insert into collaborators (id, working_hours) values (1, 47);
+
+-- Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'insert into collaborators (name, after_name, position_, salary, age, address_,wo' at line 2
+
 
 SELECT name FROM persons WHERE id = 1;
 SELECT * FROM persons WHERE age = 28 AND name = "Ana";
