@@ -50,6 +50,5 @@ INSERT INTO persons (name, age, address) VALUES ("Daneyris", 30, "kings Landing"
 
 SELECT * FROM persons WHERE id = 1;
 SELECT * FROM persons WHERE age = 28 AND name = "Ana";
-
 UPDATE persons SET age = 30 WHERE id = 1;
 
