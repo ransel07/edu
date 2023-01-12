@@ -393,3 +393,45 @@ def f():
                 f.writelines(str(n) + ", ")
             else:
                 f.writelines(str(n))
+
+
+"Crea un progama que lea un archivo de texto con palabras separados por coma,"
+"los guarde en una lista y los ordene alfabeticamente usando el algoritmo de quicksort."
+"Escriba el resultado ordenado en un nuevo archivo."
+
+def Write_Archive_Word(archive):
+    with open(archive, "w", encoding= "utf-8") as file:
+        words = bd.words_list_2
+        for count, word in enumerate(words):
+            if count < len(words) - 1:
+                file.writelines(str(word) + ", ")
+            else:
+                file.writelines(str(word))
+
+archive = "archivo_palabras_desordenadas.txt"
+
+def Read_Archive_Words(archive):
+    with open(archive, "r", encoding= "utf-8") as file:
+        read = file.read()
+        box = []
+        separate = read.split(",")
+        for element in separate:
+            box.append(element.strip())
+        print(f"Sin organizar: {box}")
+        def QuickSort(box):
+            if len(box) <=1 :
+                return box
+            
+            pivot = box[0]
+
+            left = [word for word in box if word.lower() < pivot.lower()]
+            right = [word for word in box if word.lower() < pivot.lower()]
+
+            print (left, pivot, right)
+
+            return QuickSort(left) + [pivot] + QuickSort(right)
+        result = QuickSort(box)
+        print (f"Organizado alfabeticamente: {result}")
+rd = Read_Archive_Words(archive)
+
+print (rd)
