@@ -2,7 +2,7 @@ create database Employees;
 show databases; --
 use for_education;
 show tables;
-select * from collaborators;
+select * from employees_2023;
 select * from persons;
 
 -- Modificar 
@@ -23,17 +23,15 @@ SELECT id, nombre AS name FROM collaborators;
 
 -- Borrar
 ALTER TABLE collaborators drop column social_security;
-ALTER TABLE collaborators drop column address
+ALTER TABLE collaborators drop column address;
 
 
-insert into collaborators (name, after_name, position, salary, age, social_security, address_) values ("Ransel", "Melenciano", "Analista de Datos", 5000, 29,"20185542", "calle no te importa");
+
+
+
 
 insert into collaborators (name, after_name, position_, salary, age, address_,working_hours) VALUES ("Ransel", "Melenciano", "Analista de Datos", 5000, 27,"calle no te importa", 48);
-insert into collaborators (name, after_name, position_, salary, age, address_,working_hours) VALUES("Juan", "Molina", "Programador", 1500, 26,"calle villa juana", 48);
-insert into collaborators (name, after_name, position_, salary, age, address_,working_hours) VALUES ("Ana", "Fernandez", "Analista de Datos", 2000, 27, "Charles de Gaulle", 40);
-insert into collaborators (name, after_name, position_, salary, age, address_,working_hours) VALUES ("Pedro", "Morrinson", "Jefe de proyecto", 2500, 30, "Cancino", 42); 
-insert into collaborators (name, after_name, position_, salary, age, address_,working_hours) VALUES ("Sofía", "Martinez", "Gerente de TI", 3000, 28, "Residencial las Acacias", 50);
-insert into collaborators (id, working_hours) values (1, 47);
+
 
 -- Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'insert into collaborators (name, after_name, position_, salary, age, address_,wo' at line 2
 
@@ -53,14 +51,4 @@ UPDATE collaborators SET working_hours = 40 WHERE id = 1;
 delete from collaborators where id = 6;
 
 
-SHOW CREATE TABLE collaborators;
-CREATE TABLE `collaborators` (
-  `id` int NOT NULL AUTO_INCREMENT,
-  `name` varchar(255) DEFAULT NULL,
-  `after_name` varchar(255) DEFAULT NULL,
-  `position` varchar(255) DEFAULT NULL,
-  `salary` int DEFAULT NULL,
-  `age` int DEFAULT NULL,
-  `working_hours` varchar(255) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-);
+
