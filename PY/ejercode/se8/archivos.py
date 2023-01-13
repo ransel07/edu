@@ -420,10 +420,10 @@ def Read_Archive_Words(archive):
             box.append(element.strip())
         print(f"Sin organizar: {box}")
         
+        
         def QuickSort(box):
             if len(box) <=2 :
                 return box
-            
             pivot = box[0]
 
             left = [word for word in box[1:] if word.lower() <= pivot.lower()]
