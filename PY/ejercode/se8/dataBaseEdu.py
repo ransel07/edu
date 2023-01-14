@@ -184,7 +184,7 @@ words_list_ = ["árbol", "casa", "perro", "gato", "libro", "computadora", "mesa"
 "árbol frutal", "planta", "siembra", "cultivo", "recolección", "cosecha"]
 
 words_list_2 = ['tarea', 'computadora', 'café', 'amigos', 'universidad', 'cine', 'playa', 
-'lectura', 'viajar', 'perro', 'gato', 'pájaro', 'pez', 'iguana', 'ratón', 'rana', 'lagarto', 
+'lectura', 'viajar', 'perro', 'gato', "zorro", 'pájaro', 'pez', 'iguana', 'ratón', 'rana', 'lagarto', 
 'tortuga', 'jirafa', 'león', 'tigre', 'elefante', 'rinoceronte', 'cebra', 'cocodrilo', 'anaconda', 
 'pitón', 'boa', 'escorpión', 'araña', 'mosca', 'mosquito', 'abeja', 'hormiga', 'araña', 'mariposa', 
 'libélula', 'grillo', 'escarabajo']

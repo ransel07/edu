@@ -143,3 +143,134 @@ cuadrado.set_lado(5)
 
 # print(cuadrado.Area())
 
+"Crea una clase Persona con atributos name y age y metodos hi() y birday()."
+"El metodo hi() debe imprimir un mensaje que diga hola, mi nombre es [nombre]"
+"y el metodo birtday debe sumar 1 a la edad de la persona."
+
+class Persona:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def hi(self):
+        return f"Saludos, mi nombre es {self.name} y tengo "
+    
+    def Birtday(self):
+        self.age += 1
+        return self.age
+
+carl = Persona("Carlo", 30)
+
+# print (carl.hi() ,carl.Birtday(), carl.Birtday())
+
+
+"Crea una clase CuentaBancaria con atributos nombre_titular y saldo. "
+"Agrega métodos depositar() y retirar() para modificar el saldo "
+"de la cuenta. Asegúrate de que no se pueda retirar más dinero del que "
+"se tiene en la cuenta."
+
+class CuentaBancaria:
+    def __init__(self, name, cash):
+        self.name = name
+        self.cash = cash
+    
+    def Deposit(self, amount):
+        return self.cash + amount
+    def Withdrawal(self, amount):
+        if self.cash >= 1 and amount <= self.cash:
+            return self.cash - amount
+        else:
+            return "No tiene balance suficiente para la transaccion"
+
+cuenta = CuentaBancaria("Juan", 5000)
+
+# print(cuenta.Deposit(6000))
+# print(cuenta.Withdrawal(3000))
+# print(cuenta.Withdrawal(3000))
+# print(cuenta.Withdrawal(5500))
+
+"Crea una clase Auto con atributos marca, modelo y año. "
+"Agrega un método encender() que imprima El auto está encendiendo "
+"y un método apagar() que imprima El auto está apagando."
+
+class Electric_Car:
+    def __init__(self, brand, model, year):
+        self.brand = brand
+        self.model = model
+        self.year = year
+    
+    def on(self):
+        return f"The {self.model} is on"
+    def off(self):
+        return f"The {self.model} is off"
+Tesla = Electric_Car("Tesla", "Model S", 2023)
+
+# print (Tesla.on())
+# print (Tesla.off())
+
+
+"Crea una clase Estudiante con atributos nombre y calificaciones "
+"(una lista de números). Agrega un método promedio() que calcule el "
+"promedio de las calificaciones del estudiante."
+
+class Estudiante:
+    def __init__(self, name, parcial1, parcial2, parcial3) -> None:
+        self.name = name
+        self.parcial1 = parcial1
+        self.parcial2 = parcial2
+        self.parcial3 = parcial3
+        self.ratings = [self.parcial1, self.parcial2, self.parcial3]
+    
+    def average(self):
+        average = sum(self.ratings)/len(self.ratings)
+        return average
+
+first = Estudiante("Martinez", 90, 88, 80)
+# print (first.average())
+
+class Estudiante: # Chat GPT
+    def __init__(self, name, ratings) -> None:
+        self.name = name
+        self.ratings = ratings
+    
+    def average(self):
+        average = sum(self.ratings)/len(self.ratings)
+        return average
+
+first = Estudiante("Martinez", [90, 88, 80])
+
+"Crea una clase Reloj con atributos hora y minutos. "
+"Agrega métodos mostrar_hora() y ajustar_hora() para mostrar la "
+"hora y cambiarla, respectivamente. Asegúrate de que la hora siempre "
+"esté en un formato válido (entre 0 y 23 para las horas y entre 0 y 59 "
+"para los minutos)."
+
+class Reloj:
+    def __init__(self, hour, minute):
+        if -1 < hour  < 24 and -1 < minute < 60:
+            self.hour = hour
+            self.minute = minute
+        else:
+            print (f"The Parameter {hour} or {minute} not valide")
+
+    def show(self):
+        return f"{self.hour}:{self.minute}"
+    
+    def set_time(self, hour, minute):
+        if -1 < hour  < 24 and -1 < minute < 60:
+            h = self.hour = hour
+            m = self.minute = minute
+            return f"{h}:{m}"
+        else:
+            print (f"The Parameter {hour} or {minute} not valide")
+
+
+hour = 12
+minute = 30
+
+atomic_hour = Reloj(hour, minute)
+# print (atomic_hour.show())
+# print (atomic_hour.set_time(50, 20))
+
+
+print(id(atomic_hour))
