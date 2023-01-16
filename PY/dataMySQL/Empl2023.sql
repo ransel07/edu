@@ -8,9 +8,30 @@ CREATE TABLE employees_2023 (
   salary int DEFAULT NULL,
   age int DEFAULT NULL,
   working_hours int DEFAULT NULL,
-  PRIMARY KEY (id)
+  PRIMARY KEY (id),
+  foreign key()
 );
 
+CREATE TABLE employees_2023 (
+  id int NOT NULL AUTO_INCREMENT,
+  name varchar(255) DEFAULT NULL,
+  after_name varchar(255) DEFAULT NULL,
+  position varchar(255) DEFAULT NULL,
+  salary int DEFAULT NULL,
+  age int DEFAULT NULL,
+  working_hours int DEFAULT NULL,
+  PRIMARY KEY (id) 	
+);
+
+CREATE TABLE Products (
+  id int NOT NULL AUTO_INCREMENT,
+  name varchar(255) DEFAULT NULL,
+  model varchar(255) DEFAULT NULL,
+  company varchar(255) DEFAULT NULL,
+  price int DEFAULT NULL,
+  stock int DEFAULT NULL,
+  PRIMARY KEY (id) 	
+);
 
 insert into employees_2023(name, after_name, position, salary, age, working_hours)
 values
@@ -36,7 +57,7 @@ values
 	("Antonia", "Rodriguez", "Jefe de Logística", 3000, 35, 40),
 	("Emiliano", "Martinez", "Jefe de Tecnología", 2500, 30, 40);
 
-insert into employees_2023(name, after_name, position, salary, age, working_hours)
+insert into supervisors(name, after_name, position, salary, age, working_hours)
 values
     ("Juan Carlos", "Gonzalez", "Director General", 6000, 40, 50),
     ("Sandra", "Lopez", "Gerente General", 5000, 38, 50),
@@ -48,3 +69,27 @@ values
     ("Luciana", "Garcia", "Gerente de Logística", 4000, 35, 40),
     ("Santiago", "Perez", "Director de Tecnología", 4500, 40, 45),
     ("Natalia", "Sanchez", "Gerente de Ventas", 3500, 30, 35);
+
+delete from employees_2023 where id > 21;
+
+insert into Products(name, model, company, price, stock)
+values
+    ("Graphic Card", "3090TI", "Nvidia", 2500, 275),
+    ("Processor", "Ryzen 9", "AMD", 500, 50),
+    ("RAM", "Corsair DDR4", "Corsair", 100, 1000),
+    ("Motherboard", "Z590", "Asus", 250, 200),
+    ("Storage", "1TB SSD", "Samsung", 150, 500),
+    ("Cooler", "Hyper 212", "Cooler Master", 50, 150),
+    ("Power Supply", "850W", "Corsair", 100, 200),
+    ("Monitor", "27 inch 4K", "Dell", 400, 150),
+    ("Keyboard", "Corsair K95", "Corsair", 150, 100),
+    ("Mouse", "Logitech G Pro", "Logitech", 75, 200),
+    ("Headphones", "Sennheiser HD 660 S", "Sennheiser", 250, 100),
+    ("Speakers", "Creative T100", "Creative", 50, 250),
+    ("Mousepad", "Steelseries Qck", "Steelseries", 15, 500),
+    ("Webcam", "Logitech C922", "Logitech", 75, 200),
+    ("Laptop", "XPS 15", "Dell", 1500, 100),
+    ("Tablet", "iPad Pro", "Apple", 700, 200),
+    ("Smartphone", "iPhone 12", "Apple", 800, 200),
+    ("Smartwatch", "Apple Watch Series 6", "Apple", 400, 100),
+    ("Fitness Tracker", "Fitbit Charge 4", "Fitbit", 150, 200);

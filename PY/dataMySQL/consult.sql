@@ -27,6 +27,8 @@ values
     ("SmartWatch", 4, "Samsung"),
     ("Macbook", 1, "Apple");
 
+
+
 select article.name, employees_2023.name from employees_2023 left join article on employees_2023.id = article.created_by;
 select c.id, c.name, a.name from collaborators c right join article a on c.id = a.created_by;
 select c.id, c.name, a.name from collaborators c inner join article a on c.id = a.created_by;
