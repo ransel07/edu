@@ -36,3 +36,15 @@ values
 	("Antonia", "Rodriguez", "Jefe de Logística", 3000, 35, 40),
 	("Emiliano", "Martinez", "Jefe de Tecnología", 2500, 30, 40);
 
+insert into employees_2023(name, after_name, position, salary, age, working_hours)
+values
+    ("Juan Carlos", "Gonzalez", "Director General", 6000, 40, 50),
+    ("Sandra", "Lopez", "Gerente General", 5000, 38, 50),
+    ("Pablo", "Garcia", "Director de Finanzas", 4500, 42, 45),
+    ("Camila", "Perez", "Gerente de Recursos Humanos", 4000, 35, 40),
+    ("Felipe", "Sanchez", "Director de Operaciones", 4500, 40, 45),
+    ("Valentina", "Rodriguez", "Gerente de Marketing", 3500, 30, 35),
+    ("Andres", "Martinez", "Director de Producción", 4500, 40, 45),
+    ("Luciana", "Garcia", "Gerente de Logística", 4000, 35, 40),
+    ("Santiago", "Perez", "Director de Tecnología", 4500, 40, 45),
+    ("Natalia", "Sanchez", "Gerente de Ventas", 3500, 30, 35);
