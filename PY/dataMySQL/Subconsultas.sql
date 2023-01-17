@@ -39,4 +39,17 @@ SELECT AVG(price * stock) FROM products;
 SELECT COUNT(*) FROM products
 WHERE company = "Apple";
 
+SELECT id, MODEL FROM productS
+WHERE price = (SELECT MAX(price) FROM products);
+
+SELECT id, name, model, (price * stock) FROM products;
+
+SELECT sum(price * stock) AS TOTAL FROM products;
+
+SELECT id, name, model FROM products
+WHERE price >= (SELECT AVG(price) FROM products) AND
+stock < (SELECT AVG(stock) FROM products);
+
+
+
 show tables;
