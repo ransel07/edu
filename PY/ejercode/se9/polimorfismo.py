@@ -4,6 +4,7 @@
 "lista de figuras con varios cuadros y triangulos y recorre la lista para imprimir"
 "el area de cada figura."
 import random
+import dataBaseEdu
 
 class Figura:
     def area(self) -> None:
@@ -27,15 +28,80 @@ class Triangulo(Figura):
         altura = self.altura
         return base * altura // 2
 
-lista = [num for num in range(1, 11)]
-random_list= [random.randint(1, 10) for num in range(11)]
+# lista = [num for num in range(1, 11)]
+# random_list= [random.randint(1, 10) for num in range(11)]
 
 
-def cal_area(figura):
-    return figura.area()
+# def cal_area(figura):
+#     return figura.area()
 
-for e, i in zip(lista, random_list):
-    cuadrado = Cuadrado(e)
-    triangulo = Triangulo(e, i)
-    print (f"Lados de cuadraro: {e} ; Area: {cal_area(cuadrado)}")
-    print (f"Base y altura: {e, i} ; Area: {cal_area(triangulo)}")
+# for e, i in zip(lista, random_list):
+#     cuadrado = Cuadrado(e)
+#     triangulo = Triangulo(e, i)
+#     print (f"Lados de cuadraro: {e} ; Area: {cal_area(cuadrado)}")
+#     print (f"Base y altura: {e, i} ; Area: {cal_area(triangulo)}")
+
+"Crea una clase Automovil con un método encender() vacío. Luego, crea dos clases hijas "
+"Gasolina y Electrico que hereden de Automovil y sobreescriban el método encender()" 
+"para simular el encendido de un automóvil de gasolina y uno eléctrico, respectivamente. Crea" 
+"una lista de automóviles con varios de gasolina y eléctricos y recorre la lista para imprimir "
+"el proceso de encendido de cada uno."
+
+
+class Automovil:
+    def encender(self) -> None:
+        pass
+
+class Gasolina(Automovil):
+    def __init__(self, auto):
+        self.auto = auto
+    def encender(self):
+        return f"Sonido de encendido del {self.auto}"
+
+class Electrico(Automovil):
+    def __init__(self, auto):
+        self.auto = auto
+    def encender(self):
+        return f"El {self.auto} encendió pero no se escuchó"
+
+
+# for g, e in zip(dataBaseEdu.gasoline_models, dataBaseEdu.electric_models):
+#     gasoline = Gasolina(g)
+#     electrico = Electrico(e)
+#     print (f"{gasoline.encender()} & {electrico.encender()}")
+
+"Crea una clase Empleado con un método salario() vacío. Luego, crea dos clases hijas "
+"EmpleadoFijo y EmpleadoPorHora que hereden de Empleado y sobreescriban el método "
+"salario() para calcular el salario de un empleado fijo y uno por hora, respectivamente." 
+"Crea una lista de empleados con varios fijos y por hora y recorre la lista para imprimir el "
+"salario de cada uno."
+
+
+class Empleado:
+    def salario(self) -> None:
+        pass
+
+class EmpleadoFijo:
+    def __init__(self, name, salario):
+        self.name = name
+        self.salario = salario
+    
+    def salary(self):
+        return f"{self.name}: {self.salario}"
+
+
+class EmpleadoPorHora:
+    def __init__(self, name, salario):
+        self.name = name
+        self.salario = salario
+    
+    def salary(self):
+        return f"{self.name}: {self.salario}"
+
+lista = dataBaseEdu.empleadosNU
+for record in lista:
+    name = record["nombre"]
+    salary = record["salario"]
+    fijo = EmpleadoFijo(name, salary)
+    print (fijo.salary())
+

@@ -193,5 +193,9 @@ list_names = ['Sophia', 'Jacob', 'Olivia', 'William', 'Emma', 'James', 'Isabella
 'Abigail', 'Oliver', 'Emily', 'Luke', 'Chloe', 'Ethan', 'Elena', 'Henry']
 
 
+gasoline_models = ["Honda Civic", "Toyota Camry", "Ford F-150", "Chevrolet Silverado", "Ram 1500", 
+"Jeep Grand Cherokee", "Nissan Altima", "Hyundai Sonata", "Subaru Outback", "Kia Sorento"]
 
+electric_models = ["Tesla Model S", "Tesla Model 3", "Nissan Leaf", "Chevrolet Bolt", "Jaguar I-PACE", 
+"Audi e-Tron", "BMW i3", "Hyundai Kona Electric", "Volkswagen ID.4", "Ford Mustang Mach-E"]
 
