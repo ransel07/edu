@@ -98,10 +98,13 @@ class EmpleadoPorHora:
     def salary(self):
         return f"{self.name}: {self.salario}"
 
-lista = dataBaseEdu.empleadosNU
-for record in lista:
-    name = record["nombre"]
-    salary = record["salario"]
-    fijo = EmpleadoFijo(name, salary)
-    print (fijo.salary())
+# lista = dataBaseEdu.empleadosNU
+# for record in lista:
+#     name = record["nombre"]
+#     salary = record["salario"]
+#     fijo = EmpleadoFijo(name, salary)
+#     print (fijo.salary())
+
+
+
 
