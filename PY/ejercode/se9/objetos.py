@@ -275,3 +275,74 @@ atomic_hour = Reloj(hour, minute)
 
 print(id(atomic_hour))
 
+"_________________________________________________________________________________________________________"
+"Crea un programa que lea un archivo de texto y lo convierta en un archivo indexado. El archivo de texto" 
+"debe tener una lista de nombres, salarios y puestos de trabajo separados por una coma. Cada línea del" 
+"archivo debe tener un registro diferente. El archivo indexado debe tener índices que apunten a cada"
+"registro del archivo de texto y permitan acceder a la información de cada empleado."
+"_________________________________________________________________________________________________________"
+
+class File_W_R_Record_DatabasEdu:
+    def __init__(self, name_file, encoding):
+        self.name_file = name_file
+        self.encoding = encoding
+
+    def Write(self, lista):
+        with open(self.name_file, "w", encoding=self.encoding) as file:
+            for i, record in enumerate(lista):
+                if i < len(lista) - 1:
+                    for count, element in enumerate(record):
+                        key = str(element)
+                        vaule = str(record[element])
+                        if count < len(record) - 1:
+                            file.writelines(key + ": " + vaule + ", ")
+                        else:
+                            file.writelines(key + ": " + vaule + "\n")
+                else:
+                    for count, element in enumerate(record):
+                        key = str(element)
+                        vaule = str(record[element])
+                        if count < len(record) - 1:
+                            file.writelines(key + ": " + vaule + ", ")
+                        else:
+                            file.writelines(key + ": " + vaule)
+    def Read(self):
+        with open(self.name_file, "r", encoding=self.encoding) as file:
+            read = file.readlines()
+            employees = []
+            for line in read:
+                record = line.strip().split(", ")
+                temporal = {}
+                for element in record:
+                    box = element.strip().split(": ")
+                    temporal[box[0]] = box[1]
+                employees.append(temporal)
+            print (employees)
+
+archive = File_W_R_Record_DatabasEdu("ArchiveEmployeesN.txt", "utf-8")
+
+# archive.Write(db.empleadosNU)
+archive.Read()
+
+
+
+#_________________________________________________________________________________________________________
+#Crea un programa que permita realizar búsquedas en un archivo indexado creado en el ejercicio 1. 
+# El programa debe pedir al usuario un nombre y mostrar todos los registros que contengan ese nombre.
+
+#_________________________________________________________________________________________________________
+#Crea un programa que permita realizar búsquedas en un archivo indexado creado en el ejercicio 1 
+# utilizando diferentes índices. El programa debe permitir buscar por nombre, edad y dirección.
+
+#_________________________________________________________________________________________________________
+#Crea un programa que permita realizar búsquedas en un archivo indexado creado en el ejercicio 1 
+# utilizando índices múltiples. Por ejemplo, el usuario puede buscar todos los registros que tengan un nombre 
+# determinado y una edad determinada.
+
+#_________________________________________________________________________________________________________
+#Crea un programa que permita realizar búsquedas en un archivo indexado creado en el ejercicio 1 
+# utilizando índices de búsqueda binaria. El programa debe permitir buscar por nombre, edad y dirección.
+
+#_________________________________________________________________________________________________________
+#Crea un programa que permita realizar búsquedas en un archivo indexado creado en el ejercicio 1 utilizando 
+# índices hash. El programa debe permitir buscar por nombre, edad y dirección.
