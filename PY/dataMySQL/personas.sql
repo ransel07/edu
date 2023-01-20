@@ -43,6 +43,17 @@ CREATE TABLE `persons` (
   PRIMARY KEY (`id`)
 );
 
+CREATE TABLE orders(
+	id INT NOT NULL auto_increment,
+    name VARCHAR(255) NOT NULL,
+    supplier VARCHAR(255) NOT NULL,
+    ud INT NOT NULL,
+    price INT NOT NULL,
+    order_by INT NOT NULL,
+    PRIMARY KEY(id),
+    FOREIGN KEY(order_by) REFERENCES persons(id)
+);
+
 INSERT INTO persons (name, age, address) VALUES ("Rodrigo", 33, "una calle hay numero algo");
 INSERT INTO persons (name, age, address) VALUES ("Ana", 28, "calle 13");
 INSERT INTO persons (name, age, address) VALUES ("Lorine", 25, "zona colonial");

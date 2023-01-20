@@ -50,6 +50,17 @@ SELECT id, name, model FROM products
 WHERE price >= (SELECT AVG(price) FROM products) AND
 stock < (SELECT AVG(stock) FROM products);
 
+SELECT name, (salary * working_hours) FROM collaborators;
+
+SELECT id, name FROM collaborators;
+
+SELECT id, name FROM collaborators WHERE salary > 2000;
+SELECT id, name FROM collaborators WHERE salary > (SELECT AVG(salary) FROM collaborators);
+
+SELECT c.id, a.id_article FROM collaborators c INNER JOIN article a ON c.id = a.createD_by;
+
+SELECT * FROM collaborators INNER JOIN article ON collaborators.id = article.createD_by;
+
 
 
 show tables;

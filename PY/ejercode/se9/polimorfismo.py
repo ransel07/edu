@@ -4,7 +4,7 @@
 "lista de figuras con varios cuadros y triangulos y recorre la lista para imprimir"
 "el area de cada figura."
 import random
-import dataBaseEdu
+import math
 
 class Figura:
     def area(self) -> None:
@@ -77,26 +77,26 @@ class Electrico(Automovil):
 "salario de cada uno."
 
 
-class Empleado:
-    def salario(self) -> None:
-        pass
+# class Empleado:
+#     def salario(self) -> None:
+#         pass
 
-class EmpleadoFijo:
-    def __init__(self, name, salario):
-        self.name = name
-        self.salario = salario
+# class EmpleadoFijo:
+#     def __init__(self, name, salario):
+#         self.name = name
+#         self.salario = salario
     
-    def salary(self):
-        return f"{self.name}: {self.salario}"
+#     def salary(self):
+#         return f"{self.name}: {self.salario}"
 
 
-class EmpleadoPorHora:
-    def __init__(self, name, salario):
-        self.name = name
-        self.salario = salario
+# class EmpleadoPorHora:
+#     def __init__(self, name, salario):
+#         self.name = name
+#         self.salario = salario
     
-    def salary(self):
-        return f"{self.name}: {self.salario}"
+#     def salary(self):
+#         return f"{self.name}: {self.salario}"
 
 # lista = dataBaseEdu.empleadosNU
 # for record in lista:
@@ -105,6 +105,75 @@ class EmpleadoPorHora:
 #     fijo = EmpleadoFijo(name, salary)
 #     print (fijo.salary())
 
+"Crea una clase Empleado con un método salario() vacío. Luego, crea dos clases hijas "
+"EmpleadoFijo y EmpleadoPorHora que hereden de Empleado y sobreescriban el método" 
+"salario() para calcular el salario de un empleado fijo y uno por hora, respectivamente." 
+"Crea una lista de empleados con varios fijos y por hora y recorre la lista para imprimir" 
+"el salario de cada uno."
+
+class Empleado:
+    def __init__(self, name, __salary, time):
+        self.salary_ = __salary
+        self.name = name
+        self.time = time
+    
+    def salary(self):
+        pass
+
+class EmpleadoFijo(Empleado):
+    def salary(self):
+        return self.salary_ * self.time
+
+class EmpleadoPorHora(Empleado):
+    def salary(self):
+        return self.salary_ * self.time
+
+
+# numero1 = EmpleadoFijo("Rodolfo", 150, 40)
+
+# print (numero1.salary())
+
+
+"Crea una clase Figura con un método perimetro() vacío. Luego, crea tres clases hijas Cuadrado, Triangulo y Circulo que "
+"hereden de Figura y sobreescriban el método perimetro() para calcular el perímetro de un" 
+" cuadrado, triángulo y círculo, respectivamente. Crea una lista de figuras con varios cuadrados,"
+" triángulos y círculos, y recorre la lista para imprimir el perímetro de cada una."
+
+class Figure:
+    def Perimetro():
+        pass
+
+class Square(Figure):
+    def __init__(self, side):
+        self.side = side
+
+    def Perimeter(self):
+        return self.side * 4
+
+class Triangle(Figure):
+    def __init__(self, sides):
+        self.sides = sides
+
+    def Perimeter(self):
+        return sum(self.side1)
+
+class Circle(Figure):
+    def __init__(self, radius):
+        self.radius = radius
+
+    def Perimeter(self):
+        return math.pi * self.radius * 2
 
 
 
+"Crea una clase Vehiculo con un método encender() vacío. Luego, crea tres clases hijas Auto," 
+"Moto y Bicicleta que hereden de Vehiculo y sobreescriban el método encender() para encender" 
+"un auto, moto y bicicleta, respectivamente. Crea una lista de vehículos con varios autos, motos" 
+"y bicicletas, y recorre la lista para imprimir el resultado de encender cada uno de ellos."
+
+
+
+"Crea una clase Empleado con un método salario() vacío. Luego, crea tres clases hijas EmpleadoFijo," 
+"EmpleadoPorHora y EmpleadoPorComision que hereden de Empleado y sobreescriban el método salario()"
+"para calcular el salario de un empleado fijo, uno por hora y uno por comisión, respectivamente. Crea"
+"una lista de empleados con varios fijo"

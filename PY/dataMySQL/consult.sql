@@ -11,7 +11,6 @@ CREATE TABLE products(
     foreign key(created_by) references employees_2023(id)
 );
 
-rename table products to article; -- Cambiar el nombre de la tabla
 alter table article change NAME name varchar(255);
 alter table article change id id_article int;
 

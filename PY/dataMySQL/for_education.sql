@@ -9,6 +9,7 @@ select * from persons;
 ALTER TABLE collaborators MODIFY COLUMN id int auto_increment;
 ALTER TABLE collaborators MODIFY COLUMN working_hours int;
 alter table collaborators modify column social_security varchar(255) after age;
+rename table products to article; -- Cambiar el nombre de la tabla
 
 -- Agregar
 ALTER TABLE collaborators ADD working_hours varchar(255) AFTER address_;
@@ -22,19 +23,14 @@ ALTER TABLE collaborators CHANGE nombre name varchar(255);
 SELECT id, nombre AS name FROM collaborators;
 
 -- Borrar
+DROP TABLE students;
 ALTER TABLE collaborators drop column social_security;
 ALTER TABLE collaborators drop column address;
-
-
-
-
-
 
 insert into collaborators (name, after_name, position_, salary, age, address_,working_hours) VALUES ("Ransel", "Melenciano", "Analista de Datos", 5000, 27,"calle no te importa", 48);
 
 
 -- Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'insert into collaborators (name, after_name, position_, salary, age, address_,wo' at line 2
-
 
 SELECT name FROM persons WHERE id = 1;
 SELECT * FROM persons WHERE age = 28 AND name = "Ana";
