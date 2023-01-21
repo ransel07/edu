@@ -155,16 +155,23 @@ class Triangle(Figure):
         self.sides = sides
 
     def Perimeter(self):
-        return sum(self.side1)
+        return sum(self.sides)
 
 class Circle(Figure):
     def __init__(self, radius):
         self.radius = radius
 
     def Perimeter(self):
-        return math.pi * self.radius * 2
+        return round(math.pi) * self.radius * 2
+
+lista = [num for num in range(1, 20)]
 
 
+# for numb in lista:
+#     square = Square(numb)
+#     triangle = Triangle([numb, numb, numb])
+#     circle = Circle(numb)
+#     print (square.Perimeter(), triangle.Perimeter(), circle.Perimeter())
 
 "Crea una clase Vehiculo con un método encender() vacío. Luego, crea tres clases hijas Auto," 
 "Moto y Bicicleta que hereden de Vehiculo y sobreescriban el método encender() para encender" 

@@ -5,7 +5,11 @@ import mysql.connector
 with open("employees.csv", "r") as file:
     reader = csv.reader(file)
     # Establece la conexión con la base de datos
-    cnx = mysql.connector.connect(user='root', password='#0795Ran$el07#', host='10.0.0.55:4848', database='for_education')
+    cnx = mysql.connector.connect(
+        user='root', 
+        password='#0795Ran$el07#', host='localhost', 
+        database='Tablas_python', port="4848"
+    )
 
     # Crea un cursor para realizar operaciones sobre la base de datos
     cursor = cnx.cursor()

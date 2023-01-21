@@ -17,8 +17,8 @@ def Archive_CSV_MySQL(archivo):
                     count = 0
             csv.writelines("\n")
 
-# archivo = "employees.csv"
-# Archive_CSV_MySQL(archivo)
+archivo = "employees.csv"
+Archive_CSV_MySQL(archivo)
 
 # Crea un archivo de texto llamado "ejercicio1.txt" y escribe algunas líneas de 
 # texto en él. Luego, abre el archivo en modo de lectura y muestra su contenido 
@@ -409,7 +409,7 @@ def Write_Archive_Word(archive):
                 file.writelines(str(word))
 
 archive = "archivo_palabras_desordenadas.txt"
-Write_Archive_Word(archive)
+# Write_Archive_Word(archive)
 
 def Read_Archive_Words(archive):
     with open(archive, "r", encoding= "utf-8") as file:
@@ -438,4 +438,4 @@ def Read_Archive_Words(archive):
 archive = "archivo_palabras_desordenadas.txt"
 rd = Read_Archive_Words(archive)
 
-print (rd)
+# print (rd)
