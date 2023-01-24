@@ -1,0 +1,2105 @@
+Category,Currency,Price,Area(m2),Rooms,Municipality,Province,Date,DOP/USD rate
+house,USD,"67,500",1,4,San Felipe De Puerto Plata,Puerto Plata,2020-11-25,58.15
+house,DOP,"1,700,000",234,2,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,USD,"3,950,000",1,5,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"345,000",154,2,Club Hemingway,San Pedro De Macorís,2020-11-25,58.15
+house,USD,"535,000","1,089",3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"430,000",1,4,Playa Nueva Romana,La Romana,2020-11-25,58.15
+house,USD,"400,000",550,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"4,900,000","12,632",6,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"112,500",196,3,Pedro Brand,Santo Domingo,2020-11-25,58.15
+house,USD,"900,000","2,000",5,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,DOP,"8,500,000",1,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,DOP,"7,500,000",1,6,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,DOP,"3,600,000",2,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"975,000",864,5,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"165,000",194,2,Metro Country Club,San Pedro De Macorís,2020-11-25,58.15
+house,USD,"2,650,000",1,6,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"650,000",757,4,Santo Domingo Oeste,Santo Domingo,2020-11-25,58.15
+house,USD,"195,000",240,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"600,000",890,7,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"252,500",185,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"560,000",950,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"1,500,000","2,784",5,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"2,300,000","2,450",5,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"240,000",315,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"235,000",325,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"298,000",165,2,,La Romana,2020-11-25,58.15
+house,USD,"2,450,000","2,857",5,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,150,000",1,4,Las Terrenas,Samaná,2020-11-25,58.15
+house,USD,"2,400,000","1,900",6,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"4,917,000","3,128",4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,DOP,"40,000,000","1,200",4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"580,000",604,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,600,000","1,542",6,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"4,900,000","1,285",4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"440,000",750,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,550,000","2,200",6,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,DOP,"14,000,000",400,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"1,250,000",1,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"2,500,000","2,590",5,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"295,000","1,500",5,Constanza,La Vega,2020-11-25,58.15
+house,USD,"575,000","1,089",3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,DOP,"11,500,000",868,4,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,DOP,"8,950,000",230,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"950,000","1,354",3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"411,000",1,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"1,500,000",1,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"950,000","1,130",4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"299,000",307,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"150,000",300,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"340,000",325,3,Playa Nueva Romana,La Romana,2020-11-25,58.15
+house,USD,"850,000",330,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"560,000",409,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,300,000","1,677",5,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,850,000",637,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"226,370",185,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"750,000","1,250",5,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"700,000","1,326",4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,DOP,"6,800,000",264,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"500,000","1,006",4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,DOP,"25,000,000","1,070",5,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"253,000",225,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"900,000","1,000",4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"300,000",602,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,300,000","1,975",4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"199,744",316,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"4,575,000",1,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"450,000",230,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"110,000",301,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"585,000",596,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"3,950,000",1,5,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"165,500",122,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"9,125,600","5,314",11,,La Romana,2020-11-25,58.15
+house,USD,"535,000",256,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"260,000","1,400",4,Jarabacoa,La Vega,2020-11-25,58.15
+house,USD,"1,750,000","1,000",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"580,000",750,5,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"1,600,000","1,500",4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"288,000",109,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"415,000",367,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"230,000",418,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,000,000","1,800",4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"550,000",370,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,300,000","1,677",5,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"323,169",253,5,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"495,000",170,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"800,000","1,224",4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"780,000",552,5,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"194,614",158,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,600,000",691,6,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"390,000",1,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"155,000",135,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"252,500",185,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,DOP,"18,500,000",588,6,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"386,500",277,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"295,000",235,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"2,500,000","2,100",5,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"126,000",160,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"112,400",260,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"249,044",500,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,500,000","2,392",4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"199,744",1,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"127,000",92,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,DOP,"6,800,000",264,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"6,800,000","1,380",7,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"390,000",1,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"2,350,000",756,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"439,000",433,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"170,000",190,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"575,000","1,500",5,Metro Country Club,San Pedro De Macorís,2020-11-25,58.15
+house,USD,"218,240",500,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"344,095",500,5,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"126,000",160,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"950,000","1,460",6,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"500,000",385,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"2,700,000","2,000",4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"550,000",385,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,DOP,"4,200,000",135,3,Don Juan 1,La Romana,2020-11-25,58.15
+house,USD,"1,750,000",765,4,,La Romana,2020-11-25,58.15
+house,USD,"282,440",500,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,DOP,"7,400,000",1,3,San Cristóbal Sn,San Cristóbal,2020-11-25,58.15
+house,USD,"1,950,000","1,362",5,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"165,000",264,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"600,000",1,5,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"575,000","1,011",3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"126,000",160,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"325,000",440,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"515,000",539,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"730,000",730,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"298,000",675,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"130,000",160,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,1,"6,458",4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"2,200,000",1,5,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"540,000",678,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"201,030",192,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,600,000",580,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"450,000",326,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"495,000",557,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"200,000","3,000",2,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"126,000",160,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"201,030",192,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,600,000",580,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"450,000",698,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"455,000",325,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"480,000",326,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"1,600,000",580,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"420,000",551,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"375,000",408,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"350,000",440,5,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"201,030",192,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"201,030",192,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,600,000",580,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,600,000",580,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,600,000",580,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,600,000",580,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,600,000",580,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,600,000",580,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,600,000",580,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,600,000",580,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,600,000",580,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,600,000",580,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,600,000",580,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,600,000",580,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,600,000",580,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"500,000",1,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,DOP,"3,690,000",1,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"425,000",251,2,Las Terrenas,Samaná,2020-11-25,58.15
+house,USD,"10,000,000",1,6,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"295,000",265,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,DOP,"13,500,000",1,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"6,800,000","1,114",7,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,300,000",1,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,DOP,"98,100",128,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"160,000",200,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"575,000",402,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,DOP,"17,000,000",413,4,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,DOP,"118,300",160,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"87,000",120,3,,La Romana,2020-11-25,58.15
+house,DOP,"10,500,000",280,4,Concepción De La Vega,La Vega,2020-11-25,58.15
+house,DOP,"11,100,000",417,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"890,000",635,5,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,DOP,"113,190",151,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,DOP,"9,300,000",226,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"675,000","1,100",5,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"500,000","1,100",3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"5,900,000","1,120",7,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,DOP,"129,500",224,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"645,000",482,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"595,000",743,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"590,000",638,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"5,000,000","7,068",7,,La Romana,2020-11-25,58.15
+house,USD,"92,000",142,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"4,000,000","3,723",6,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"136,900",282,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"299,000",245,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"425,000",1,4,Metro Country Club,San Pedro De Macorís,2020-11-25,58.15
+house,USD,"560,000",409,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"690,000",710,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"3,700,000",1,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"1,980,000",1,5,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"289,000",408,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"69,000",186,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"110,000",305,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"171,000",265,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"400,000",530,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,DOP,"5,000,000",190,3,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+house,USD,"510,000",915,4,Metro Country Club,San Pedro De Macorís,2020-11-25,58.15
+house,USD,"299,000",278,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"355,000",408,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"325,000",1,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"450,000",1,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"143,000",1,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"690,000",519,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"130,000",120,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,DOP,"14,300,000",760,5,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"265,000","10,600",5,Cambita Garabito,San Cristóbal,2020-11-25,58.15
+house,DOP,230,120,3,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+house,USD,"650,000",722,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"171,000",265,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"171,000",265,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"325,000",274,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"119,000",244,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"399,000",317,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"449,000",398,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"495,000",382,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"624,000",483,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"750,000",330,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"850,000","2,100",7,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"90,000",260,3,,La Romana,2020-11-25,58.15
+house,DOP,"3,800",7,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"320,000",457,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"920,000",1,4,Casa De Campo,La Romana,2020-11-25,58.15
+house,USD,"154,000",180,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"13,900,000",592,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"420,000",350,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"154,000",180,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"900,000",310,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"390,000",500,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"3,200,000","2,800",5,,La Romana,2020-11-25,58.15
+house,USD,"360,000","5,250",4,Boca Chica,Santo Domingo,2020-11-25,58.15
+house,USD,"123,800",189,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"113,000",260,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"380,000",600,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"154,000",180,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"154,000",180,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"640,000",790,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"109,000",124,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"336,207",530,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"4,500,000",7,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"190,000",550,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,DOP,"5,000,700",304,5,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,DOP,"7,975,000",174,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"7,300,000",170,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"7,000,000",172,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"120,000",350,7,Jarabacoa,La Vega,2020-11-25,58.15
+house,DOP,"3,550,000",186,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"215,500",321,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"5,400,000",155,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"5,700,000",1,3,San Felipe De Puerto Plata,Puerto Plata,2020-11-25,58.15
+house,DOP,"5,800,000",175,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"11,000,000",250,4,Concepción De La Vega,La Vega,2020-11-25,58.15
+house,DOP,"5,400,000",160,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"8,500,000",312,6,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"115,000",160,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,DOP,"6,000,000",1,3,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,USD,"180,000",1,4,San Cristóbal Sn,San Cristóbal,2020-11-25,58.15
+house,USD,"450,000",585,5,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"10,500,000",225,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"6,500,000",180,3,Concepción De La Vega,La Vega,2020-11-25,58.15
+house,DOP,"4,600,000",1,3,San Cristóbal Sn,San Cristóbal,2020-11-25,58.15
+house,USD,"145,000",145,2,Jarabacoa,La Vega,2020-11-25,58.15
+house,DOP,"13,162,500",200,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,DOP,"5,500,000",175,2,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"315,000",410,5,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"7,000,000",172,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"365,000",270,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"23,000,000",700,8,Baní,Peravia,2020-11-25,58.15
+house,DOP,"5,700,000",170,3,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,DOP,"3,600,000",170,3,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,DOP,"5,400,000",160,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"12,000,000",450,4,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,USD,"500,000",630,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,DOP,"6,700,000",220,4,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,DOP,"7,300,000",170,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"215,300",250,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"15,500,000","1,000",6,Baní,Peravia,2020-11-25,58.15
+house,USD,"620,000",476,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"5,000,000",150,3,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,DOP,"2,500,000",360,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"65,000",100,2,,La Romana,2020-11-25,58.15
+house,DOP,"15,500,000",325,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"10,500,000",354,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"125,000",1,3,San Cristóbal Sn,San Cristóbal,2020-11-25,58.15
+house,DOP,"1,500,000",340,2,Santo Domingo Oeste,Santo Domingo,2020-11-25,58.15
+house,DOP,"18,000,000",621,8,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"6,400,000",220,3,Casa De Campo 22000,La Romana,2020-11-25,58.15
+house,USD,"2,700,000","2,035",6,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"480,000",350,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"490,000",275,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"475,000",428,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"465,000",773,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,DOP,"9,950,000",200,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"26,000,000",655,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,DOP,"18,000,000",621,8,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"340,000",526,4,San Felipe De Puerto Plata,Puerto Plata,2020-11-25,58.15
+house,DOP,"7,605,000",183,3,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,USD,"310,000",680,4,Jarabacoa,La Vega,2020-11-25,58.15
+house,DOP,"13,500,000",273,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"9,700,000",300,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"9,200,000",306,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"1,980,000",147,3,J 10,San Pedro De Macorís,2020-11-25,58.15
+house,USD,"295,000",250,3,Jarabacoa,La Vega,2020-11-25,58.15
+house,DOP,"8,500,000","2,170",3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"3,900,000",160,3,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,DOP,"12,200,000",284,5,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,USD,"1,750,000",600,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"1,600,000",758,6,La Romana 1,La Romana,2020-11-25,58.15
+house,DOP,"6,300,000",190,3,Residencial Las Cayas 22000,La Romana,2020-11-25,58.15
+house,USD,"189,000",165,2,Sosúa,Puerto Plata,2020-11-25,58.15
+house,USD,"240,000",335,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"620,000",476,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"115,000",220,3,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,USD,"230,000",300,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"190,000",550,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"692,805",455,5,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"365,000",270,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"5,400,000",160,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"5,500,000",175,2,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"315,000",410,5,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"80,000",231,3,Los Llanos,San Pedro De Macorís,2020-11-25,58.15
+house,DOP,"9,500,000",200,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"25,000,000",500,5,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,DOP,"18,000,000",621,8,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"5,400,000",160,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"171,640",248,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"199,000",200,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"315,000",410,5,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"620,000",476,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"9,500,000",230,5,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"525,000",440,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,DOP,"4,500,000",170,3,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,DOP,"15,500,000",336,3,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,DOP,"5,600,000",300,3,Romana Del Oeste  Sn,La Romana,2020-11-25,58.15
+house,USD,"465,000",340,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"650,000",446,5,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"290,000",305,3,Playa Nueva Romana Sn,La Romana,2020-11-25,58.15
+house,DOP,"12,500,000",462,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"315,000",410,5,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"310,000",482,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,DOP,"14,000,000",200,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"195,000",233,4,A 1,San Pedro De Macorís,2020-11-25,58.15
+house,USD,"604,438",389,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"154,000",180,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"362,700",171,3,Sosúa,Puerto Plata,2020-11-25,58.15
+house,USD,"196,600",160,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"6,500,000",757,4,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+house,DOP,"6,000,000",336,3,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,USD,"165,000",180,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"5,500,000",175,2,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,DOP,"17,000,000",413,4,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,USD,"365,000",265,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"180,000",280,2,Buena Vista 1,La Romana,2020-11-25,58.15
+house,DOP,"7,000,000",172,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"620,000",476,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"195,000",220,4,La Estancia Golf Resort – Infos : 809 977 4655 (whatsapp) 1,La Romana,2020-11-25,58.15
+house,USD,"450,000",540,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"185,000",234,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,DOP,"13,500,000",273,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"10,000,000",220,3,Urbanización Las Orquídeas (la Romana) – Infos : 809 977 4655 (whatsapp) 1,La Romana,2020-11-25,58.15
+house,USD,"102,500",205,3,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,USD,"215,900",160,2,Sosúa,Puerto Plata,2020-11-25,58.15
+house,USD,"90,000",120,3,Caleta (la Romana) – Infos : 809 977 4655 (whatsapp) 1,La Romana,2020-11-25,58.15
+house,DOP,"4,000,000",318,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"225,000",400,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,DOP,"15,500,000",325,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"692,805",455,5,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"1,625,000",600,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"330,000","1,500",4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"982,000",378,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,DOP,"6,700,000",220,4,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,USD,"195,000",220,4,Casa De Campo 22000,La Romana,2020-11-25,58.15
+house,USD,"692,805",455,5,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"189,000",208,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,DOP,"7,605,000",183,3,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,USD,"975,000",700,5,Sosúa,Puerto Plata,2020-11-25,58.15
+house,DOP,"7,000,000",172,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"4,800,000",300,3,Don Juan Ii  Sn,La Romana,2020-11-25,58.15
+house,DOP,"5,400,000",160,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"15,450,000",394,5,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"4,900,000",400,7,La Romana 1,La Romana,2020-11-25,58.15
+house,USD,"775,000",569,6,La Romana 5,La Romana,2020-11-25,58.15
+house,USD,"171,640",248,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"9,200,000",306,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"10,500,000",354,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"165,000",130,2,Sosúa,Puerto Plata,2020-11-25,58.15
+house,DOP,"7,300,000",170,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"9,200,000",306,5,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"13,500,000",273,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"350,000",440,5,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"4,900,000",400,7,La Romana 1,La Romana,2020-11-25,58.15
+house,DOP,"10,500,000",354,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"185,000",234,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,DOP,"15,450,000",394,5,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"465,000",360,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"6,300,000",1,3,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,DOP,"13,000,000",1,4,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,DOP,"18,000,000",621,8,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"9,500,000",230,5,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"175,000",250,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"4,900,000",400,7,La Romana 1,La Romana,2020-11-25,58.15
+house,USD,"215,300",250,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"465,000",360,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"9,500,000",230,5,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"9,500,000",230,5,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"140,000",109,1,Sosúa,Puerto Plata,2020-11-25,58.15
+house,USD,"362,700",171,3,Sosúa,Puerto Plata,2020-11-25,58.15
+house,USD,"620,000",476,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"259,000",187,3,Sosúa,Puerto Plata,2020-11-25,58.15
+house,DOP,"7,000,000",172,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"9,700,000",300,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"295,000",332,3,El Soco - Playa Nueva Romana – Infos : 809 977 4655 (whatsapp) 1,La Romana,2020-11-25,58.15
+house,USD,"155,900",100,2,Sosúa,Puerto Plata,2020-11-25,58.15
+house,DOP,"6,100,000",172,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"17,000,000",238,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"325,000",305,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"750,000",430,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,DOP,"9,700,000",300,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"6,700,000",220,4,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,USD,"340,000",526,4,San Felipe De Puerto Plata,Puerto Plata,2020-11-25,58.15
+house,USD,"656,760",437,5,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"315,000",410,5,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"9,200,000",306,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"692,805",455,5,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"325,000",302,5,Juan Dolio 10,San Pedro De Macorís,2020-11-25,58.15
+house,USD,"152,800",145,3,Jarabacoa,La Vega,2020-11-25,58.15
+house,USD,"195,000",268,4,Bayahibe 01,La Romana,2020-11-25,58.15
+house,USD,"3,950,000",885,5,Sosúa,Puerto Plata,2020-11-25,58.15
+house,DOP,"7,800,000",190,4,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,USD,"365,000",265,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"1,750,000",600,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"210,000",367,3,Caleta  Sn,La Romana,2020-11-25,58.15
+house,USD,"600,000",600,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"336,207",530,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"620,000",476,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"465,000",340,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"6,400,000",200,3,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,USD,"4,900,000",400,7,La Romana 1,La Romana,2020-11-25,58.15
+house,DOP,"5,500,000",175,2,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"115,000",125,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+house,USD,"171,000",265,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"620,000",476,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"10,000,000",248,3,Las Orquideas 1,La Romana,2020-11-25,58.15
+house,DOP,"6,100,000",172,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"259,000",187,3,Sosúa,Puerto Plata,2020-11-25,58.15
+house,DOP,"15,450,000",394,5,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"465,000",360,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"950,000",950,6,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"790,000",500,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"310,000",482,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"550,000",430,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"480,000",326,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"400,000",305,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"325,000",293,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,DOP,"6,700,000",220,4,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,DOP,"6,700,000",220,4,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,DOP,"15,500,000",325,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"4,990,000","1,308",5,La Romana 1,La Romana,2020-11-25,58.15
+house,USD,"325,000",293,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+house,USD,"171,000",265,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"6,100,000",172,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,USD,"465,000",360,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"7,605,000",183,3,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,USD,"165,000",130,2,Sosúa,Puerto Plata,2020-11-25,58.15
+house,USD,"155,900",100,2,Sosúa,Puerto Plata,2020-11-25,58.15
+house,USD,"171,000",265,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+house,DOP,"5,500,000",189,3,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,DOP,"8,900,000",300,5,Concepción De La Vega,La Vega,2020-11-25,58.15
+house,USD,"115,000",220,3,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+house,DOP,"16,400,000",425,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+apartment,USD,"41,000",43,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"275,000",170,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"395,000",186,3,Club Hemingway,San Pedro De Macorís,2020-11-25,58.15
+apartment,USD,"130,000",140,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"246,870",1,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",73,1,Guavaberry Country Club,San Pedro De Macorís,2020-11-25,58.15
+apartment,USD,"331,500",156,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"385,000",175,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"83,000",60,1,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"145,000",142,2,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"395,000",174,3,Club Hemingway,San Pedro De Macorís,2020-11-25,58.15
+apartment,USD,"240,000",200,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"560,000",248,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"450,000",297,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"155,000",55,1,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"229,000",148,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"345,400",214,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"332,000",202,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"330,000",202,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"229,000",148,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"337,295",202,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"179,500",140,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"69,990",188,3,San Francisco De Macorís,Duarte,2020-11-25,58.15
+apartment,USD,"202,000",222,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,DOP,"4,700,000",80,2,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"192,700",145,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,DOP,"3,600,000",96,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+apartment,USD,"56,000",87,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+apartment,USD,"139,000",78,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"199,000",135,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,DOP,"2,305,000",62,2,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+apartment,USD,"585,000",384,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,DOP,"6,500,000",145,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"80,000",99,2,Boca Chica,Santo Domingo,2020-11-25,58.15
+apartment,USD,"265,000",247,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"1,100,000",490,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"380,000",340,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"110,000",96,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"690,000",350,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"175,000",111,2,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+apartment,USD,"214,500",1,2,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"185,000",157,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"63,000",53,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"83,500",57,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"117,500",80,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"135,000",105,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"210,000",1,2,,La Romana,2020-11-25,58.15
+apartment,USD,"85,000",48,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"460,000",175,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"149,000",86,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"300,000",1,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"89,000",81,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"90,000",1,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"295,000",247,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"425,000",300,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"875,000",1,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"270,000",1,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"390,000",388,4,Las Terrenas,Samaná,2020-11-25,58.15
+apartment,USD,"330,000",210,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"245,000",145,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"330,000",166,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"195,000",115,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"230,000",186,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"385,000",593,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"355,000",225,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"130,000",140,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"260,000",425,4,Guayacanes,San Pedro De Macorís,2020-11-25,58.15
+apartment,USD,"215,000",86,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"535,000",271,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+apartment,USD,"185,000",110,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"420,000",305,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"380,000",560,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"435,000",260,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"80,800",52,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"249,000",135,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"167,500",140,2,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"76,650",61,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"144,650",112,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"340,000",240,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"260,905",141,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"340,000",308,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"500,000",310,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"570,000",213,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"295,000",95,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"395,000",1,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"490,000",426,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"175,000",100,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"450,000",537,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,DOP,"3,975,000",140,3,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+apartment,USD,"260,000",150,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"88,000",73,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"650,000",676,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,DOP,"370,000",290,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"315,000",95,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"675,000",800,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"98,270",93,2,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"290,000",167,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"148,000",1,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"750,000",1,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"298,000",273,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,DOP,"9,000,000",1,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"139,000",112,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"315,000",107,2,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"700,000",444,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"172,500",144,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"482,000",233,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"460,000",170,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"250,000",340,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"480,000",220,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"340,000",1,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"188,000",94,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",75,1,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"120,135",145,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"120,000",1,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"214,000",94,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"318,000",135,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"330,000",1,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"98,000",187,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"155,300",110,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"375,000",360,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"570,000",340,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"68,900",45,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"265,000",131,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"225,000",256,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"345,000",1,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"525,000",230,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"145,000",247,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"120,135",145,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,DOP,"8,700,000",178,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,DOP,"5,900,000",267,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"290,000",225,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"250,000",340,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"121,000",108,2,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"131,000",1,2,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"34,000",43,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+apartment,USD,"180,000",145,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"295,365",170,2,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"460,000",143,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"155,000",1,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"260,000",150,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"700,000",250,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,DOP,"4,500,000",92,2,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"550,000",234,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"155,000",105,2,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"128,000",154,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"290,000",345,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"240,000",177,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"520,000",353,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,DOP,"2,750,000",124,3,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+apartment,DOP,"8,500,000",1,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"135,000",118,2,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"205,000",185,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"350,000",1,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"259,000",205,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"308,000",185,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"750,000",1,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"187,000",196,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,DOP,"14,500,000",265,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+apartment,USD,"340,000",390,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"168,000",143,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"250,000",84,1,,La Romana,2020-11-25,58.15
+apartment,DOP,"4,400,000",115,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"199,000",119,2,Metro Country Club,San Pedro De Macorís,2020-11-25,58.15
+apartment,USD,"174,000",145,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"186,500",1,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"250,000",1,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"315,000",275,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"480,000",167,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"135,000",120,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"1,000,000",330,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"320,000",190,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"250,000",1,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"205,000",220,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"340,000",201,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"98,600",72,1,,La Romana,2020-11-25,58.15
+apartment,DOP,"2,850,000",130,3,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+apartment,USD,"900,000",753,6,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"155,805",70,1,,La Romana,2020-11-25,58.15
+apartment,DOP,"9,000,000",180,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"135,000",140,2,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"150,000",1,2,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"62,900",95,3,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+apartment,USD,"56,300",95,3,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+apartment,USD,"56,000",157,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,DOP,"5,200,000",205,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+apartment,USD,"65,000",1,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"235,000",228,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"103,000",85,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"330,000",390,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"120,000",1,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"850,000",250,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"333,000",170,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"286,368",125,2,,La Romana,2020-11-25,58.15
+apartment,USD,"125,000",1,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"98,400",1,,Las Terrenas,Samaná,2020-11-25,58.15
+apartment,USD,"240,000",1,2,Guavaberry Country Club,San Pedro De Macorís,2020-11-25,58.15
+apartment,USD,"550,000",220,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"240,000",130,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"430,000",1,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"395,000",1,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"305,000",94,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"190,000",110,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"122,850",94,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"495,000",95,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"258,000",122,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"57,000",70,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,DOP,"2,800,000",97,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+apartment,USD,"167,500",140,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"190,000",85,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"600,000",492,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+apartment,DOP,"6,500,000",150,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"164,000",198,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"91,395",67,1,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"170,000",145,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"200,000",250,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"380,000",342,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"150,000",78,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"750,000",332,3,Las Terrenas,Samaná,2020-11-25,58.15
+apartment,USD,"145,000",100,2,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"270,000",138,2,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"481,450",327,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"271,500",155,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"126,000",72,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"172,000",109,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"238,680",120,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"469,000",407,4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"67,000",82,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"460,000",142,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"380,000",201,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"64,700",74,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"91,000",70,1,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"187,000",198,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"55,500",55,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"475,000",400,4,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"288,000",201,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"400,000",194,3,,San Pedro De Macorís,2020-11-25,58.15
+apartment,USD,"600,000",492,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+apartment,USD,"350,000",190,3,Juan Dolio,San Pedro De Macorís,2020-11-25,58.15
+apartment,USD,"310,000",103,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,DOP,"2,900,000",84,3,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+apartment,USD,"41,000",43,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"277,000",175,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"253,000",175,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"193,200",161,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"180,000",198,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"570,000",275,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"250,000","20,384",3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"202,000",222,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"155,000",141,2,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"220,000",120,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"285,000","19,267",3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"310,000",103,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"310,000",103,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"310,000",103,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"310,000",103,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"340,000",175,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"172,900",133,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"94,900",73,1,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"360,000",170,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"168,750",125,2,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"600,000",492,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+apartment,USD,"210,000",123,2,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"290,000",215,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"142,500",126,2,,La Romana,2020-11-25,58.15
+apartment,USD,"165,000",128,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"310,000",103,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"310,000",103,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"78,000",62,1,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"130,000",160,4,Medicina 00,San Pedro De Macorís,2020-11-25,58.15
+apartment,USD,"184,000",140,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"225,000",154,3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"250,000",164,2,,San Pedro De Macorís,2020-11-25,58.15
+apartment,USD,"600,000",492,4,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+apartment,USD,"150,000",126,2,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"150,000",126,2,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"130,000",70,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+apartment,USD,"139,700",68,1,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,USD,"212,960",77,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"410,000",172,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"60,000",1,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"990,000",265,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"3,000,000","2,044",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"350,000",360,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"3,300",174,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"720,000","2,012",,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,USD,"185,000","2,012",,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,USD,"25,000",50,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"5,000",1,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,USD,"70,000",34,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"400,000",114,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"110,000",52,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"138,000",95,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"160,000",70,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,USD,"150,000",1,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,USD,"1,200",113,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,USD,"1,150,000","1,988",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"1,150,000","1,988",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"92,000",60,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"130,000",60,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+commercial building,DOP,"9,500,000",124,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"400,000",114,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"18,500,000",325,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+commercial building,DOP,"13,700",360,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+commercial building,DOP,"4,600,000",61,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"235,000",360,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"7,000,000","13,272",,Las Terrenas,Samaná,2020-11-25,58.15
+commercial building,USD,"995,000",970,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"205,000",300,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,USD,"165,975",111,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"13,800,000",551,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"95,000",56,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,DOP,"130,000,000","3,884",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"130,000,000","3,884",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"6,500,000",105,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"22,000",42,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"315,000",110,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"110,000",113,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,DOP,"900,000",58,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"3,500,000",44,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,USD,"1,500,000","1,850",,Santo Domingo Oeste,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"294,000",300,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,DOP,"6,300,000",,,Hato Mayor Del Rey,Hato Mayor,2020-11-25,58.15
+commercial building,USD,2,5,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"8,200,000",236,,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+commercial building,DOP,"294,000",300,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,USD,"294,000",300,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,USD,"294,000",300,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,DOP,"700,000",,,Boca Chica,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"900,000","2,076",,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,DOP,"140,000",333,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"8,000,000",280,,Concepción De La Vega,La Vega,2020-11-25,58.15
+commercial building,DOP,"20,000,000",432,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"80,000",110,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,DOP,"1,750,000",200,,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"390,000",40,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,USD,460,500,,San Felipe De Puerto Plata,Puerto Plata,2020-11-25,58.15
+commercial building,USD,"70,000",200,,Playa Guayacanes 5,San Pedro De Macorís,2020-11-25,58.15
+commercial building,DOP,"1,378,000",62,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,DOP,"1,200,000",32,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"80,000",110,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,DOP,"6,500,000",1,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,DOP,"875,000",110,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"60,000",60,,Las Terrenas,Samaná,2020-11-25,58.15
+commercial building,USD,"80,000",110,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,USD,"11,638,000",1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,35,86,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,35,87,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"609,000",203,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"9,800,000",320,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"2,264,000",202,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"3,300,000",550,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"1,300,000",942,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"240,000",130,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"390,000",40,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,USD,"990,000",265,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"295,000",63,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"310,000",320,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"673,750",175,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,35,87,,Distrito Nacional,Santo Domingo De Guzmán,2020-11-25,58.15
+commercial building,USD,"80,000",1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"2,264,400",202,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"1,850,000",74,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"680,000","1,496",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"650,000",500,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"310,000",320,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"310,000",320,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"310,000",320,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"310,000",320,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"310,000",320,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"600,000",900,,Las Terrenas,Samaná,2020-11-25,58.15
+commercial building,USD,"310,000",320,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"310,000",320,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"85,000",96,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"85,000",52,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,USD,"600,000","1,496",,Santo Domingo Centro,Santo Domingo,2020-11-25,58.15
+commercial building,USD,35,86,,Distrito Nacional,Santo Domingo De Guzmán,2020-11-25,58.15
+commercial building,USD,"1,150,000",972,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,35,87,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"680,000",374,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"950,000",400,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"680,000","1,496",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"680,000","1,496",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"680,000","1,496",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"1,300,000",942,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"1,300,000",942,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"5,800,000",300,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,USD,"1,150,000",942,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"36,000",1,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+commercial building,DOP,"7,000,000",100,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,USD,"1,545,750","1,717",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"400,000",114,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,900,"1,717",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"9,500,000",340,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"1,200,000",1,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,DOP,"1,150,000",65,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"1,650,000",900,,Boca Chica,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"199,000",39,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"3,500,000",40,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,35,87,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"4,500,000",278,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,DOP,"9,800,000",484,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,USD,"455,000","1,417",,Tulio Manuel Cestero 1,San Cristóbal,2020-11-25,58.15
+commercial building,DOP,"1,900,000",100,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"2,600,000",756,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"450,000",400,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"186,000",334,,Esperanza,Valverde,2020-11-25,58.15
+commercial building,DOP,"2,400,000",42,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,DOP,"38,000,000",550,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,USD,"200,000",300,,Cambita Garabito,San Cristóbal,2020-11-25,58.15
+commercial building,USD,"10,500,000","9,732",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"9,000,000","3,000",,Santa Cruz De Barahona,Barahona,2020-11-25,58.15
+commercial building,USD,"900,000",500,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"9,000,000",300,,Bajos De Haina,San Cristóbal,2020-11-25,58.15
+commercial building,USD,"1,151,000","1,689",,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,DOP,"20,000,000",860,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"84,980",42,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"1,300,000",900,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"100,000",49,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,DOP,"1,523,600",23,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"17,000,000",877,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,DOP,"9,600,000",686,,Licey Al Medio,Santiago,2020-11-25,58.15
+commercial building,USD,"1,950,000",594,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"15,000,000",124,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"5,600,000",150,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,USD,"440,000",899,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,USD,"49,950",33,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"1,150,000","1,100",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"1,513,200",800,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"22,000,000",858,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"550,000","1,000",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,1,6,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,USD,"500,000",500,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"20,000,000",735,,Bajos De Haina,San Cristóbal,2020-11-25,58.15
+commercial building,DOP,"15,000,000",257,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+commercial building,DOP,"30,000,000","2,500",,Imbert,Puerto Plata,2020-11-25,58.15
+commercial building,DOP,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"7,500,000",300,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"84,980",42,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"730,000",203,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"360,000",108,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"5,890,000",62,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,DOP,"1,000,000",50,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"17,000,000",877,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,USD,"400,000",114,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"9,000,000","3,000",,Santa Cruz De Barahona,Barahona,2020-11-25,58.15
+commercial building,DOP,"2,750,000",300,,Nizao,Peravia,2020-11-25,58.15
+commercial building,DOP,"20,000,000",778,,Principal 13,San Pedro De Macorís,2020-11-25,58.15
+commercial building,USD,"1,250,000",800,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"650,000",80,,Principal  8,San José De Ocoa,2020-11-25,58.15
+commercial building,DOP,"4,500,000",278,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,DOP,"25,000,000",637,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"37,700",29,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"147,000",216,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"245,000",263,,Nagua,María Trinidad Sánchez,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"612,000",240,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"22,500,000",887,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,USD,"500,000",750,,Azua De Compostela,Azua,2020-11-25,58.15
+commercial building,DOP,"7,700,000",150,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"726,500",500,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,USD,"2,000,000",769,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"17,000,000",877,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,USD,"400,000",114,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"125,000",46,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"1,513,200",800,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"650,000",624,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"1,100,000",300,,Santo Domingo Oeste,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"726,500",500,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,USD,"400,000",114,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"405,000",450,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"38,000,000","1,212",,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,USD,"70,000",35,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"1,150,000","1,988",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"1,150,000","1,988",,Santo Domingo Oeste,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"400,000",114,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"400,000",114,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"325,000",300,,Avenida Santa Rosa 22000,La Romana,2020-11-25,58.15
+commercial building,DOP,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"49,950",33,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"1,150,000",198,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"12,000","10,000",,Santo Domingo Oeste,Santo Domingo,2020-11-25,58.15
+commercial building,DOP,"22,500,000",887,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,USD,"500,000",204,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"46,728",38,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"38,000,000","1,212",,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,DOP,"22,500,000",887,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,DOP,"700,000",100,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,USD,"650,000",470,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"38,000,000","1,212",,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,USD,"500,000",204,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"110,000",45,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"9,500,000",700,,Licey Al Medio,Santiago,2020-11-25,58.15
+commercial building,USD,"245,000",236,,Nagua,María Trinidad Sánchez,2020-11-25,58.15
+commercial building,USD,"580,000","1,518",,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,USD,"650,000",400,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"2,000,000","1,232",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"600,000",540,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"2,550,000",30,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"84,500",52,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,USD,"550,000",750,,Santa Bárbara De Samaná,Samaná,2020-11-25,58.15
+commercial building,USD,"20,000",500,,San Felipe De Puerto Plata,Puerto Plata,2020-11-25,58.15
+commercial building,DOP,"1,000,000",65,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"84,500",52,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,DOP,"30,000,000","1,000",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"1,300,000",550,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"380,000",180,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"84,500",52,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"3,500,000",75,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"1,098,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"495,000",400,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"147,000",216,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"8,500,000",100,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"2,400,000",67,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,USD,"530,000",412,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"600,000","1,518",,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,DOP,"2,700,000",33,,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"140,000",125,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"135,000",75,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"1,850,000",74,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"535,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"135,000",75,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"800,000","3,021",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"430,000",250,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"5,000,000",114,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"600,000","1,518",,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,DOP,"1,850,000",74,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"580,000","1,518",,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,USD,"49,950",33,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"11,500,000",300,,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"3,000,000",1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"1,850,000",74,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"17,000,000",573,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"30,000,000","1,200",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"7,500,000",241,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"1,850,000",74,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"300,000",500,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"1,850,000",74,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"1,850,000",74,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"600,000","1,500",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"1,850,000",74,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"1,850,000",74,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"8,500,000",550,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,DOP,"53,000,000","2,950",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"1,850,000",74,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"3,000,000",1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"1,850,000",74,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"1,850,000",74,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"1,000,000",50,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"9,800,000",484,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,DOP,"465,000",155,,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+commercial building,DOP,"1,850,000",74,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"1,850,000",74,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"1,850,000",74,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"1,850,000",74,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"140,000",30,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"278,000","1,851",,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,DOP,"1,850,000",74,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"1,850,000",74,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"1,200,000","5,000",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"18,000,000",871,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"130,000",200,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"15,000",38,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"2,800,000",33,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"11,000,000",160,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"8,000,000",52,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"84,980",42,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"252,200",,,San Felipe De Puerto Plata,Puerto Plata,2020-11-25,58.15
+commercial building,DOP,"3,500,000",43,,Santo Domingo Oeste,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"1,195,100",323,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"175,000",40,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"2,000,000","1,763",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"2,000,000","1,763",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,10,400,,Santo Domingo Oeste,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"2,000,000","1,763",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"2,000,000","1,763",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"2,000,000","1,763",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"500,000",204,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"200,000",80,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"2,000,000","1,763",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"3,500",1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"80,000",1,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,DOP,"5,000",200,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"80,000",1,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,USD,"22,000",43,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"1,600,000",100,,Los Alcarrizos,Santo Domingo,2020-11-25,58.15
+commercial building,DOP,"36,500",43,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,USD,"600,000","1,500",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"80,000",59,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"7,000,000",170,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,USD,"185,000",261,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,USD,"605,000",421,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"4,500,000",220,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,USD,"49,950",33,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"1,800",310,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"180,000",484,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,USD,"22,000",42,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,665,34,,,La Romana,2020-11-25,58.15
+commercial building,DOP,"14,500,000","1,076",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"9,800,000",484,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,DOP,"30,000,000","3,000",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"68,000",80,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"13,000,000",300,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"106,000",93,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"1,000",44,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"22,000",51,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,600,32,,,La Romana,2020-11-25,58.15
+commercial building,DOP,"6,800,000",64,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,500,60,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"232,405",87,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"9,800,000",484,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,DOP,"550,000",135,,Calle Principal Sector Bello Sobrante 12,San José De Ocoa,2020-11-25,58.15
+commercial building,USD,"500,000",500,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"528,200",550,,Santo Domingo Oeste,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"16,339,200","20,424",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"2,000",41,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"145,000",136,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"30,506",28,,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+commercial building,USD,500,32,,,La Romana,2020-11-25,58.15
+commercial building,DOP,"19,500,000","1,000",,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,DOP,"150,000","1,078",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"180,000",484,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,DOP,"3,700,000",220,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"68,000",80,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,500,60,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+commercial building,USD,550,34,,,La Romana,2020-11-25,58.15
+commercial building,DOP,"1,150,000",65,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"67,000",80,,Santo Domingo Oeste,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"400,000",47,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"48,000",22,,Lagunas De Nisibón,La Altagracia,2020-11-25,58.15
+commercial building,DOP,"2,500,000",35,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,350,23,,,La Romana,2020-11-25,58.15
+commercial building,USD,"500,000",800,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"13,000,000",300,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"138,805",45,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"1,098,000",305,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"22,000",41,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,400,26,,,La Romana,2020-11-25,58.15
+commercial building,USD,600,23,,,La Romana,2020-11-25,58.15
+commercial building,USD,"1,480",74,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"106,000",93,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"350,000",300,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"106,000",92,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"300,000",500,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,USD,500,25,,,La Romana,2020-11-25,58.15
+commercial building,USD,"1,020",51,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"1,060",53,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"650,000",624,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,500,38,,,La Romana,2020-11-25,58.15
+commercial building,USD,"2,860",143,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"138,805",45,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"250,000",600,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,USD,"5,400",270,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"1,840",92,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,350,23,,La Romana 3456,La Romana,2020-11-25,58.15
+commercial building,DOP,"710,000",77,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"1,350",321,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,USD,"49,000",100,,Sosúa,Puerto Plata,2020-11-25,58.15
+commercial building,USD,"1,000,000",1,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,USD,"278,000","1,851",,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,DOP,"3,500,000",37,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"25,000",150,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"13,000,000",890,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"3,250,000",100,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,DOP,"14,000,000",240,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,DOP,"70,000,000","1,100",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"18,000,000",614,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+commercial building,DOP,"3,000,000",100,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"275,000",220,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,DOP,"7,700,000",150,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"18,000,000",200,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"90,000",36,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"350,000",500,,Bajos De Haina,San Cristóbal,2020-11-25,58.15
+commercial building,DOP,"14,000,000","1,000",,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,DOP,"1,300,000",100,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"13,000,000",250,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"1,076,400",234,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"25,000",41,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,15,15,,Santa Bárbara De Samaná,Samaná,2020-11-25,58.15
+commercial building,DOP,"108,000",135,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"2,750,000",217,,Nizao,Peravia,2020-11-25,58.15
+commercial building,DOP,"8,000,000",160,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,USD,"450,000",400,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"270,000",778,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,DOP,"48,000,000","2,500",,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+commercial building,DOP,"37,000,000",600,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"400,000",295,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"1,250,000","2,300",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"5,000,000",200,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+commercial building,USD,"22,000",42,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"3,500,000","1,300",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"18,000,000",1,,Villa Pereira Sn,La Romana,2020-11-25,58.15
+commercial building,USD,"22,000",42,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"22,000",42,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"89,000",69,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"3,500,000",40,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"37,700",29,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"1,500,000",520,,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"22,000",42,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"18,000,000",200,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"22,000",42,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"400,000",295,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"22,000",42,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"22,000",42,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"140,000",45,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"1,495,000",584,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"22,000",42,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"55,100",38,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+commercial building,DOP,"480,000",160,,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+commercial building,USD,"1,000,000","1,000",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"400,000",295,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"22,000",42,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"74,000",24,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"2,900",1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"890,000","1,775",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"22,000,000",859,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"5,000",126,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"22,000",42,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"22,000",42,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"1,100,000",160,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"170,000",265,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"154,950",103,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,USD,"170,000",265,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+commercial building,DOP,"17,000,000",560,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"180,000",64,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"150,000",55,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"100,000",1,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+office,USD,"70,000",69,,,La Romana,2020-11-25,58.15
+office,USD,"3,500",100,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"115,000",83,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"115,000",83,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"160,000",70,,Lagunas De Nisibón,La Altagracia,2020-11-25,58.15
+office,USD,"160,000",70,,Lagunas De Nisibón,La Altagracia,2020-11-25,58.15
+office,USD,"135,000",161,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,"560,000",140,,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+office,USD,"1,200,000",652,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"700,000",560,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"125,810",45,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+office,USD,"140,000",150,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"3,300",600,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"2,500,000","1,362",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"878,400",244,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"2,945,100",726,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"878,400",244,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"1,076,400",234,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"2,600,000",1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"2,800","4,900",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"18,000,000","6,100",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"2,800","4,900",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"185,000",39,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"205,000",58,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"3,800",187,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"309,668",96,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+office,USD,"300,000",150,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"3,500",100,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"3,500",100,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"140,000",125,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"140,000",150,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"70,000",40,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"519,935",159,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"215,000",57,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"349,000",112,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"125,000",39,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"322,500",1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"833,000",280,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"233,700",82,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"349,000",112,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"310,000",108,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"400,000",120,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"1,422,150",499,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"2,000,000","1,763",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"2,000,000","1,763",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,"45,000,000","2,900",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"690,000",230,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,"45,000,000","2,900",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"1,076,400",234,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"190,000",77,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"1,500,000",600,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"425,000",131,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"120,500",44,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"400,000",120,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"1,263,600",750,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"400,000",120,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"185,000",39,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"1,195,100",323,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"875,000",245,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"1,372,500",508,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"153,170",45,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,445,24,,La Romana 22,La Romana,2020-11-25,58.15
+office,USD,"121,500",45,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"135,000",76,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"246,400",77,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"160,000",40,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,"5,800,000",90,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"185,000",51,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"1,200,000",900,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"139,000",68,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"660,000",900,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"89,000",69,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"129,000",69,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"1,650,000",448,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"630,000",175,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"420,000",145,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"139,000",68,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"139,000",68,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"139,000",68,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"139,000",68,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"139,000",68,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"139,000",68,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"139,000",68,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"4,000,000","19,663",,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+office,USD,"160,000",70,,Lagunas De Nisibón,La Altagracia,2020-11-25,58.15
+office,USD,"89,000",69,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"160,000",70,,Lagunas De Nisibón,La Altagracia,2020-11-25,58.15
+office,USD,"160,000",70,,Lagunas De Nisibón,La Altagracia,2020-11-25,58.15
+office,USD,"160,000",70,,Lagunas De Nisibón,La Altagracia,2020-11-25,58.15
+office,USD,"160,000",70,,Lagunas De Nisibón,La Altagracia,2020-11-25,58.15
+office,USD,"160,000",70,,Lagunas De Nisibón,La Altagracia,2020-11-25,58.15
+office,USD,"160,000",70,,Lagunas De Nisibón,La Altagracia,2020-11-25,58.15
+office,USD,"160,000",70,,Lagunas De Nisibón,La Altagracia,2020-11-25,58.15
+office,USD,"129,000",67,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"75,000",34,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"125,000",54,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"84,000",40,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,1,24,,Bajos De Haina,San Cristóbal,2020-11-25,58.15
+office,USD,"36,500",33,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"129,000",67,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"490,000",204,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"125,000",39,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"124,964",44,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"241,200",72,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"385,000",110,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"159,750",45,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,"2,500,000",35,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"124,000",77,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"48,000",1,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+office,USD,"45,000",1,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+office,USD,"238,000",68,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"54,500",1,,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+office,USD,"113,850",49,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"120,500",44,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"1,372,500",508,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,"2,100,000",40,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,500,300,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,"110,000",113,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+office,DOP,123,555,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"690,000",230,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,"1,150,000","1,986",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,120,11,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,"140,000",1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"1,150,000","1,988",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"296,300",118,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,"3,000",250,,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+office,USD,"1,150,000","1,988",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"133,000",47,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"518,100",172,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"170,000",80,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"4,894,637","4,459",,Distrito Nacional,Santo Domingo De Guzmán,2020-11-25,58.15
+office,USD,"150,000","1,000",,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+office,USD,"1,150,000","1,988",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"160,000",70,,Lagunas De Nisibón,La Altagracia,2020-11-25,58.15
+office,USD,"558,690",186,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"160,000",70,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+office,USD,"1,100","4,459",,Distrito Nacional,Santo Domingo De Guzmán,2020-11-25,58.15
+office,USD,"3,500",200,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,"95,000",1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,"550,000",55,,Principal Sector Bello Sobrante 8,San José De Ocoa,2020-11-25,58.15
+office,USD,"150,000",54,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,123,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"690,000",725,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"690,000",725,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"690,000",725,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"283,203",78,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"132,646",46,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"690,000",725,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"583,927",160,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"867,130",238,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,"25,000,000",637,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,"7,200,000",120,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"2,500,000","1,336",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,111,555,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"89,000",69,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"1,264,800",774,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"3,100,000","1,302",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"2,700",430,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"2,400",273,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"1,596,000",456,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"479,500",137,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"287,000",82,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"3,100,000","1,302",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,"18,895,000",282,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"67,000",42,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"67,000",42,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"427,000",527,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"2,000,000","1,400",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"3,200",422,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"3,200",422,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,"11,000,000",153,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,100,7,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+office,DOP,"2,000,000",30,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"139,000",90,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,"2,900,000",56,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"115,000",83,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"2,800","5,700",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"3,800",187,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"74,000",29,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"105,000",45,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"1,200,000","1,057",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,"2,900,000",56,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"109,000",92,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"169,000",127,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"975,000","1,410",,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,"8,900,000",286,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,USD,"125,000",63,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+office,DOP,"320,000",226,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,DOP,"25,000","850,000",1,Bayaguana,Monte Plata,2020-11-25,58.15
+farm,DOP,"5,500,000","1,000",2,Bonao,Monseñor Nouel,2020-11-25,58.15
+farm,DOP,"18,000,000",500,3,San Francisco De Macorís,Duarte,2020-11-25,58.15
+farm,DOP,"6,120,000","85,544",,San Francisco De Macorís,Duarte,2020-11-25,58.15
+farm,DOP,"25,000,000","13,000",2,Rancho Arriba,San José De Ocoa,2020-11-25,58.15
+farm,DOP,"6,000,000","17,000",,Cambita Garabito,San Cristóbal,2020-11-25,58.15
+farm,DOP,"16,500",600,4,Santo Domingo Oeste,Santo Domingo,2020-11-25,58.15
+farm,DOP,"18,000,000",600,3,San Francisco De Macorís,Duarte,2020-11-25,58.15
+farm,DOP,"4,500,000","1,200",3,Sabana Grande De Palenque,San Cristóbal,2020-11-25,58.15
+farm,DOP,"6,000,000","17,000",,San Cristóbal Sn,San Cristóbal,2020-11-25,58.15
+farm,DOP,"65,000",400,3,Monte Plata 1,Monte Plata,2020-11-25,58.15
+farm,USD,"130,000",160,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+farm,DOP,"15,000,000",800,6,Bonao,Monseñor Nouel,2020-11-25,58.15
+farm,DOP,"6,000,000","17,000",,San Cristóbal Sn,San Cristóbal,2020-11-25,58.15
+farm,USD,"450,000",1,4,Nahayo Sn,San Cristóbal,2020-11-25,58.15
+farm,USD,"450,000",1,4,Nahayo Sn,San Cristóbal,2020-11-25,58.15
+farm,USD,"720,000","4,000",5,Pedro Brand,Santo Domingo,2020-11-25,58.15
+farm,DOP,"7,500,000",100,3,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+farm,DOP,"24,000,000","10,500",3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,DOP,"24,000,000","10,500",3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,DOP,"9,500,000",200,3,Yamasá,Monte Plata,2020-11-25,58.15
+farm,USD,"450,000",1,4,Nahayo Sn,San Cristóbal,2020-11-25,58.15
+farm,DOP,"24,000,000","10,500",3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,DOP,"25,000,000","270,000",2,Castillo,Duarte,2020-11-25,58.15
+farm,DOP,"18,000,000","628,000",,San Felipe De Puerto Plata,Puerto Plata,2020-11-25,58.15
+farm,DOP,"7,500,000",100,3,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+farm,DOP,"7,500,000",100,3,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+farm,DOP,"7,500,000",100,3,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+farm,DOP,"4,500,000","1,200",3,Sabana Grande De Palenque,San Cristóbal,2020-11-25,58.15
+farm,DOP,"77,000,000","744,000",3,Nagua,María Trinidad Sánchez,2020-11-25,58.15
+farm,DOP,"68,000",400,6,Bayaguana,Monte Plata,2020-11-25,58.15
+farm,DOP,"4,500,000",1,3,Sabana Grande De Palenque,San Cristóbal,2020-11-25,58.15
+farm,DOP,"4,500,000","17,000",3,San Cristóbal Sn,San Cristóbal,2020-11-25,58.15
+farm,DOP,"4,500,000","1,200",3,San Cristóbal Sn,San Cristóbal,2020-11-25,58.15
+farm,DOP,"19,755,000",27,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+farm,DOP,"70,000,000","1,800",3,Monte Plata 18295638101,Monte Plata,2020-11-25,58.15
+farm,DOP,"1,300,000",20,5,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+farm,USD,"12,105,555","1,729,365",3,Miches,El Seibo,2020-11-25,58.15
+farm,DOP,"7,500,000",70,2,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+farm,DOP,"7,500,000",70,2,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+farm,USD,"320,000","314,400",,Gaspar Hernández,Espaillat,2020-11-25,58.15
+farm,DOP,1,1,1,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,"284,485","377,280",,San José De Las Matas,Santiago,2020-11-25,58.15
+farm,USD,50,200,1,Jarabacoa,La Vega,2020-11-25,58.15
+farm,DOP,"3,500,000","23,826",,Villa González,Santiago,2020-11-25,58.15
+farm,USD,"1,200,000","812,000",3,Monte Plata  Sn,Monte Plata,2020-11-25,58.15
+farm,DOP,"1,000","35,000",,El Factor,María Trinidad Sánchez,2020-11-25,58.15
+farm,DOP,"1,000,000","3,145",,Jarabacoa,La Vega,2020-11-25,58.15
+farm,DOP,"6,700,000",168,10,Sabana Grande De Boyá,Monte Plata,2020-11-25,58.15
+farm,DOP,"25,000",500,6,Hato Mayor Del Rey,Hato Mayor,2020-11-25,58.15
+farm,DOP,"5,400,000","44,000",5,Bonao,Monseñor Nouel,2020-11-25,58.15
+farm,USD,"1,500,000","6,500",,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,DOP,"12,000",1,,San Juan De La Maguana,San Juan,2020-11-25,58.15
+farm,DOP,"3,000,000","1,300",,Jarabacoa,La Vega,2020-11-25,58.15
+farm,DOP,"6,800,000","100,000",,Sabana Grande De Boyá,Monte Plata,2020-11-25,58.15
+farm,DOP,"30,000,000",100,1,Los Llanos,San Pedro De Macorís,2020-11-25,58.15
+farm,DOP,"600,000,000",1,1,Azua De Compostela,Azua,2020-11-25,58.15
+farm,DOP,"600,000,000",1,1,Azua De Compostela,Azua,2020-11-25,58.15
+farm,DOP,"600,000,000",1,1,Azua De Compostela,Azua,2020-11-25,58.15
+farm,DOP,"600,000,000",1,1,Azua De Compostela,Azua,2020-11-25,58.15
+farm,DOP,"12,900,000","1,000",3,Bonao,Monseñor Nouel,2020-11-25,58.15
+farm,DOP,"140,000,000","5,000",,Concepción De La Vega,La Vega,2020-11-25,58.15
+farm,USD,30,"1,000",2,Monte Plata Sn,Monte Plata,2020-11-25,58.15
+farm,DOP,"1,500,000",978,,00 Sn,La Romana,2020-11-25,58.15
+farm,DOP,"192,500,000","3,442,000",8,Sabana Grande De Boyá,Monte Plata,2020-11-25,58.15
+farm,DOP,"28,000","3,000",4,Sosúa,Puerto Plata,2020-11-25,58.15
+farm,DOP,"4,000,000",300,4,Carretera Bayaguana 5,Monte Plata,2020-11-25,58.15
+farm,DOP,"3,700,000",300,3,Autopista Del Nordeste Km 5 5,Monte Plata,2020-11-25,58.15
+farm,DOP,"13,500,000","13,239",7,Villa Hermosa,La Romana,2020-11-25,58.15
+farm,DOP,"40,000",2,3,Bayaguana,Monte Plata,2020-11-25,58.15
+farm,USD,"22,500",1,,Carretra De Hato Damas 0,San Cristóbal,2020-11-25,58.15
+farm,USD,1,75,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,DOP,"35,000","6,000",3,Sabana Larga,San José De Ocoa,2020-11-25,58.15
+farm,DOP,"3,000,000","5,600",3,Monte Plata Sn,Monte Plata,2020-11-25,58.15
+farm,DOP,"3,000,000",30,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,DOP,"14,000","1,500",1,Carretera Monte Plata 17,Monte Plata,2020-11-25,58.15
+farm,USD,"65,000",500,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,DOP,"2,350,000",,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+farm,DOP,"8,000,000",700,2,Bayaguana,Monte Plata,2020-11-25,58.15
+farm,DOP,"22,000","3,348",3,Sabana Grande De Boyá,Monte Plata,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,DOP,"16,000,000",700,3,Bonao,Monseñor Nouel,2020-11-25,58.15
+farm,DOP,"22,000","2,000",3,Hato Mayor Del Rey,Hato Mayor,2020-11-25,58.15
+farm,DOP,"9,000,000",300,1,Bayaguana,Monte Plata,2020-11-25,58.15
+farm,DOP,"6,000,000","72,000",4,Bonao,Monseñor Nouel,2020-11-25,58.15
+farm,DOP,"14,500,000","3,000",3,Baní,Peravia,2020-11-25,58.15
+farm,DOP,"4,500,000","8,300",3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+farm,DOP,"2,900,000",,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+farm,DOP,"4,700,000",300,3,Castillo,Duarte,2020-11-25,58.15
+farm,DOP,"4,700,000",289,3,Constanza,La Vega,2020-11-25,58.15
+farm,DOP,"1,500,000",20,2,El Valle,Hato Mayor,2020-11-25,58.15
+farm,DOP,"35,000","2,000",3,Hato Mayor Del Rey,Hato Mayor,2020-11-25,58.15
+farm,DOP,"99,400,000","2,720,425",4,Sosúa,Puerto Plata,2020-11-25,58.15
+farm,USD,"2,600,000","1,000",3,Hato Mayor Del Rey,Hato Mayor,2020-11-25,58.15
+farm,USD,"1,500,000",600,4,Carretera Sección Cara Linda 17,Monte Plata,2020-11-25,58.15
+farm,USD,"3,000,000","3,000",3,Carretera Monte Plata 12,Monte Plata,2020-11-25,58.15
+farm,USD,"1,700,000","5,000",4,Rancho Arriba,San José De Ocoa,2020-11-25,58.15
+farm,DOP,"9,000,000","1,000",2,Carretera Sabana Larga 4,San José De Ocoa,2020-11-25,58.15
+farm,DOP,"10,000,000","3,000",2,Carretera Monte Plata 17,Monte Plata,2020-11-25,58.15
+farm,DOP,"50,000","1,000",2,San Francisco De Macorís,Duarte,2020-11-25,58.15
+farm,USD,"1,400","20,000",3,Guayubín,Montecristi,2020-11-25,58.15
+farm,DOP,"4,800,000",300,3,Carretera Najayo  Sn,San Cristóbal,2020-11-25,58.15
+farm,USD,"135,000",216,3,Jarabacoa,La Vega,2020-11-25,58.15
+farm,DOP,"40,000","1,257,720",3,Bayaguana,Monte Plata,2020-11-25,58.15
+farm,DOP,"1,500,000","3,987",4,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+farm,USD,"135,000",300,2,Bayaguana,Monte Plata,2020-11-25,58.15
+farm,USD,"260,000",230,5,Jarabacoa,La Vega,2020-11-25,58.15
+farm,DOP,"22,000","3,000",3,Hato Mayor Del Rey,Hato Mayor,2020-11-25,58.15
+farm,USD,1,30,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,DOP,"60,000","5,000,000",2,Sosúa,Puerto Plata,2020-11-25,58.15
+farm,DOP,"25,000,000","6,000",1,Carretera Sabana Larga 23,San José De Ocoa,2020-11-25,58.15
+farm,USD,"2,600,000","1,000",3,El Valle,Hato Mayor,2020-11-25,58.15
+farm,DOP,"3,500,000",100,1,Calle 12,San Cristóbal,2020-11-25,58.15
+farm,DOP,"35,000","1,000",2,Carretera Monte Plata 12,Monte Plata,2020-11-25,58.15
+farm,DOP,"4,000,000","15,954",1,El Pomier Sn,San Cristóbal,2020-11-25,58.15
+farm,DOP,"8,500,000",31,1,Bayaguana,Monte Plata,2020-11-25,58.15
+farm,USD,350,"6,000",8,Bayaguana,Monte Plata,2020-11-25,58.15
+farm,DOP,"25,000,000","1,000",2,Autopista Del Nordeste 5,Monte Plata,2020-11-25,58.15
+farm,USD,"3,000,000","377,400",,Bonao,Monseñor Nouel,2020-11-25,58.15
+farm,DOP,"4,900,000",150,3,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+farm,DOP,"3,500,000","2,750",3,Bonao,Monseñor Nouel,2020-11-25,58.15
+farm,DOP,"15,000,000","1,000",2,Carretera La Luisa Hacienda Estrella 17,Monte Plata,2020-11-25,58.15
+farm,USD,"670,000",400,2,Sabana Larga,San José De Ocoa,2020-11-25,58.15
+farm,DOP,"2,400,000","38,000",,Altamira,Puerto Plata,2020-11-25,58.15
+farm,DOP,"13,000,000","2,000",3,Bayaguana,Monte Plata,2020-11-25,58.15
+farm,DOP,"7,500,000","1,000",4,Lagunas De Nisibón,La Altagracia,2020-11-25,58.15
+farm,DOP,"35,000",300,1,San Felipe De Puerto Plata,Puerto Plata,2020-11-25,58.15
+farm,DOP,"30,000","5,000",3,El Valle,Hato Mayor,2020-11-25,58.15
+farm,DOP,"18,000,000","5,000",3,Baní,Peravia,2020-11-25,58.15
+farm,DOP,"60,000",150,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+farm,USD,"18,000",30,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,DOP,"3,000,000",686,3,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+farm,DOP,"32,000,000","2,000",3,Pimentel,Duarte,2020-11-25,58.15
+farm,DOP,"10,000,000","418,152",1,Hato Mayor Del Rey,Hato Mayor,2020-11-25,58.15
+farm,DOP,"640,000","18,000",4,Nagua,María Trinidad Sánchez,2020-11-25,58.15
+farm,DOP,"17,000,000",200,4,Baní,Peravia,2020-11-25,58.15
+farm,DOP,"7,000,000",750,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,DOP,"30,000","2,500",3,Bayaguana,Monte Plata,2020-11-25,58.15
+farm,DOP,"20,000,000","1,500",6,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,"1,000,000","5,000",3,Bayaguana,Monte Plata,2020-11-25,58.15
+farm,DOP,"35,000",600,3,El Valle,Hato Mayor,2020-11-25,58.15
+farm,DOP,"15,000,000",500,6,San Cristóbal 1234,San Cristóbal,2020-11-25,58.15
+farm,USD,"550,000","2,000",3,Carretera Cara Linda 12,Monte Plata,2020-11-25,58.15
+farm,DOP,"75,000,000","10,000",4,Rancho Arriba,San José De Ocoa,2020-11-25,58.15
+farm,DOP,"1,700,000",300,3,Santa Cruz Del Seibo,El Seibo,2020-11-25,58.15
+farm,DOP,"25,000","1,500",3,Bayaguana,Monte Plata,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,"1,350,000","3,000",3,Carretera Cara Linda  5,Monte Plata,2020-11-25,58.15
+farm,DOP,"35,000","2,550,595",3,Mao,Valverde,2020-11-25,58.15
+farm,USD,1,"10,000",2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,DOP,"2,500,000",100,3,T 8,Monte Plata,2020-11-25,58.15
+farm,USD,"18,000",400,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,DOP,"14,000,000","2,000",4,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+farm,DOP,"9,000,000",,,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+farm,DOP,"2,300,000",19,2,S  1,Monte Plata,2020-11-25,58.15
+farm,DOP,"35,000","2,000",2,Hato Mayor Del Rey,Hato Mayor,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,DOP,"14,000,000","1,000",1,Carretera Monte Plata 17,Monte Plata,2020-11-25,58.15
+farm,DOP,"20,000","8,800",,Piedra Blanca,Monseñor Nouel,2020-11-25,58.15
+farm,USD,"250,000","5,000",7,Baní,Peravia,2020-11-25,58.15
+farm,DOP,"22,000,000","3,000",2,Carretera Ocoa 6,San José De Ocoa,2020-11-25,58.15
+farm,USD,"300,000","3,000",3,Carretera Los Martínez 12,San José De Ocoa,2020-11-25,58.15
+farm,USD,1,40,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,DOP,"712,000","800,000",4,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,DOP,"14,000",1,1,Sabana Grande De Boyá,Monte Plata,2020-11-25,58.15
+farm,DOP,"22,000","3,000",3,Hato Mayor Del Rey,Hato Mayor,2020-11-25,58.15
+farm,DOP,"40,000,000","6,000",3,Av. Sabana Larga 12,San José De Ocoa,2020-11-25,58.15
+farm,DOP,"9,000,000",400,3,Concepción De La Vega,La Vega,2020-11-25,58.15
+farm,USD,"780,000",1,5,Pedro Brand,Santo Domingo,2020-11-25,58.15
+farm,USD,"2,600,000","2,000",3,El Valle,Hato Mayor,2020-11-25,58.15
+farm,DOP,"1,400,000",,,Santa Cruz Del Seibo,El Seibo,2020-11-25,58.15
+farm,USD,"7,860,000","150,000",,Cabrera,María Trinidad Sánchez,2020-11-25,58.15
+farm,DOP,"40,000,000",,,Tv-037 37,Monte Plata,2020-11-25,58.15
+farm,USD,"135,000",400,3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,DOP,"12,000,000","18,312",3,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,DOP,"17,000,000","4,000",3,Carretera Monte Plata 2,Monte Plata,2020-11-25,58.15
+farm,DOP,"14,000,000","3,000",2,Carretera Ocoa 12,San José De Ocoa,2020-11-25,58.15
+farm,USD,"65,000",1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,DOP,"35,000","340,000",,San Felipe De Puerto Plata,Puerto Plata,2020-11-25,58.15
+farm,DOP,"25,000,000","2,000",3,Los Llanos,San Pedro De Macorís,2020-11-25,58.15
+farm,DOP,"20,000,000",300,3,Don Juan Sn,Monte Plata,2020-11-25,58.15
+farm,USD,1,40,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,DOP,"35,000,000","5,000",5,Carretera Los Martínez 12,San José De Ocoa,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,DOP,1,1,3,Jarabacoa,La Vega,2020-11-25,58.15
+farm,USD,1,1,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,35,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,DOP,"2,000,000","10,500",,San Felipe De Puerto Plata,Puerto Plata,2020-11-25,58.15
+farm,USD,1,150,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,"18,000",400,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,"24,200","1,100",,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+farm,DOP,"22,000,000","5,000",4,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,DOP,"28,000,000","1,000",4,Santo Domingo Norte,Santo Domingo,2020-11-25,58.15
+farm,DOP,"3,500,000",100,2,Carretera De Samaná 2,Monte Plata,2020-11-25,58.15
+farm,USD,1,30,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,500,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,DOP,"25,000",,,Bayaguana,Monte Plata,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,"700,000","3,000",3,Carretera Monte Plata 12,Monte Plata,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,DOP,1,1,3,Baní,Peravia,2020-11-25,58.15
+farm,USD,"66,000",1,,San José De Las Matas,Santiago,2020-11-25,58.15
+farm,DOP,"15,000,000",130,,Moca,Espaillat,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,DOP,"1,350,000",300,2,Salvaleón De Higüey,La Altagracia,2020-11-25,58.15
+farm,DOP,1,500,4,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,60,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,DOP,"15,000",2,1,Concepción De La Vega,La Vega,2020-11-25,58.15
+farm,USD,"1,000,000","3,000",3,Carretera El Mamey  12,Monte Plata,2020-11-25,58.15
+farm,USD,"52,000",1,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,DOP,"20,000","943,500",,Santiago De Los Treinta Caballeros,Santiago,2020-11-25,58.15
+farm,DOP,"8,250,000","69,190",,Concepción De La Vega,La Vega,2020-11-25,58.15
+farm,DOP,"4,000,000","2,000",2,Autopista Del Nordeste 5,Monte Plata,2020-11-25,58.15
+farm,USD,1,1,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,30,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,30,500,4,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,DOP,"35,000,000","220,150",,Jarabacoa,La Vega,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,"10,000",2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,150,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,150,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,DOP,"20,000","3,000",4,El Valle,Hato Mayor,2020-11-25,58.15
+farm,USD,"130,000","18,865",3,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,"10,000",2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,DOP,"2,600,000",30,1,Santo Domingo Oeste,Santo Domingo,2020-11-25,58.15
+farm,USD,1,150,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,150,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,500,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,150,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,150,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,"10,000",2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,30,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,DOP,1,1,4,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,30,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,150,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,450,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,150,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,150,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,"10,000",2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,"10,000",2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,"10,000",2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,150,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,30,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,"10,000",2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,"10,000",2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,30,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,30,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,"10,000",2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,30,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,30,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,400,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,"10,000",2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,30,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,"10,000",2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,150,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,DOP,"21,000,000","250,000",2,Monte Plats  Sn,Monte Plata,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,30,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,30,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,30,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,150,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,"10,000",2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,150,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,400,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,150,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,30,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,500,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,30,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,150,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,150,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,30,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,30,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,"10,000",2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,500,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,"10,000",2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,150,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,150,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,30,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,30,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,30,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,150,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,150,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,150,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,4,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,4,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,30,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,30,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,"10,000",2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,500,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,2,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,40,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,4,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,4,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,4,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,4,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,Santo Domingo Este,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,1,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,,Santo Domingo De Guzmán,Distrito Nacional,2020-11-25,58.15
+farm,USD,1,1,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
+farm,USD,1,1,,San Antonio De Guerra,Santo Domingo,2020-11-25,58.15
