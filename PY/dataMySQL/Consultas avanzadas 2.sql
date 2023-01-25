@@ -4,4 +4,12 @@ SELECT orders.name, persons.name
 FROM orders 
 JOIN persons ON persons.id = orders.order_by;
 
-SELECT orders.name
+SELECT persons.name, orders.name, (orders.price*orders.ud)
+FROM orders LEFT JOIN persons
+ON persons.id = orders.order_by;
+
+SET @age = 25;
+
+SELECT age FROM persons 
+HAVING age > @age;
+
