@@ -22,6 +22,21 @@ WHERE ud > 100
 GROUP BY ud
 ORDER BY ud;
 
+SELECT position Puesto, COUNT(*) Cant FROM employees_2023
+GROUP BY position 
+HAVING Cant > 1
+ORDER BY Cant DESC;
+
+SELECT after_name Apellido, SUM(salary), COUNT(*) Cant FROM employees_2023
+GROUP BY after_name
+HAVING Cant > 1
+ORDER BY Cant DESC;
+
+SELECT position Puesto, AVG(salary) SalarioProm, COUNT(*) Cant
+FROM employees_2023
+GROUP BY Puesto
+HAVING Cant > 1 AND SalarioProm > 3200;
+
 
 
 
