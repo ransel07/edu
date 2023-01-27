@@ -1,15 +1,21 @@
 import mysql.connector
 
-cnx = mysql.connector.connect(user='root', password='#0795Ran$el07#', host='localhost', port="4848")
+cnx = mysql.connector.connect(user="root", password="#0795Ran$el07#", host="localhost", database="for_education")
 
 cursor = cnx.cursor()
 
-query2 = 'USE Tablas_python;'
-cursor.execute(query2)
-query3 = 'CREATE TABLE '
-cursor.execute(query3)
+query= "SELECT * FROM orders"
+cursor.execute(query)
+result = cursor.fetchall()
 
-cnx.commit()
+query= "SELECT * FROM persons"
+cursor.execute(query)
+result2 = cursor.fetchall()
+
+for line in result:
+    print (line)
+for line2 in result2:
+    print (line2)
 
 cursor.close()
 cnx.close()
