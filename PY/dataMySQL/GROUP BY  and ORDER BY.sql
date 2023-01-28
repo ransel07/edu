@@ -37,6 +37,25 @@ FROM employees_2023
 GROUP BY Puesto
 HAVING Cant > 1 AND SalarioProm > 3200;
 
+SELECT order_by Empleado, SUM(price * ud) Suma FROM orders
+GROUP BY order_by
+HAVING Suma > (SELECT AVG(price) FROM orders);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
