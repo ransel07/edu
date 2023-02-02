@@ -25,6 +25,7 @@ np.corrcoef(datos[0], datos[1])
 
 # COVARIANZA 
 
+
 def Cov (xs, ys, meanx=None, meany=None):
     xs = np.asarray(xs)
     ys = np.asarray(ys)
@@ -48,13 +49,15 @@ s = stats.pearsonr(dataf3["x"], dataf3["y"])
 
 # sns.jointplot(dataf1["x"], dataf1["y"])
 
-# TEST DE HIPOTESIS
+# TEST DE HIPOTESIS  
 
 datos_random1 = np.random.normal (0, 1, size=50)
 datos_random2 = np.random.normal (2, 1, size=50)
 
 plt.hist(datos_random1)
 plt.hist(datos_random2)
+
+
 
 
 
