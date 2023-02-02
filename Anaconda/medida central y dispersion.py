@@ -27,7 +27,7 @@ print (lista)
 print ("")
 print (media_aritmetica, mediana, moda, "Se repite", repeticiones, "veces")
 
-# --------- MEDIDA DE DISPERSION
+# --------- MEDIDA DE DISPERSION --------
 rango = max(lista) - min(lista)
 desviacion_estandar = statistics.stdev(lista)
 varianza = statistics.variance(lista)

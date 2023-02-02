@@ -19,7 +19,6 @@ x= numpy.linspace(-10, 10, 100)
 y = x ** 2
 recta_tangente = sympy.Eq(y, y_0 + dfdx__eval * (x - x_0))
 
-
 print (dfdx)
 print (dfdx__eval)
 

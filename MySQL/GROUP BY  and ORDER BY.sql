@@ -41,6 +41,34 @@ SELECT order_by Empleado, SUM(price * ud) Suma FROM orders
 GROUP BY order_by
 HAVING Suma > (SELECT AVG(price) FROM orders);
 
+SELECT clients.orders_id Id_Producto, sex_toys.name Nombre, COUNT(clients.name) N
+FROM clients LEFT JOIN sex_toys
+ON clients.orders_id = sex_toys.id
+GROUP BY Id_Producto
+HAVING N > 2;
+
+SELECT clients.id ID, clients.address Direccion, sex_toys.name FROM clients 
+LEFT JOIN sex_toys ON clients.orders_id = sex_toys.id
+WHERE sex_toys.name = "Vibrador Lush"
+GROUP BY ID;
+
+UPDATE sex_toys
+SET height = 69.9
+WHERE height = "69.9g";
+
+ALTER TABLE sex_toys
+MODIFY height INT;
+
+UPDATE sex_toys
+SET height = CAST(height AS SIGNED)
+WHERE ISNUMERIC(height) = 0;
+
+
+
+
+
+
+
 
 
 

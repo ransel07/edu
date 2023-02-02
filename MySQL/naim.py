@@ -6,7 +6,7 @@ read = pandas.read_csv(ruta)
 print (read)
 
 
-# cnx = mysql.connector.connect(user="root", password="#0795Ran$el07#", host="localhost", database="for_education")
+# cnx = mysql.connector.connect(user="root", password="", host="localhost", database="for_education")
 
 # cursor = cnx.cursor()
 
