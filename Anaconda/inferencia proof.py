@@ -1,36 +1,62 @@
-# import numpy as np
+import numpy as np
 import pandas as pd
+import statsmodels.api as sm
+import statsmodels.formula.api as smf
 import scipy.stats as stats
 from math import sqrt
 import matplotlib.pyplot as plt
 import seaborn as sns
+from sklearn.linear_model import LinearRegression
 
 # GRAFICO DE DISPERSION
 
-ruta = "C:/Users/rdrs_/OneDrive/Documentos/GitHub/Ste/Anaconda/sets/bienes_raices2020.csv"
+ruta = "C:/Users/rdrs_/OneDrive/Documentos/GitHub/Ste/Anaconda/csv_inmobiliario.csv"
 dataf = pd.read_csv(ruta)
+price = dataf["Price"].to_numpy()
+area = dataf["Area(m2)"].to_numpy()
+price = price.reshape(-1, 1)
+area = area.reshape(-1, 1)
 # print (dataf.head())
 
-dataf["Price"] = dataf["Price"].str.replace(',','')
-dataf["Area(m2)"] = dataf["Area(m2)"].str.replace(',','')
-dataf["Price"] = dataf["Price"].fillna(1)
-dataf["Area(m2)"] = dataf["Area(m2)"].fillna(1)
+# REGRESION LINEAL SIMPLE
+print (price)
+print (area)
+reg = LinearRegression().fit(price, area)
 
+# y_pred = reg.predict(price)
 
-dataf["Price"] = dataf["Price"].astype(int)
-dataf["Area(m2)"] = dataf["Area(m2)"].astype(int)
-
-# print (dataf["Price"], dataf["Area(m2)"])
-# for i, e in zip(dataf["Price"], dataf["Area(m2)"]):
-    # print (type(i), type(e))
-# print (type(dataf["Price"]), type(dataf["Area(m2)"]))
+print (reg)
 
 
 
 
-# plt.scatter(dataf["Price"], dataf["Area(m2)"])
 
-# dataf1 = dataf[dataf[""] == 'I']
-# sns.lmplot("x", "y", data = dataf1, fit_reg=True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

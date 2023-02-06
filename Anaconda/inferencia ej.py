@@ -18,14 +18,10 @@ dataf3 = dataf[dataf["dataset"] == 'III']
 # sns.lmplot("x", "y", data = dataf3, fit_reg=True)
 
 # CORRELACION
-
 datos = np.random.rand(5, 4)
-
 np.corrcoef(datos[0], datos[1])
 
 # COVARIANZA 
-
-
 def Cov (xs, ys, meanx=None, meany=None):
     xs = np.asarray(xs)
     ys = np.asarray(ys)
@@ -54,10 +50,10 @@ s = stats.pearsonr(dataf3["x"], dataf3["y"])
 datos_random1 = np.random.normal (0, 1, size=50)
 datos_random2 = np.random.normal (2, 1, size=50)
 
-plt.hist(datos_random1)
-plt.hist(datos_random2)
+# plt.hist(datos_random1)
+# plt.hist(datos_random2)
 
-
+stats.ttest_ind(datos_random1, datos_random2)
 
 
 
