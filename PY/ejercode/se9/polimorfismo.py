@@ -178,9 +178,74 @@ lista = [num for num in range(1, 20)]
 "un auto, moto y bicicleta, respectivamente. Crea una lista de vehículos con varios autos, motos" 
 "y bicicletas, y recorre la lista para imprimir el resultado de encender cada uno de ellos."
 
+class Vehiculo:
+    def __init__(self, color, modelo):
+        self.color = color
+        self.modelo = modelo
+    def Encender(self):
+        pass
+    def Apagar (self):
+        pass
 
+class Electric_Vehicle(Vehiculo):
+    def Encender(self):
+        print (f"{self.modelo} esta encendido")
+    def Apagar(self):
+        print (f"{self.modelo} esta apagado")
+
+class Carro_Deportivo(Vehiculo):
+    def Encender(self):
+        print (f"{self.modelo} esta encendido")
+    def Apagar(self):
+        print (f"{self.modelo} esta apagado")
+
+toyota = Carro_Deportivo("Rojo", "Supra")
+tesla = Electric_Vehicle("White", "Modelo S")
 
 "Crea una clase Empleado con un método salario() vacío. Luego, crea tres clases hijas EmpleadoFijo," 
 "EmpleadoPorHora y EmpleadoPorComision que hereden de Empleado y sobreescriban el método salario()"
 "para calcular el salario de un empleado fijo, uno por hora y uno por comisión, respectivamente. Crea"
 "una lista de empleados con varios fijo"
+
+class Empleado():
+    def __init__(self, record):
+        for key, value in record:
+            setattr(self, key, value)
+    def SalarioFinal():
+        pass
+
+class EmpleadoFijo(Empleado):
+    # def salario(self):
+    #     if self.key == "tiempo_trabajando":
+    #         key1 = self.key
+    #         return key1
+    # def TiempoTrabajo(self):
+    #     if self.key == "salario":
+    #         key2 = self.key
+    #         return key2
+    def Salario_Semanal(self):
+        print (self.salario * self.tiempo_trabajando)
+
+record = {
+    "nombre": "Juan", 
+    "edad": 25, 
+    "salario": 100, 
+    "puesto": "Programador", 
+    "tiempo_trabajando": 48
+    }
+
+juan = EmpleadoFijo(record)
+
+
+
+
+
+
+
+
+
+
+
+
+
+

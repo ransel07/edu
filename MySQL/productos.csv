@@ -1,0 +1,21 @@
+﻿nombre,marca,modelo,precio,cantidad disponible
+Laptop,HP,Elitebook,750.5,50
+Teclado,Logitech,G513,99.99,75
+Monitor,Dell,U2415,249.99,25
+Mouse,Razer,Deathadder,69.99,100
+CPU,AMD,Ryzen 9 5900X,499.99,50
+Motherboard,Asus,ROG Strix B550-E,199.99,75
+RAM,Corsair,Vengeance LPX 16GB DDR4,75.5,100
+SSD,Samsung,970 Evo 500GB,109.99,50
+Case,Phanteks,Eclipse P400A,99.99,75
+Power Supply,EVGA,750W SuperNOVA,119.99,25
+Monitor,Dell,U2718Q,699.0,20
+Laptop,Lenovo,ThinkPad X1 Carbon,1499.0,15
+Impresora,HP,OfficeJet Pro 7740,299.99,10
+Router,Netgear,Nighthawk R7000,199.99,25
+Smartphone,Apple,iPhone 12,849.99,40
+Altavoces,JBL,Charge 4,149.95,35
+Tablet,Samsung,Galaxy Tab S7,649.99,30
+Cámara de fotos,Canon,EOS 5D Mark IV,2499.0,20
+Consola de videojuegos,Sony,PlayStation 5,499.99,15
+Smartwatch,Fitbit,Versa 3,199.95,25

@@ -1,5 +1,6 @@
 from colorama import Fore, Style
 import dataBaseEdu as bd
+import pandas as pd
 
 def Archive_CSV_MySQL(archivo):
     with open(archivo, "w") as csv:
@@ -435,7 +436,28 @@ def Read_Archive_Words(archive):
         result = QuickSort(box)
         print (f"Organizado alfabeticamente: {result}")
 
-archive = "archivo_palabras_desordenadas.txt"
-rd = Read_Archive_Words(archive)
+# archive = "archivo_palabras_desordenadas.txt"
+# rd = Read_Archive_Words(archive)
 
 # print (rd)
+
+
+
+
+"Programa para pasar diccionarios a csv"
+dts = bd.productos
+df = pd.DataFrame(dts)
+
+# df.to_csv("productos.csv", index=False, encoding='utf-8-sig')
+
+
+
+
+
+
+
+
+
+
+
+

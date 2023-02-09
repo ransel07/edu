@@ -9,11 +9,22 @@ cnx = mysql.connector.connect(
     host=h, 
     database=d
     )
+
 cursor = cnx.cursor()
 
-query = "SELECT * FROM sex_toys"
+query = "SELECT * FROM productos"
 
-dat = pd.read_sql_query(query, cnx)
+df = pd.read_sql_query(query, cnx)
 
-cursor.close()
-cnx.close()
+print (df.head(4))
+print (df.info())
+
+
+
+
+
+
+
+
+
+
