@@ -111,22 +111,22 @@ class Electrico(Automovil):
 "Crea una lista de empleados con varios fijos y por hora y recorre la lista para imprimir" 
 "el salario de cada uno."
 
-class Empleado:
-    def __init__(self, name, __salary, time):
-        self.salary_ = __salary
-        self.name = name
-        self.time = time
+# class Empleado:
+#     def __init__(self, name, __salary, time):
+#         self.salary_ = __salary
+#         self.name = name
+#         self.time = time
     
-    def salary(self):
-        pass
+#     def salary(self):
+#         pass
 
-class EmpleadoFijo(Empleado):
-    def salary(self):
-        return self.salary_ * self.time
+# class EmpleadoFijo(Empleado):
+#     def salary(self):
+#         return self.salary_ * self.time
 
-class EmpleadoPorHora(Empleado):
-    def salary(self):
-        return self.salary_ * self.time
+# class EmpleadoPorHora(Empleado):
+#     def salary(self):
+#         return self.salary_ * self.time
 
 
 # numero1 = EmpleadoFijo("Rodolfo", 150, 40)
@@ -207,34 +207,64 @@ tesla = Electric_Vehicle("White", "Modelo S")
 "para calcular el salario de un empleado fijo, uno por hora y uno por comisión, respectivamente. Crea"
 "una lista de empleados con varios fijo"
 
-class Empleado():
+class Empleado:
     def __init__(self, record):
-        for key, value in record:
+        for key, value in record.items():
             setattr(self, key, value)
-    def SalarioFinal():
+    def SalarioFinal(self):
         pass
 
 class EmpleadoFijo(Empleado):
-    # def salario(self):
-    #     if self.key == "tiempo_trabajando":
-    #         key1 = self.key
-    #         return key1
-    # def TiempoTrabajo(self):
-    #     if self.key == "salario":
-    #         key2 = self.key
-    #         return key2
     def Salario_Semanal(self):
-        print (self.salario * self.tiempo_trabajando)
+        return self.salario * self.tiempo_trabajando
+    def info(self):
+        return "nombre:", self.nombre, self.edad, self.puesto, (
+                self.salario * self.tiempo_trabajando
+            )
 
-record = {
-    "nombre": "Juan", 
-    "edad": 25, 
-    "salario": 100, 
-    "puesto": "Programador", 
-    "tiempo_trabajando": 48
-    }
+class EmpleadoPorHora(Empleado):
+    def salario_hora(self):
+        return self.salario
+    # def info(self):
+        
+
+
+record = {"nombre": "Juan", "edad": 25, "salario": 100, "puesto": "Programador", "tiempo_trabajando": 48}
+record2 = {"nombre": "Ana", "edad": 30, "salario": 2000, "puesto": "Analista de datos", "tiempo_trabajando": 5},
+record3 = {"nombre": "Pedro", "edad": 35, "salario": 2500, "puesto": "Jefe de proyecto", "tiempo_trabajando": 10},
 
 juan = EmpleadoFijo(record)
+ana = EmpleadoPorHora(record2)
+# print (juan.Salario_Semanal)
+print (juan.info())
+# print (ana.info())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

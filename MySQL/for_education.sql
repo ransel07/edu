@@ -8,8 +8,8 @@ select * from persons;
 -- Modificar 
 ALTER TABLE collaborators MODIFY COLUMN id int auto_increment;
 ALTER TABLE collaborators MODIFY COLUMN working_hours int;
-alter table collaborators modify column social_security varchar(255) after age;
-rename table products to article; -- Cambiar el nombre de la tabla
+ALTER TABLE collaborators MODIFY COLUMN social_security varchar(255) after age;
+RENAME TABLE products TO article; -- Cambiar el nombre de la tabla
 
 -- Agregar
 ALTER TABLE collaborators ADD working_hours varchar(255) AFTER address_;
@@ -24,8 +24,8 @@ SELECT id, nombre AS name FROM collaborators;
 
 -- Borrar
 DROP TABLE students;
-ALTER TABLE collaborators drop column social_security;
-ALTER TABLE collaborators drop column address;
+ALTER TABLE collaborators DROP COLUMN social_security;
+ALTER TABLE collaborators DROP COLUMN address;
 
 insert into collaborators (name, after_name, position_, salary, age, address_,working_hours) VALUES ("Ransel", "Melenciano", "Analista de Datos", 5000, 27,"calle no te importa", 48);
 
