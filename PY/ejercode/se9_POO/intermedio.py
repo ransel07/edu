@@ -57,15 +57,35 @@ pedro = {
     "tiempo_trabajando": [10, 12]
     }
 
-employe = Empleado(pedro)
+# employe = Empleado(pedro)
 
-print(employe.DFrame())
-"___________________________________________________________________"
-"__________________________________________________________________"
-"____________________________________________________________________"
+# print(employe.DFrame())
+
+"__________________________________________________________________________________"
+"Crea una clase ArchivoCSV que tenga un método para cargar un archivo CSV en un "
+"objeto Pandas DataFrame y otro método para guardar un DataFrame en un archivo CSV."
+"__________________________________________________________________________________"
+
+class ArchivoCSV:
+    def __init__(self, path):
+        self.path=path
+    
+    def cargar_archivo_CSV(self):
+        try:
+            df = pd.read_csv(self.path)
+            return df
+        except FileNotFoundError:
+            print (f"El archivo {self.path} no existe")
+    
+    def guardar_archivo_CSV(df, name):
+        df.to_csv(name, index=False, encoding='utf-8-sig')
 
 
+path = "C:/Users/rdrs_/OneDrive/Documentos/GitHub/edu2/Anaconda/csv/drinks.csv"
 
+# x = ArchivoCSV(path).cargar_archivo_CSV()
+# ArchivoCSV.guardar_archivo_CSV(x, "nombre_csv")
+# # print (instancia)
 
 
 
