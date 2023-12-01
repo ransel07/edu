@@ -1,0 +1,76 @@
+
+ESTUDIANTE 1
+
+2018-5542 : {'nombre': 'Ansel', 'edad': '27', 'examen 1': 90, 'examen 2': 30, 'examen 3': 70, 'becado': 'Si'}
+
+ESTUDIANTE 2
+
+2018-3054 : {'nombre': 'Rodrigo', 'edad': '33', 'examen 1': 70, 'examen 2': 60, 'examen 3': 70, 'becado': 'no'}
+
+ESTUDIANTE 3
+
+2018-2045 : {'nombre': 'ana', 'edad': '17', 'examen 1': 72, 'examen 2': 79, 'examen 3': 85, 'becado': 'no'}
+
+ESTUDIANTE 4
+
+2018-5563 : {'nombre': 'Lorine', 'edad': '25', 'examen 1': 81, 'examen 2': 89, 'examen 3': 90, 'becado': 'no'}
+
+ESTUDIANTE 5
+
+2018-5564 : {'nombre': 'Daneyris', 'edad': '30', 'examen 1': 94, 'examen 2': 95, 'examen 3': 99, 'becado': 'no'}
+
+ESTUDIANTE 6
+
+2018-9657 : {'nombre': 'Magnolia', 'edad': '20', 'examen 1': 87, 'examen 2': 85, 'examen 3': 79, 'becado': 'no'}
+
+ESTUDIANTE 7
+
+2017-1257 : {'nombre': 'Marco', 'edad': '26', 'examen 1': 92, 'examen 2': 70, 'examen 3': 59, 'becado': 'no'}
+
+ESTUDIANTE 8
+
+2018-7257 : {'nombre': 'Layla', 'edad': '26', 'examen 1': 85, 'examen 2': 75, 'examen 3': 87, 'becado': 'no'}
+
+ESTUDIANTE 9
+
+2018-4537 : {'nombre': 'Loyda', 'edad': '25', 'examen 1': 99, 'examen 2': 97, 'examen 3': 99, 'becado': 'si'}
+
+ESTUDIANTE 10
+
+2019-1234 : {'nombre': 'Juan', 'edad': '22', 'examen 1': 85, 'examen 2': 95, 'examen 3': 80, 'becado': 'No'}
+
+ESTUDIANTE 11
+
+2019-5678 : {'nombre': 'Ana', 'edad': '20', 'examen 1': 75, 'examen 2': 85, 'examen 3': 90, 'becado': 'no'}
+
+ESTUDIANTE 12
+
+2018-9101 : {'nombre': 'Pedro', 'edad': '25', 'examen 1': 95, 'examen 2': 85, 'examen 3': 80, 'becado': 'No'}
+
+ESTUDIANTE 13
+
+2018-1213 : {'nombre': 'Laura', 'edad': '24', 'examen 1': 85, 'examen 2': 75, 'examen 3': 90, 'becado': 'no'}
+
+ESTUDIANTE 14
+
+2019-2424 : {'nombre': 'Mario', 'edad': '23', 'examen 1': 80, 'examen 2': 90, 'examen 3': 85, 'becado': 'No'}
+
+ESTUDIANTE 15
+
+2018-3434 : {'nombre': 'Sandra', 'edad': '21', 'examen 1': 95, 'examen 2': 80, 'examen 3': 75, 'becado': 'no'}
+
+ESTUDIANTE 16
+
+2019-4545 : {'nombre': 'Pablo', 'edad': '26', 'examen 1': 96, 'examen 2': 75, 'examen 3': 80, 'becado': 'No'}
+
+ESTUDIANTE 17
+
+2018-5656 : {'nombre': 'Raquel', 'edad': '25', 'examen 1': 85, 'examen 2': 95, 'examen 3': 70, 'becado': 'no'}
+
+ESTUDIANTE 18
+
+2019-6767 : {'nombre': 'Gustavo', 'edad': '24', 'examen 1': 75, 'examen 2': 85, 'examen 3': 90, 'becado': 'No'}
+
+ESTUDIANTE 19
+
+2018-7878 : {'nombre': 'Gloria', 'edad': '23', 'examen 1': 95, 'examen 2': 80, 'examen 3': 75, 'becado': 'no'}

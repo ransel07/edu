@@ -1,0 +1,12 @@
+0: {'nombre': 'Jonathan', 'edad': 29, 'pais': 'Rep. Dom.', 'estado': 'Santo Domingo'}
+1: {'nombre': 'Vanessa', 'edad': 30, 'pais': 'Rep. Dom.', 'estado': 'Santo Domingo'}
+2: {'nombre': 'Luis', 'edad': 40, 'pais': 'Rep. Dom.', 'estado': 'Santo Domingo'}
+3: {'nombre': 'Carla', 'edad': 35, 'pais': 'Rep. Dom.', 'estado': 'Santo Domingo'}
+4: {'nombre': 'Andrea', 'edad': 25, 'pais': 'Rep. Dom.', 'estado': 'Santo Domingo'}
+5: {'nombre': 'Roberto', 'edad': 32, 'pais': 'Rep. Dom.', 'estado': 'Santo Domingo'}
+6: {'nombre': 'Sandra', 'edad': 28, 'pais': 'Rep. Dom.', 'estado': 'Santo Domingo'}
+7: {'nombre': 'Javier', 'edad': 37, 'pais': 'Rep. Dom.', 'estado': 'Santo Domingo'}
+8: {'nombre': 'Claudia', 'edad': 31, 'pais': 'Rep. Dom.', 'estado': 'Santo Domingo'}
+9: {'nombre': 'Mario', 'edad': 33, 'pais': 'Rep. Dom.', 'estado': 'Santo Domingo'}
+10: {'nombre': 'Ana', 'edad': 30, 'pais': 'Rep. Dom.', 'estado': 'Santo Domingo'}
+11: {'nombre': 'Pablo', 'edad': 29, 'pais': 'Rep. Dom.', 'estado': 'Santo Domingo'}
