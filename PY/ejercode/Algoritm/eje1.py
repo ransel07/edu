@@ -39,6 +39,69 @@ def suma(args):
         n=n+num
     return n
 
-print (suma([1,2,3,4,5]))
+# print (suma([1,2,3,4,5]))
 
 # def multplicacion(lista):
+
+
+''' 
+Escribe una función que tome un número entero positivo como entrada y devuelva
+la suma de todos los números pares menores o iguales a ese número.
+'''
+
+def funsion(num):
+    if num % 2 == 0 and num > 0:
+        box=0
+        for n in range(num+1):
+            box= box + n
+        print (box)
+    else:
+        print ('Este numero no es par, o, es negativo')
+
+# funsion(10)
+
+'''
+Escribe una función que tome una cadena de texto como entrada y devuelva su inversa. 
+Por ejemplo, si la cadena de entrada es "Hola", la salida debería ser "aloH".
+'''
+def inversa_cadena(cadena):
+    num = len(cadena) - 1
+    lista = []
+    for i in cadena:
+        lista.append(cadena[num])
+        num=num-1
+    cadena2=''
+    for e in lista:
+        cadena2 = cadena2 + e
+    print (cadena2)
+# inversa_cadena('Presidente')
+
+'''
+Escribe una función que tome un número entero positivo como entrada y determine si es un 
+número de Armstrong o no. Un número de Armstrong es aquel número que es igual a la suma de 
+sus dígitos elevados a la potencia del número de dígitos.
+'''
+
+def numero_Armstrong(num):
+    a=str(num)
+    return a[1]
+
+print (numero_Armstrong(153))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
